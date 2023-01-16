@@ -7,14 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180376C82975C86A00200B3A /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180376C72975C86A00200B3A /* KeyboardViewController.swift */; };
+		180376CC2975C86A00200B3A /* textmathkeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 180376C52975C86A00200B3A /* textmathkeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		189630722975C7EF004055AB /* textmathappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189630712975C7EF004055AB /* textmathappApp.swift */; };
 		189630742975C7EF004055AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189630732975C7EF004055AB /* ContentView.swift */; };
 		189630762975C7F0004055AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189630752975C7F0004055AB /* Assets.xcassets */; };
 		189630792975C7F0004055AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189630782975C7F0004055AB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		180376CA2975C86A00200B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189630662975C7EF004055AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180376C42975C86A00200B3A;
+			remoteInfo = textmathkeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		180376CD2975C86A00200B3A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				180376CC2975C86A00200B3A /* textmathkeyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		1896306E2975C7EF004055AB /* textmathapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textmathapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180376C52975C86A00200B3A /* textmathkeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = textmathkeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		180376C72975C86A00200B3A /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		180376C92975C86A00200B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1896306E2975C7EF004055AB /* textmath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textmath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189630712975C7EF004055AB /* textmathappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textmathappApp.swift; sourceTree = "<group>"; };
 		189630732975C7EF004055AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		189630752975C7F0004055AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -22,6 +51,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		180376C22975C86A00200B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1896306B2975C7EF004055AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +68,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180376C62975C86A00200B3A /* textmathkeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				180376C72975C86A00200B3A /* KeyboardViewController.swift */,
+				180376C92975C86A00200B3A /* Info.plist */,
+			);
+			path = textmathkeyboard;
+			sourceTree = "<group>";
+		};
 		189630652975C7EF004055AB = {
 			isa = PBXGroup;
 			children = (
 				189630702975C7EF004055AB /* textmathapp */,
+				180376C62975C86A00200B3A /* textmathkeyboard */,
 				1896306F2975C7EF004055AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,7 +89,8 @@
 		1896306F2975C7EF004055AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1896306E2975C7EF004055AB /* textmathapp.app */,
+				1896306E2975C7EF004055AB /* textmath.app */,
+				180376C52975C86A00200B3A /* textmathkeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,21 +117,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1896306D2975C7EF004055AB /* textmathapp */ = {
+		180376C42975C86A00200B3A /* textmathkeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1896307C2975C7F0004055AB /* Build configuration list for PBXNativeTarget "textmathapp" */;
+			buildConfigurationList = 180376D02975C86A00200B3A /* Build configuration list for PBXNativeTarget "textmathkeyboard" */;
 			buildPhases = (
-				1896306A2975C7EF004055AB /* Sources */,
-				1896306B2975C7EF004055AB /* Frameworks */,
-				1896306C2975C7EF004055AB /* Resources */,
+				180376C12975C86A00200B3A /* Sources */,
+				180376C22975C86A00200B3A /* Frameworks */,
+				180376C32975C86A00200B3A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = textmathapp;
+			name = textmathkeyboard;
+			productName = textmathkeyboard;
+			productReference = 180376C52975C86A00200B3A /* textmathkeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1896306D2975C7EF004055AB /* textmath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1896307C2975C7F0004055AB /* Build configuration list for PBXNativeTarget "textmath" */;
+			buildPhases = (
+				1896306A2975C7EF004055AB /* Sources */,
+				1896306B2975C7EF004055AB /* Frameworks */,
+				1896306C2975C7EF004055AB /* Resources */,
+				180376CD2975C86A00200B3A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180376CB2975C86A00200B3A /* PBXTargetDependency */,
+			);
+			name = textmath;
 			productName = textmathapp;
-			productReference = 1896306E2975C7EF004055AB /* textmathapp.app */;
+			productReference = 1896306E2975C7EF004055AB /* textmath.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,12 +163,15 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
+					180376C42975C86A00200B3A = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					1896306D2975C7EF004055AB = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = 189630692975C7EF004055AB /* Build configuration list for PBXProject "textmathapp" */;
+			buildConfigurationList = 189630692975C7EF004055AB /* Build configuration list for PBXProject "textmath" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,12 +184,20 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1896306D2975C7EF004055AB /* textmathapp */,
+				1896306D2975C7EF004055AB /* textmath */,
+				180376C42975C86A00200B3A /* textmathkeyboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		180376C32975C86A00200B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1896306C2975C7EF004055AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +210,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		180376C12975C86A00200B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180376C82975C86A00200B3A /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1896306A2975C7EF004055AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,7 +229,65 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		180376CB2975C86A00200B3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180376C42975C86A00200B3A /* textmathkeyboard */;
+			targetProxy = 180376CA2975C86A00200B3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		180376CE2975C86A00200B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75AGNXCF5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = textmathkeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = textmath;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsaruggan.textmath.textmathapp.textmathkeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180376CF2975C86A00200B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75AGNXCF5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = textmathkeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = textmath;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsaruggan.textmath.textmathapp.textmathkeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1896307A2975C7F0004055AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -262,6 +405,7 @@
 		1896307D2975C7F0004055AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +435,7 @@
 		1896307E2975C7F0004055AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -320,7 +465,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		189630692975C7EF004055AB /* Build configuration list for PBXProject "textmathapp" */ = {
+		180376D02975C86A00200B3A /* Build configuration list for PBXNativeTarget "textmathkeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180376CE2975C86A00200B3A /* Debug */,
+				180376CF2975C86A00200B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189630692975C7EF004055AB /* Build configuration list for PBXProject "textmath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1896307A2975C7F0004055AB /* Debug */,
@@ -329,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1896307C2975C7F0004055AB /* Build configuration list for PBXNativeTarget "textmathapp" */ = {
+		1896307C2975C7F0004055AB /* Build configuration list for PBXNativeTarget "textmath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1896307D2975C7F0004055AB /* Debug */,
