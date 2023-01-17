@@ -6,8 +6,9 @@
 //
 
 import UIKit
+import KeyboardKit
 
-class KeyboardViewController: UIInputViewController {
+class KeyboardViewController: KeyboardInputViewController {
 
     @IBOutlet var nextKeyboardButton: UIButton!
     
@@ -55,6 +56,11 @@ class KeyboardViewController: UIInputViewController {
             textColor = UIColor.black
         }
         self.nextKeyboardButton.setTitleColor(textColor, for: [])
+    }
+    
+    override func viewWillSetupKeyboard() {
+        super.viewWillSetupKeyboard()
+        setup(with: KeyboardView())
     }
 
 }

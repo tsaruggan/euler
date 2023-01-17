@@ -13,6 +13,8 @@
 		189630742975C7EF004055AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189630732975C7EF004055AB /* ContentView.swift */; };
 		189630762975C7F0004055AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189630752975C7F0004055AB /* Assets.xcassets */; };
 		189630792975C7F0004055AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189630782975C7F0004055AB /* Preview Assets.xcassets */; };
+		18D817BF297619F2003A0711 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18D817BE297619F2003A0711 /* KeyboardKit */; };
+		18D817C129761AE5003A0711 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D817C029761AE5003A0711 /* KeyboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,7 @@
 		189630732975C7EF004055AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		189630752975C7F0004055AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189630782975C7F0004055AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18D817C029761AE5003A0711 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D817BF297619F2003A0711 /* KeyboardKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +77,7 @@
 			children = (
 				180376C72975C86A00200B3A /* KeyboardViewController.swift */,
 				180376C92975C86A00200B3A /* Info.plist */,
+				18D817C029761AE5003A0711 /* KeyboardView.swift */,
 			);
 			path = textmathkeyboard;
 			sourceTree = "<group>";
@@ -130,6 +135,9 @@
 			dependencies = (
 			);
 			name = textmathkeyboard;
+			packageProductDependencies = (
+				18D817BE297619F2003A0711 /* KeyboardKit */,
+			);
 			productName = textmathkeyboard;
 			productReference = 180376C52975C86A00200B3A /* textmathkeyboard.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -149,6 +157,8 @@
 				180376CB2975C86A00200B3A /* PBXTargetDependency */,
 			);
 			name = textmath;
+			packageProductDependencies = (
+			);
 			productName = textmathapp;
 			productReference = 1896306E2975C7EF004055AB /* textmath.app */;
 			productType = "com.apple.product-type.application";
@@ -180,6 +190,9 @@
 				Base,
 			);
 			mainGroup = 189630652975C7EF004055AB;
+			packageReferences = (
+				18D817BD297619F2003A0711 /* XCRemoteSwiftPackageReference "KeyboardKit" */,
+			);
 			productRefGroup = 1896306F2975C7EF004055AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -215,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				180376C82975C86A00200B3A /* KeyboardViewController.swift in Sources */,
+				18D817C129761AE5003A0711 /* KeyboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +507,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18D817BD297619F2003A0711 /* XCRemoteSwiftPackageReference "KeyboardKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KeyboardKit/KeyboardKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18D817BE297619F2003A0711 /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18D817BD297619F2003A0711 /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 189630662975C7EF004055AB /* Project object */;
 }
