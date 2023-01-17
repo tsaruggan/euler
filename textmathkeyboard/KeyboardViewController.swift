@@ -9,58 +9,52 @@ import UIKit
 import KeyboardKit
 
 class KeyboardViewController: KeyboardInputViewController {
-
-    @IBOutlet var nextKeyboardButton: UIButton!
-    
-    override func updateViewConstraints() {
-        super.updateViewConstraints()
-        
-        // Add custom view sizing constraints here
-    }
     
     override func viewDidLoad() {
+
+//        // Setup an custom input set provider.
+//        // 💡 Have a look at the other demo projects, where this is done.
+         inputSetProvider = DemoInputSetProvider()
+        
+//        // Setup a demo-specific keyboard appearance.
+//        // 💡 You can change this appearance to see how the keyboard style changes.
+//        keyboardAppearance = DemoKeyboardAppearance(
+//            keyboardContext: keyboardContext)
+//
+//        // Setup a demo-specific keyboard action handler.
+//        // 💡 You can change this handler to see how the keyboard behavior changes.
+//        keyboardActionHandler = DemoKeyboardActionHandler(
+//            inputViewController: self)
+//
+//        // Setup a demo-specific keyboard layout provider.
+//        // 💡 You can change this provider to see how the keyboard layout changes.
+        keyboardLayoutProvider = StandardKeyboardLayoutProvider(
+            keyboardContext: keyboardContext,
+            inputSetProvider: inputSetProvider)
+        
+        // Call super to perform the base initialization
         super.viewDidLoad()
-        
-        // Perform custom UI setup here
-        self.nextKeyboardButton = UIButton(type: .system)
-        
-        self.nextKeyboardButton.setTitle(NSLocalizedString("Next Keyboard", comment: "Title for 'Next Keyboard' button"), for: [])
-        self.nextKeyboardButton.sizeToFit()
-        self.nextKeyboardButton.translatesAutoresizingMaskIntoConstraints = false
-        
-        self.nextKeyboardButton.addTarget(self, action: #selector(handleInputModeList(from:with:)), for: .allTouchEvents)
-        
-        self.view.addSubview(self.nextKeyboardButton)
-        
-        self.nextKeyboardButton.leftAnchor.constraint(equalTo: self.view.leftAnchor).isActive = true
-        self.nextKeyboardButton.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
-    }
-    
-    override func viewWillLayoutSubviews() {
-        self.nextKeyboardButton.isHidden = !self.needsInputModeSwitchKey
-        super.viewWillLayoutSubviews()
-    }
-    
-    override func textWillChange(_ textInput: UITextInput?) {
-        // The app is about to change the document's contents. Perform any preparation here.
-    }
-    
-    override func textDidChange(_ textInput: UITextInput?) {
-        // The app has just changed the document's contents, the document context has been updated.
-        
-        var textColor: UIColor
-        let proxy = self.textDocumentProxy
-        if proxy.keyboardAppearance == UIKeyboardAppearance.dark {
-            textColor = UIColor.white
-        } else {
-            textColor = UIColor.black
-        }
-        self.nextKeyboardButton.setTitleColor(textColor, for: [])
     }
     
     override func viewWillSetupKeyboard() {
         super.viewWillSetupKeyboard()
         setup(with: KeyboardView())
     }
+    
+}
 
+
+class DemoInputSetProvider: InputSetProvider {
+
+    var alphabeticInputSet: AlphabeticInputSet = .qwerty
+
+    var numericInputSet: NumericInputSet {
+        NumericInputSet(rows: [
+            .init(chars: "1234567890"),
+            .init(chars: "/•~→()<>"),
+            .init(chars: "+-×÷=")
+        ])
+    }
+
+    let symbolicInputSet: SymbolicInputSet = .english(currency: "$")
 }
