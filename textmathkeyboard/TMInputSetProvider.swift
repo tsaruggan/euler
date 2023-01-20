@@ -14,10 +14,16 @@ class TMInputSetProvider: InputSetProvider {
     var numericInputSet: NumericInputSet {
         NumericInputSet(rows: [
             .init(chars: "1234567890"),
-            .init(chars: "/•~→()<>"),
+            .init(chars: "/•√^*().,:"),
             .init(chars: "+-×÷=")
         ])
     }
     
-    let symbolicInputSet: SymbolicInputSet = .english(currency: "$")
+    var symbolicInputSet: SymbolicInputSet {
+        SymbolicInputSet(rows: [
+            .init(chars: "[]{}<>≤≥≠≈"),
+            .init(chars: "\\|≡¬∧∨→∀∃∴"),
+            .init(chars: "#$%?!")
+        ])
+    }
 }
