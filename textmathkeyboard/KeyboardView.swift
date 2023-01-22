@@ -15,7 +15,12 @@ struct KeyboardView: View {
     
     var body: some View {
         VStack(spacing: 0) {
-            SystemKeyboard()
+            if keyboardContext.keyboardType != .emojis {
+                SystemKeyboard()
+            } else {
+                TMEmojiKeyboard()
+            }
+            
         }
     }
     
