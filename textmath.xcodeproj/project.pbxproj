@@ -14,6 +14,7 @@
 		181FB2102978E0F70016F3F7 /* TMKeyboardAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FB20F2978E0F70016F3F7 /* TMKeyboardAppearance.swift */; };
 		183A35EB297DBAE300856219 /* TMEmojiCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A35EA297DBAE300856219 /* TMEmojiCategory.swift */; };
 		1864AAE8297DABE20072F02F /* TMEmojiKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864AAE7297DABE20072F02F /* TMEmojiKeyboard.swift */; };
+		188F7C2329804A81006072E7 /* TMEmojiKeyboardMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F7C2229804A81006072E7 /* TMEmojiKeyboardMenuView.swift */; };
 		189630722975C7EF004055AB /* textmathappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189630712975C7EF004055AB /* textmathappApp.swift */; };
 		189630742975C7EF004055AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189630732975C7EF004055AB /* ContentView.swift */; };
 		189630762975C7F0004055AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189630752975C7F0004055AB /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		181FB20F2978E0F70016F3F7 /* TMKeyboardAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMKeyboardAppearance.swift; sourceTree = "<group>"; };
 		183A35EA297DBAE300856219 /* TMEmojiCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMEmojiCategory.swift; sourceTree = "<group>"; };
 		1864AAE7297DABE20072F02F /* TMEmojiKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMEmojiKeyboard.swift; sourceTree = "<group>"; };
+		188F7C2229804A81006072E7 /* TMEmojiKeyboardMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMEmojiKeyboardMenuView.swift; sourceTree = "<group>"; };
 		1896306E2975C7EF004055AB /* textmath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textmath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189630712975C7EF004055AB /* textmathappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textmathappApp.swift; sourceTree = "<group>"; };
 		189630732975C7EF004055AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,16 +87,33 @@
 		180376C62975C86A00200B3A /* textmathkeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				188F7C2529804AE8006072E7 /* input */,
+				188F7C2429804AAF006072E7 /* emoji */,
 				180376C72975C86A00200B3A /* KeyboardViewController.swift */,
 				181FB20F2978E0F70016F3F7 /* TMKeyboardAppearance.swift */,
-				181FB20D2978CFDD0016F3F7 /* TMCalloutActionProvider.swift */,
-				181FB20B2978CEB30016F3F7 /* TMInputSetProvider.swift */,
-				1864AAE7297DABE20072F02F /* TMEmojiKeyboard.swift */,
 				180376C92975C86A00200B3A /* Info.plist */,
 				18D817C029761AE5003A0711 /* KeyboardView.swift */,
-				183A35EA297DBAE300856219 /* TMEmojiCategory.swift */,
 			);
 			path = textmathkeyboard;
+			sourceTree = "<group>";
+		};
+		188F7C2429804AAF006072E7 /* emoji */ = {
+			isa = PBXGroup;
+			children = (
+				1864AAE7297DABE20072F02F /* TMEmojiKeyboard.swift */,
+				188F7C2229804A81006072E7 /* TMEmojiKeyboardMenuView.swift */,
+				183A35EA297DBAE300856219 /* TMEmojiCategory.swift */,
+			);
+			path = emoji;
+			sourceTree = "<group>";
+		};
+		188F7C2529804AE8006072E7 /* input */ = {
+			isa = PBXGroup;
+			children = (
+				181FB20D2978CFDD0016F3F7 /* TMCalloutActionProvider.swift */,
+				181FB20B2978CEB30016F3F7 /* TMInputSetProvider.swift */,
+			);
+			path = input;
 			sourceTree = "<group>";
 		};
 		189630652975C7EF004055AB = {
@@ -248,6 +267,7 @@
 				181FB20C2978CEB30016F3F7 /* TMInputSetProvider.swift in Sources */,
 				183A35EB297DBAE300856219 /* TMEmojiCategory.swift in Sources */,
 				181FB20E2978CFDD0016F3F7 /* TMCalloutActionProvider.swift in Sources */,
+				188F7C2329804A81006072E7 /* TMEmojiKeyboardMenuView.swift in Sources */,
 				18D817C129761AE5003A0711 /* KeyboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

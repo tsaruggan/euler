@@ -37,8 +37,6 @@ class KeyboardViewController: KeyboardInputViewController {
         
         keyboardAppearance = TMKeyboardAppearance(keyboardContext: keyboardContext)
         
-//        EmojiCategory.init(rawValue: "αβγδε")
-        
         // Call super to perform the base initialization
         super.viewDidLoad()
     }
@@ -49,19 +47,3 @@ class KeyboardViewController: KeyboardInputViewController {
     }
     
 }
-
-//class TMEmojiProvider: FrequentEmojiProvider {
-//    func registerEmoji(_ emoji: KeyboardKit.Emoji) {
-//        <#code#>
-//    }
-//
-//    var emojis = [
-//        Emoji("α"),
-//        Emoji("β"),
-//        Emoji("γ"),
-//        Emoji("δ"),
-//        Emoji("ε")
-//    ]
-//
-//
-//}
