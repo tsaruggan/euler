@@ -12,6 +12,7 @@
 		181FB20C2978CEB30016F3F7 /* TMInputSetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FB20B2978CEB30016F3F7 /* TMInputSetProvider.swift */; };
 		181FB20E2978CFDD0016F3F7 /* TMCalloutActionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FB20D2978CFDD0016F3F7 /* TMCalloutActionProvider.swift */; };
 		181FB2102978E0F70016F3F7 /* TMKeyboardAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FB20F2978E0F70016F3F7 /* TMKeyboardAppearance.swift */; };
+		183A35EB297DBAE300856219 /* TMEmojiCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A35EA297DBAE300856219 /* TMEmojiCategory.swift */; };
 		1864AAE8297DABE20072F02F /* TMEmojiKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864AAE7297DABE20072F02F /* TMEmojiKeyboard.swift */; };
 		189630722975C7EF004055AB /* textmathappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189630712975C7EF004055AB /* textmathappApp.swift */; };
 		189630742975C7EF004055AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189630732975C7EF004055AB /* ContentView.swift */; };
@@ -52,6 +53,7 @@
 		181FB20B2978CEB30016F3F7 /* TMInputSetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMInputSetProvider.swift; sourceTree = "<group>"; };
 		181FB20D2978CFDD0016F3F7 /* TMCalloutActionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMCalloutActionProvider.swift; sourceTree = "<group>"; };
 		181FB20F2978E0F70016F3F7 /* TMKeyboardAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMKeyboardAppearance.swift; sourceTree = "<group>"; };
+		183A35EA297DBAE300856219 /* TMEmojiCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMEmojiCategory.swift; sourceTree = "<group>"; };
 		1864AAE7297DABE20072F02F /* TMEmojiKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMEmojiKeyboard.swift; sourceTree = "<group>"; };
 		1896306E2975C7EF004055AB /* textmath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textmath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189630712975C7EF004055AB /* textmathappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textmathappApp.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				1864AAE7297DABE20072F02F /* TMEmojiKeyboard.swift */,
 				180376C92975C86A00200B3A /* Info.plist */,
 				18D817C029761AE5003A0711 /* KeyboardView.swift */,
+				183A35EA297DBAE300856219 /* TMEmojiCategory.swift */,
 			);
 			path = textmathkeyboard;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				181FB2102978E0F70016F3F7 /* TMKeyboardAppearance.swift in Sources */,
 				1864AAE8297DABE20072F02F /* TMEmojiKeyboard.swift in Sources */,
 				181FB20C2978CEB30016F3F7 /* TMInputSetProvider.swift in Sources */,
+				183A35EB297DBAE300856219 /* TMEmojiCategory.swift in Sources */,
 				181FB20E2978CFDD0016F3F7 /* TMCalloutActionProvider.swift in Sources */,
 				18D817C129761AE5003A0711 /* KeyboardView.swift in Sources */,
 			);
