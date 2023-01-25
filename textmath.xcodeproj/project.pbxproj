@@ -19,6 +19,7 @@
 		189630742975C7EF004055AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189630732975C7EF004055AB /* ContentView.swift */; };
 		189630762975C7F0004055AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189630752975C7F0004055AB /* Assets.xcassets */; };
 		189630792975C7F0004055AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189630782975C7F0004055AB /* Preview Assets.xcassets */; };
+		18C222432980B6E00069ACB6 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C222422980B6E00069ACB6 /* Input.swift */; };
 		18D817BF297619F2003A0711 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18D817BE297619F2003A0711 /* KeyboardKit */; };
 		18D817C129761AE5003A0711 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D817C029761AE5003A0711 /* KeyboardView.swift */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 		189630732975C7EF004055AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		189630752975C7F0004055AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189630782975C7F0004055AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18C222422980B6E00069ACB6 /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
 		18D817C029761AE5003A0711 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 			children = (
 				181FB20D2978CFDD0016F3F7 /* TMCalloutActionProvider.swift */,
 				181FB20B2978CEB30016F3F7 /* TMInputSetProvider.swift */,
+				18C222422980B6E00069ACB6 /* Input.swift */,
 			);
 			path = input;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				181FB20C2978CEB30016F3F7 /* TMInputSetProvider.swift in Sources */,
 				183A35EB297DBAE300856219 /* TMEmojiCategory.swift in Sources */,
 				181FB20E2978CFDD0016F3F7 /* TMCalloutActionProvider.swift in Sources */,
+				18C222432980B6E00069ACB6 /* Input.swift in Sources */,
 				188F7C2329804A81006072E7 /* TMEmojiKeyboardMenuView.swift in Sources */,
 				18D817C129761AE5003A0711 /* KeyboardView.swift in Sources */,
 			);

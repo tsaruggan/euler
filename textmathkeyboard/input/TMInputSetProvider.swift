@@ -13,17 +13,17 @@ class TMInputSetProvider: InputSetProvider {
     
     var numericInputSet: NumericInputSet {
         NumericInputSet(rows: [
-            .init(chars: "1234567890"),
-            .init(chars: "/•√^*().,:"),
-            .init(chars: "+-×÷=")
+            .init(chars: Input.numericInputSetRow1),
+            .init(chars: Input.numericInputSetRow2),
+            .init(chars: Input.numericInputSetRow3)
         ])
     }
     
     var symbolicInputSet: SymbolicInputSet {
         SymbolicInputSet(rows: [
-            .init(chars: "[]{}<>≤≥≠≈"),
-            .init(chars: "\\|≡¬∧∨→∀∃∴"),
-            .init(chars: "#$%?!")
+            .init(chars: Input.symbolicInputSetRow1),
+            .init(chars: Input.symbolicInputSetRow2),
+            .init(chars: Input.symbolicInputSetRow3)
         ])
     }
 }
