@@ -13,8 +13,14 @@ public enum TMEmojiCategory: String, CaseIterable, Codable, EmojiProvider, Ident
     case
     frequent,
     greek,
+    arithmetic,
+    equality,
     settheory,
-    calculus
+    blackboard,
+    calculus,
+    geometry,
+    linearalgebra,
+    logic
     
     public static var frequentEmojiProvider: FrequentEmojiProvider = MostRecentEmojiProvider()
 }
@@ -44,6 +50,12 @@ public extension TMEmojiCategory {
         case .greek: return Input.greek
         case .settheory: return Input.settheory
         case .calculus: return Input.calculus
+        case .logic: return Input.logic
+        case .arithmetic: return Input.arithmetic
+        case .equality: return Input.equality
+        case .blackboard: return Input.blackboard
+        case .geometry: return Input.geometry
+        case .linearalgebra: return Input.linearalgebra
         }
     }
     
@@ -56,7 +68,13 @@ public extension TMEmojiCategory {
         case .frequent: return Emoji("★")
         case .greek: return Emoji("π")
         case .settheory: return Emoji("∅")
-        case .calculus: return Emoji("+")
+        case .calculus: return Emoji("∫")
+        case .logic: return Emoji("∀")
+        case .arithmetic: return Emoji("+")
+        case .equality: return Emoji("=")
+        case .blackboard: return Emoji("𝔹")
+        case .geometry: return Emoji("⊿")
+        case .linearalgebra: return Emoji("[")
         }
     }
     
@@ -66,6 +84,13 @@ public extension TMEmojiCategory {
         case .greek: return "Greek Alphabet"
         case .settheory: return "Set Theory"
         case .calculus: return "Calculus"
+        case .logic: return "Logic"
+        case .arithmetic: return "Arithmetic"
+        case .equality: return "Equality & Comparison"
+        case .blackboard: return "Blackboard"
+        case .geometry: return "Geometry"
+        case .linearalgebra: return "Linear Algebra"
+
         }
     }
 }

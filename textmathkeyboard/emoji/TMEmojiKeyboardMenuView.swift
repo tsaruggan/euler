@@ -72,7 +72,7 @@ public struct TMEmojiCategoryKeyboardMenu: View {
     private func buttonListItem(for category: TMEmojiCategory) -> some View {
         Button(action: { selection = category }, label: {
             Text(category.fallbackDisplayEmoji.char)
-                .padding(5)
+                .frame(width: 25, height: 25)
                 .background(selection == category ? style.selectedCategoryColor : Color.clear)
                 .clipShape(Circle())
         })
