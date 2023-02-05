@@ -17,7 +17,8 @@ public struct TMEmojiKeyboard: View {
         self.keyboardContext = keyboardContext
         self.appearance = TMKeyboardAppearance(keyboardContext: keyboardContext)
         self.initialSelection = nil
-        self.style = .standardPhonePortrait
+        //        self.style = .standardPhonePortrait
+        self.style = .custom(for: keyboardContext)
     }
     
     private let categories: [TMEmojiCategory]
@@ -99,5 +100,39 @@ private extension TMEmojiKeyboard {
             selection: $selection,
             style: style
         )
+    }
+}
+
+public extension EmojiKeyboardStyle {
+    static func custom(
+        for context: KeyboardContext
+    ) -> EmojiKeyboardStyle {
+        let defaultStyle = EmojiKeyboardStyle(
+            rows: 5,
+            itemSize: 40,
+            itemFont:.system(size: 33),
+            horizontalItemSpacing:  10,
+            verticalItemSpacing:  6,
+            verticalCategoryStackSpacing:  0,
+            categoryFont:  .system(size: 14),
+            systemFont:  .system(size: 16),
+            selectedCategoryColor:  .primary.opacity(0.1),
+            abcText: "ABC",
+            backspaceIcon:  .keyboardBackspace
+        )
+        let style = EmojiKeyboardStyle(
+            rows: 4,
+            itemSize: 50,
+            itemFont:.system(size: 30),
+            horizontalItemSpacing:  16,
+            verticalItemSpacing:  6,
+            verticalCategoryStackSpacing:  0,
+            categoryFont:  .system(size: 14),
+            systemFont:  .system(size: 16),
+            selectedCategoryColor:  .primary.opacity(0.1),
+            abcText: "ABC",
+            backspaceIcon:  .keyboardBackspace
+        )
+        return style
     }
 }

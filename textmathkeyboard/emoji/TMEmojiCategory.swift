@@ -46,7 +46,7 @@ public extension TMEmojiCategory {
     
     var emojisString: String {
         switch self {
-        case .frequent: return Self.frequentEmojiProvider.emojis.map { $0.char }.joined(separator: "") // fix this !
+        case .frequent: return Self.frequentEmojiProvider.emojis.map { $0.char }.joined(separator: " ")
         case .greek: return Input.greek
         case .settheory: return Input.settheory
         case .calculus: return Input.calculus
