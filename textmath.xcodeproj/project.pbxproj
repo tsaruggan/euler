@@ -13,7 +13,8 @@
 		181FB20E2978CFDD0016F3F7 /* TMCalloutActionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FB20D2978CFDD0016F3F7 /* TMCalloutActionProvider.swift */; };
 		181FB2102978E0F70016F3F7 /* TMKeyboardAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FB20F2978E0F70016F3F7 /* TMKeyboardAppearance.swift */; };
 		183A35EB297DBAE300856219 /* TMEmojiCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A35EA297DBAE300856219 /* TMEmojiCategory.swift */; };
-		1864AAE8297DABE20072F02F /* TMEmojiKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864AAE7297DABE20072F02F /* TMEmojiKeyboard.swift */; };
+		185523EA29916C3600560175 /* TMEmojiKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185523E929916C3600560175 /* TMEmojiKeyboard.swift */; };
+		1864AAE8297DABE20072F02F /* TMEmojiCategoryKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864AAE7297DABE20072F02F /* TMEmojiCategoryKeyboard.swift */; };
 		188F7C2329804A81006072E7 /* TMEmojiKeyboardMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F7C2229804A81006072E7 /* TMEmojiKeyboardMenuView.swift */; };
 		189630722975C7EF004055AB /* textmathappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189630712975C7EF004055AB /* textmathappApp.swift */; };
 		189630742975C7EF004055AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189630732975C7EF004055AB /* ContentView.swift */; };
@@ -56,7 +57,8 @@
 		181FB20D2978CFDD0016F3F7 /* TMCalloutActionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMCalloutActionProvider.swift; sourceTree = "<group>"; };
 		181FB20F2978E0F70016F3F7 /* TMKeyboardAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMKeyboardAppearance.swift; sourceTree = "<group>"; };
 		183A35EA297DBAE300856219 /* TMEmojiCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMEmojiCategory.swift; sourceTree = "<group>"; };
-		1864AAE7297DABE20072F02F /* TMEmojiKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMEmojiKeyboard.swift; sourceTree = "<group>"; };
+		185523E929916C3600560175 /* TMEmojiKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMEmojiKeyboard.swift; sourceTree = "<group>"; };
+		1864AAE7297DABE20072F02F /* TMEmojiCategoryKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMEmojiCategoryKeyboard.swift; sourceTree = "<group>"; };
 		188F7C2229804A81006072E7 /* TMEmojiKeyboardMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMEmojiKeyboardMenuView.swift; sourceTree = "<group>"; };
 		1896306E2975C7EF004055AB /* textmath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textmath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189630712975C7EF004055AB /* textmathappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textmathappApp.swift; sourceTree = "<group>"; };
@@ -102,9 +104,10 @@
 		188F7C2429804AAF006072E7 /* emoji */ = {
 			isa = PBXGroup;
 			children = (
-				1864AAE7297DABE20072F02F /* TMEmojiKeyboard.swift */,
+				1864AAE7297DABE20072F02F /* TMEmojiCategoryKeyboard.swift */,
 				188F7C2229804A81006072E7 /* TMEmojiKeyboardMenuView.swift */,
 				183A35EA297DBAE300856219 /* TMEmojiCategory.swift */,
+				185523E929916C3600560175 /* TMEmojiKeyboard.swift */,
 			);
 			path = emoji;
 			sourceTree = "<group>";
@@ -264,9 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185523EA29916C3600560175 /* TMEmojiKeyboard.swift in Sources */,
 				180376C82975C86A00200B3A /* KeyboardViewController.swift in Sources */,
 				181FB2102978E0F70016F3F7 /* TMKeyboardAppearance.swift in Sources */,
-				1864AAE8297DABE20072F02F /* TMEmojiKeyboard.swift in Sources */,
+				1864AAE8297DABE20072F02F /* TMEmojiCategoryKeyboard.swift in Sources */,
 				181FB20C2978CEB30016F3F7 /* TMInputSetProvider.swift in Sources */,
 				183A35EB297DBAE300856219 /* TMEmojiCategory.swift in Sources */,
 				181FB20E2978CFDD0016F3F7 /* TMCalloutActionProvider.swift in Sources */,

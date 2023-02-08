@@ -18,7 +18,7 @@ struct KeyboardView: View {
             if keyboardContext.keyboardType != .emojis {
                 SystemKeyboard()
             } else {
-                TMEmojiKeyboard(keyboardContext: keyboardContext)
+                TMEmojiCategoryKeyboard(keyboardContext: keyboardContext)
             }
             
         }

@@ -16,7 +16,6 @@ public enum TMEmojiCategory: String, CaseIterable, Codable, EmojiProvider, Ident
     arithmetic,
     equality,
     settheory,
-    blackboard,
     calculus,
     geometry,
     linearalgebra,
@@ -53,7 +52,6 @@ public extension TMEmojiCategory {
         case .logic: return Input.logic
         case .arithmetic: return Input.arithmetic
         case .equality: return Input.equality
-        case .blackboard: return Input.blackboard
         case .geometry: return Input.geometry
         case .linearalgebra: return Input.linearalgebra
         }
@@ -72,25 +70,24 @@ public extension TMEmojiCategory {
         case .logic: return Emoji("∀")
         case .arithmetic: return Emoji("+")
         case .equality: return Emoji("=")
-        case .blackboard: return Emoji("𝔹")
-        case .geometry: return Emoji("⊿")
-        case .linearalgebra: return Emoji("[")
+        case .linearalgebra: return Emoji("✖︎")
+        case .geometry: return Emoji("◣")
         }
+        
     }
-    
     var title: String {
         switch self {
         case .frequent: return "Frequently Used"
         case .greek: return "Greek Alphabet"
         case .settheory: return "Set Theory"
-        case .calculus: return "Calculus"
+        case .calculus: return "Calculus & Functions"
         case .logic: return "Logic"
-        case .arithmetic: return "Arithmetic"
+        case .arithmetic: return "Numbers & Arithmetic"
         case .equality: return "Equality & Comparison"
-        case .blackboard: return "Blackboard"
         case .geometry: return "Geometry"
         case .linearalgebra: return "Linear Algebra"
-
+            
         }
     }
+    
 }
