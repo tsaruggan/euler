@@ -15,11 +15,11 @@ public enum TMEmojiCategory: String, CaseIterable, Codable, EmojiProvider, Ident
     greek,
     arithmetic,
     equality,
-    settheory,
     calculus,
     geometry,
     linearalgebra,
-    logic
+    logic,
+    settheory
     
     public static var frequentEmojiProvider: FrequentEmojiProvider = MostRecentEmojiProvider()
 }
@@ -67,11 +67,11 @@ public extension TMEmojiCategory {
         case .greek: return Emoji("π")
         case .settheory: return Emoji("∅")
         case .calculus: return Emoji("∫")
-        case .logic: return Emoji("∀")
+        case .logic: return Emoji("∴")
         case .arithmetic: return Emoji("+")
         case .equality: return Emoji("=")
-        case .linearalgebra: return Emoji("✖︎")
-        case .geometry: return Emoji("◣")
+        case .linearalgebra: return Emoji("⊞")
+        case .geometry: return Emoji("△")
         }
         
     }

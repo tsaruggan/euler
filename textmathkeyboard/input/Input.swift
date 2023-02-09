@@ -16,7 +16,7 @@ struct Input {
     
     // symbolic input set
     static let symbolicInputSetRow1: String = "[]{}<>≤≥≠≈"
-    static let symbolicInputSetRow2: String = "\\|≡¬∧∨→∀∃∴"
+    static let symbolicInputSetRow2: String = "\\|≡¬∧∨→∴_'"
     static let symbolicInputSetRow3: String = "#$%?!"
     
     // emoji input set
@@ -76,27 +76,6 @@ struct Input {
     ∝ ~
     """
     
-    static let settheory: String = """
-    { } ∩ ∪
-    __ __ __ __
-    ∈ ∋ ∉ ∌
-    ⊂ ⊃ ⊄ ⊅
-    ⊆ ⊇ ⊈ ⊉
-    __ __ __ __
-    ∖ - ∆ ⊖
-    ~ ' ∁ ᶜ
-    × | # =
-    __ __ __ __
-    ℕ ℤ ℚ ℝ
-    ℂ ℍ 𝔽 𝕆
-    𝔻 𝔹 𝕌 ℙ
-    ∅
-    """
-    
-    static let blackboard: String = """
-    ℕℤℚℝℂℍ𝔽𝕆𝔻𝔹
-    """
-    
     static let calculus: String = """
     x y y' y″
     dy/dx d²y/dx² dy dx
@@ -113,7 +92,6 @@ struct Input {
     __ __ __ __
     aˣ logₐ(y) 10ˣ log(y)
     eˣ ln(y) __ __
-    
     """
     
     static let geometry: String = """
@@ -122,11 +100,11 @@ struct Input {
     tan(x) tan⁻¹(x) arctan(x) cot(x)
     adj opp hyp __
     __ __ __ __
-    0 30 45 60
-    90 180 270 360
+    0° 30° 45° 60°
+    90° 180° 270° 360°
     π/6 π/4 π/3 π/2
     π 3π/2 2π π/180
-    θ φ ° rad
+    θ φ ° __
     __ __ __ __
     ∠ ∡ ∟ ⦜
     ⟂ ∥ ∝ __
@@ -136,17 +114,43 @@ struct Input {
     """
     
     static let linearalgebra: String = """
-    ⋅ ⨯ A Aᵀ A⁻¹ A* 0 I aᵢⱼ
+    A Aᵀ A⁻¹ A*
+    aᵢⱼ I 0 λ
+    __ __ __ __
+    + - ⋅ ⨯
+    __ __ __ __
+    tr(A) adj(A) det(A) |A|
     """
     
     static let logic: String = """
-    → ← ↑ ↓ ↔︎
-    := ≡ ≢ TRUE FALSE
+    ≡ ≢ := TRUE
+    → ← ↔︎ FALSE
     ¬ ~ ! NOT
-    ∧ • & && AND
-    ∨ + | || OR
-    ∀ ∃
+    ∧ • & AND
+    ∨ + | OR
+    __ __ __ __
+    ∀ ∃ ( )
+    ∴ ∵ __ __
     """
+    
+    static let settheory: String = """
+    { } ∩ ∪
+    __ __ __ __
+    ∈ ∋ ∉ ∌
+    ⊂ ⊃ ⊄ ⊅
+    ⊆ ⊇ ⊈ ⊉
+    __ __ __ __
+    ∖ - ∆ ⊖
+    ~ ' ∁ ᶜ
+    × | # =
+    __ __ __ __
+    ℕ ℤ ℚ ℝ
+    ℂ ℍ 𝔽 𝕆
+    𝔻 𝔹 𝕌 ℙ
+    ∅ __ __ __ __
+    """
+    
+    // extras
     
     static let superscripts: String = """
     ⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁽⁾
@@ -158,6 +162,10 @@ struct Input {
     
     static let fractions: String = """
     ½ ⅓ ⅔ ¼ ¾ ⅕ ⅒
+    """
+    
+    static let blackboard: String = """
+    ℕℤℚℝℂℍ𝔽𝕆𝔻𝔹
     """
     
     
