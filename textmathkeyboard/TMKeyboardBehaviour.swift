@@ -17,19 +17,19 @@ class TMKeyboardBehaviour: KeyboardBehavior {
     }
     
     func shouldEndSentence(after gesture: KeyboardKit.KeyboardGesture, on action: KeyboardKit.KeyboardAction) -> Bool {
-        false
+        return false
     }
     
     func shouldSwitchToCapsLock(after gesture: KeyboardKit.KeyboardGesture, on action: KeyboardKit.KeyboardAction) -> Bool {
-        false
+        return false
     }
     
     func shouldSwitchToPreferredKeyboardType(after gesture: KeyboardKit.KeyboardGesture, on action: KeyboardKit.KeyboardAction) -> Bool {
-        false
+        return false
     }
     
     func shouldSwitchToPreferredKeyboardTypeAfterTextDidChange() -> Bool {
-        false
+        return false
     }
 }
 

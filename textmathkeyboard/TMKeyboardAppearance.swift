@@ -25,6 +25,22 @@ class TMKeyboardAppearance: StandardKeyboardAppearance {
         }
     }
     
+    // fix for background color persisting
+    override func buttonStyle(for action: KeyboardAction, isPressed: Bool) -> KeyboardButtonStyle {
+        switch action {
+        case .keyboardType(.symbolic), .keyboardType(.numeric), .shift(currentState: .auto):
+            return KeyboardButtonStyle(
+                backgroundColor: buttonBackgroundColor(for: action, isPressed: false),
+                foregroundColor: buttonForegroundColor(for: action, isPressed: isPressed),
+                font: buttonFont(for: action),
+                cornerRadius: buttonCornerRadius(for: action),
+                border: buttonBorderStyle(for: action),
+                shadow: buttonShadowStyle(for: action))
+        default:
+            return super.buttonStyle(for: action, isPressed: isPressed)
+        }
+    }
+    
 }
 
 import UIKit
@@ -34,14 +50,14 @@ extension String {
         let font = UIFont.systemFont(ofSize: fontSize) // you can change your font size here
         let stringAttributes = [NSAttributedString.Key.font: font]
         let imageSize = nsString.size(withAttributes: stringAttributes)
-
+        
         UIGraphicsBeginImageContextWithOptions(imageSize, false, 0) //  begin image context
         UIColor.clear.set() // clear background
         UIRectFill(CGRect(origin: CGPoint(), size: imageSize)) // set rect size
         nsString.draw(at: CGPoint.zero, withAttributes: stringAttributes) // draw text within rect
         let image = UIGraphicsGetImageFromCurrentImageContext() // create image from context
         UIGraphicsEndImageContext() //  end image context
-
+        
         return image ?? UIImage()
     }
 }
