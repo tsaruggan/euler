@@ -86,7 +86,7 @@ private extension TMEmojiCategoryKeyboard {
     
     var keyboard: some View {
         ScrollView(.horizontal, showsIndicators: false) {
-            EmojiKeyboard(
+            TMEmojiKeyboard(
                 emojis: selection.emojis.matching(query, for: keyboardContext.locale),
                 style: style)
         }.id(selection)
@@ -107,19 +107,6 @@ public extension EmojiKeyboardStyle {
     static func custom(
         for context: KeyboardContext
     ) -> EmojiKeyboardStyle {
-//        let defaultStyle = EmojiKeyboardStyle(
-//            rows: 5,
-//            itemSize: 40,
-//            itemFont:.system(size: 33),
-//            horizontalItemSpacing:  10,
-//            verticalItemSpacing:  6,
-//            verticalCategoryStackSpacing:  0,
-//            categoryFont:  .system(size: 14),
-//            systemFont:  .system(size: 16),
-//            selectedCategoryColor:  .primary.opacity(0.1),
-//            abcText: "ABC",
-//            backspaceIcon:  .keyboardBackspace
-//        )
         let style = EmojiKeyboardStyle(
             rows: 4,
             itemSize: 50,

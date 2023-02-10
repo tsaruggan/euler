@@ -72,21 +72,6 @@ public struct TMEmojiCategoryKeyboardMenu: View {
     
     private func buttonListItem(for category: TMEmojiCategory) -> some View {
         Button(action: { selection = category }, label: {
-            
-            //            if category.systemName != "" {
-            //                Image(systemName: category.systemName)
-            //                    .frame(width: 25, height: 25)
-            //                    .background(selection == category ? style.selectedCategoryColor : Color.clear)
-            //                    .clipShape(Circle())
-            //
-            //
-            //            } else {
-            //                Text(category.fallbackDisplayEmoji.char)
-            //                    .frame(width: 25, height: 25)
-            //                    .background(selection == category ? style.selectedCategoryColor : Color.clear)
-            //                    .clipShape(Circle())
-            //            }
-            
             Text(category.fallbackDisplayEmoji.char)
                 .font(style.categoryFont)
                 .frame(width: 25, height: 25)

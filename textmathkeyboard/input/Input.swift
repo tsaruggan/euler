@@ -150,25 +150,8 @@ struct Input {
     ∅ __ __ __ __
     """
     
-    // extras
     
-    static let superscripts: String = """
-    ⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁽⁾
-    """
-    
-    static let subscripts: String = """
-    ₀₁₂₃₄₅₆₇₈₉₊₋₍₎
-    """
-    
-    static let fractions: String = """
-    ½ ⅓ ⅔ ¼ ¾ ⅕ ⅒
-    """
-    
-    static let blackboard: String = """
-    ℕℤℚℝℂℍ𝔽𝕆𝔻𝔹
-    """
-    
-    // callouts
+    // callout input set
     
     static let callouts = [
         "1": "¹₁",

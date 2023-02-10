@@ -9,28 +9,9 @@ import Foundation
 import SwiftUI
 import KeyboardKit
 
-/**
- This view can be used to list an emoji collection using the
- provided configuration.
- 
- You can customize the emoji views in the keyboard, by using
- the `emojiButton` initializer, which lets you customize the
- keyboard button for every emoji. If you use the initializer
- without a view builder, you will get a standard button with
- the standard keyboard gestures for every emoji.
- */
-@available(iOS 14.0, tvOS 14.0, *)
-public struct EmojiKeyboard<ButtonView: View>: View {
 
-    /**
-     Create an emoji keyboard.
+public struct TMEmojiKeyboard<ButtonView: View>: View {
 
-     - Parameters:
-       - emojis: The emojis to include in the menu.
-       - style: The style to apply to the keyboard, by default ``EmojiKeyboardStyle/standardPhonePortrait``.
-       - applyGestures: Whether or not to apply standard keyboard gestures to each button, by default `false`.
-       - emojiButton: A emoji keyboard button builder function.
-     */
     public init(
         emojis: [Emoji],
         style: EmojiKeyboardStyle = .standardPhonePortrait,
@@ -51,10 +32,6 @@ public struct EmojiKeyboard<ButtonView: View>: View {
     private let applyGestures: Bool
     private let emojiButton: EmojiButtonBuilder<ButtonView>
     
-    /**
-     This typealias represents functions that can be used to
-     create an emoji button.
-     */
     public typealias EmojiButtonBuilder<EmojiButton: View> = (Emoji, EmojiKeyboardStyle) -> EmojiButton
 
     public var body: some View {
@@ -77,8 +54,7 @@ public struct EmojiKeyboard<ButtonView: View>: View {
     }
 }
 
-@available(iOS 14.0, tvOS 14.0, *)
-private extension EmojiKeyboard {
+private extension TMEmojiKeyboard {
 
     func buttonView(for emoji: Emoji, style: EmojiKeyboardStyle) -> some View {
         emojiButton(emoji, style)
@@ -87,31 +63,18 @@ private extension EmojiKeyboard {
     }
 }
 
-@available(iOS 14.0, tvOS 14.0, *)
-public extension EmojiKeyboard {
+public extension TMEmojiKeyboard {
     
-    /**
-     This typealias represents an emoji-based action.
-     */
     typealias EmojiAction = (Emoji) -> Void
 
-    /**
-     The standard action handler to use to handle the emojis.
-     */
     static var standardKeyboardActionHandler: KeyboardActionHandler {
         KeyboardInputViewController.shared.keyboardActionHandler
     }
 
-    /**
-     The standard action to use when tapping an emoji button.
-     */
     static func standardEmojiAction(emoji: Emoji) {
         standardKeyboardActionHandler.handle(.tap, on: .emoji(emoji))
     }
 
-    /**
-     The standard action to use when tapping an emoji button.
-     */
     static func standardEmojiView(
         for emoji: Emoji,
         style: EmojiKeyboardStyle
@@ -120,18 +83,8 @@ public extension EmojiKeyboard {
     }
 }
 
-@available(iOS 14.0, tvOS 14.0, *)
-public extension EmojiKeyboard {
 
-    /**
-     Create an emoji keyboard that uses standard buttons for
-     each emoji in the provided collection.
-
-     - Parameters:
-       - emojis: The emojis to include in the menu.
-       - style: The style to apply to the keyboard, by default ``EmojiKeyboardStyle/standardPhonePortrait``.
-       - emojiButtonAction: The action to perform when an emoji is tapped, by default ``EmojiKeyboard/standardEmojiAction(emoji:)``.
-     */
+public extension TMEmojiKeyboard {
     init(
         emojis: [Emoji],
         style: EmojiKeyboardStyle = .standardPhonePortrait,
@@ -149,14 +102,6 @@ public extension EmojiKeyboard {
         )
     }
 
-    /**
-     Create an emoji keyboard that uses standard buttons for
-     each emoji in the provided collection.
-
-     - Parameters:
-       - emojis: The emojis to include in the menu.
-       - style: The style to apply to the keyboard, by default ``EmojiKeyboardStyle/standardPhonePortrait``.
-     */
     init(
         emojis: [Emoji],
         style: EmojiKeyboardStyle = .standardPhonePortrait
