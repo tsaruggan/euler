@@ -95,11 +95,11 @@
 			children = (
 				188F7C2529804AE8006072E7 /* input */,
 				188F7C2429804AAF006072E7 /* emoji */,
-				180376C72975C86A00200B3A /* KeyboardViewController.swift */,
 				181FB20F2978E0F70016F3F7 /* TMKeyboardAppearance.swift */,
+				1874F1E8299561660075D6C2 /* TMKeyboardBehaviour.swift */,
+				180376C72975C86A00200B3A /* KeyboardViewController.swift */,
 				18D817C029761AE5003A0711 /* KeyboardView.swift */,
 				180376C92975C86A00200B3A /* Info.plist */,
-				1874F1E8299561660075D6C2 /* TMKeyboardBehaviour.swift */,
 			);
 			path = textmathkeyboard;
 			sourceTree = "<group>";

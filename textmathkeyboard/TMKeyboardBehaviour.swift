@@ -13,7 +13,7 @@ class TMKeyboardBehaviour: KeyboardBehavior {
     var backspaceRange: KeyboardKit.DeleteBackwardRange = .char
     
     func preferredKeyboardType(after gesture: KeyboardKit.KeyboardGesture, on action: KeyboardKit.KeyboardAction) -> KeyboardKit.KeyboardType {
-        .alphabetic(.lowercased)
+        return .alphabetic(.lowercased)
     }
     
     func shouldEndSentence(after gesture: KeyboardKit.KeyboardGesture, on action: KeyboardKit.KeyboardAction) -> Bool {
