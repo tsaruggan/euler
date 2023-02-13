@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		180376C82975C86A00200B3A /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180376C72975C86A00200B3A /* KeyboardViewController.swift */; };
 		180376CC2975C86A00200B3A /* textmathkeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 180376C52975C86A00200B3A /* textmathkeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		180E18272999C2610075047E /* TMAutocompleteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E18262999C2610075047E /* TMAutocompleteProvider.swift */; };
 		181FB20C2978CEB30016F3F7 /* TMInputSetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FB20B2978CEB30016F3F7 /* TMInputSetProvider.swift */; };
 		181FB20E2978CFDD0016F3F7 /* TMCalloutActionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FB20D2978CFDD0016F3F7 /* TMCalloutActionProvider.swift */; };
 		181FB2102978E0F70016F3F7 /* TMKeyboardAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FB20F2978E0F70016F3F7 /* TMKeyboardAppearance.swift */; };
@@ -54,6 +55,7 @@
 		180376C52975C86A00200B3A /* textmathkeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = textmathkeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		180376C72975C86A00200B3A /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		180376C92975C86A00200B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180E18262999C2610075047E /* TMAutocompleteProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMAutocompleteProvider.swift; sourceTree = "<group>"; };
 		181FB20B2978CEB30016F3F7 /* TMInputSetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMInputSetProvider.swift; sourceTree = "<group>"; };
 		181FB20D2978CFDD0016F3F7 /* TMCalloutActionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMCalloutActionProvider.swift; sourceTree = "<group>"; };
 		181FB20F2978E0F70016F3F7 /* TMKeyboardAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMKeyboardAppearance.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		180376C62975C86A00200B3A /* textmathkeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				180E18252999C1E60075047E /* autocomplete */,
 				188F7C2529804AE8006072E7 /* input */,
 				188F7C2429804AAF006072E7 /* emoji */,
 				181FB20F2978E0F70016F3F7 /* TMKeyboardAppearance.swift */,
@@ -102,6 +105,14 @@
 				180376C92975C86A00200B3A /* Info.plist */,
 			);
 			path = textmathkeyboard;
+			sourceTree = "<group>";
+		};
+		180E18252999C1E60075047E /* autocomplete */ = {
+			isa = PBXGroup;
+			children = (
+				180E18262999C2610075047E /* TMAutocompleteProvider.swift */,
+			);
+			path = autocomplete;
 			sourceTree = "<group>";
 		};
 		188F7C2429804AAF006072E7 /* emoji */ = {
@@ -275,6 +286,7 @@
 				181FB2102978E0F70016F3F7 /* TMKeyboardAppearance.swift in Sources */,
 				1864AAE8297DABE20072F02F /* TMEmojiCategoryKeyboard.swift in Sources */,
 				181FB20C2978CEB30016F3F7 /* TMInputSetProvider.swift in Sources */,
+				180E18272999C2610075047E /* TMAutocompleteProvider.swift in Sources */,
 				183A35EB297DBAE300856219 /* TMEmojiCategory.swift in Sources */,
 				181FB20E2978CFDD0016F3F7 /* TMCalloutActionProvider.swift in Sources */,
 				1874F1E9299561660075D6C2 /* TMKeyboardBehaviour.swift in Sources */,
@@ -325,7 +337,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -350,7 +362,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -492,9 +504,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tsaruggan.textmath.textmathapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -522,9 +537,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tsaruggan.textmath.textmathapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
