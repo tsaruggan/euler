@@ -22,11 +22,12 @@ struct KeyboardView: View {
                 AutocompleteToolbar(suggestions: autocompleteContext.suggestions, locale: keyboardContext.locale)
             }
             
-            if keyboardContext.keyboardType != .emojis {
-                SystemKeyboard()
-            } else {
+            if keyboardContext.keyboardType == .emojis {
                 TMEmojiCategoryKeyboard(keyboardContext: keyboardContext)
+            } else {
+                SystemKeyboard()
             }
+            
         }
     }
     

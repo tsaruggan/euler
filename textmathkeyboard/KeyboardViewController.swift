@@ -12,13 +12,12 @@ import SwiftUI
 class KeyboardViewController: KeyboardInputViewController {
     
     override func viewDidLoad() {
+        
         keyboardBehavior = TMKeyboardBehaviour()
         
         inputSetProvider = TMInputSetProvider()
         
-        keyboardLayoutProvider = StandardKeyboardLayoutProvider(
-            keyboardContext: keyboardContext,
-            inputSetProvider: inputSetProvider)
+        keyboardLayoutProvider = TMKeyboardLayoutProvider(keyboardContext: keyboardContext, inputSetProvider: inputSetProvider)
         
         calloutActionProvider = try! TMCalloutActionProvider()
         
