@@ -1,6 +1,6 @@
 //
-//  TMKeyboardBehaviour.swift
-//  textmathkeyboard
+//  EulerKeyboardBehaviour.swift
+//  eulerkeyboard
 //
 //  Created by Saruggan Thiruchelvan on 2023-02-09.
 //
@@ -8,7 +8,7 @@
 import Foundation
 import KeyboardKit
 
-class TMKeyboardBehaviour: KeyboardBehavior {
+class EulerKeyboardBehaviour: KeyboardBehavior {
     
     var backspaceRange: KeyboardKit.DeleteBackwardRange = .char
     

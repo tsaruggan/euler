@@ -1,6 +1,6 @@
 //
-//  TMEmojiKeyboard.swift
-//  textmathkeyboard
+//  EulerEmojiCategoryKeyboard.swift
+//  eulerkeyboard
 //
 //  Created by Saruggan Thiruchelvan on 2023-01-22.
 //
@@ -8,23 +8,23 @@
 import SwiftUI
 import KeyboardKit
 
-public struct TMEmojiCategoryKeyboard: View {
+public struct EulerEmojiCategoryKeyboard: View {
     
     public init(
         keyboardContext: KeyboardContext
     ) {
-        self.categories = TMEmojiCategory.all.filter { $0.emojis.count > 0 }
+        self.categories = EulerEmojiCategory.all.filter { $0.emojis.count > 0 }
         self.keyboardContext = keyboardContext
-        self.appearance = TMKeyboardAppearance(keyboardContext: keyboardContext)
+        self.appearance = EulerKeyboardAppearance(keyboardContext: keyboardContext)
         self.initialSelection = nil
         //        self.style = .standardPhonePortrait
         self.style = .custom(for: keyboardContext)
     }
     
-    private let categories: [TMEmojiCategory]
+    private let categories: [EulerEmojiCategory]
     private let keyboardContext: KeyboardContext
     private let appearance: KeyboardAppearance
-    private let initialSelection: TMEmojiCategory?
+    private let initialSelection: EulerEmojiCategory?
     private let style: EmojiKeyboardStyle
     
     @State
@@ -37,13 +37,13 @@ public struct TMEmojiCategoryKeyboard: View {
     private var query = ""
     
     @State
-    private var selection = TMEmojiCategory.greek
+    private var selection = EulerEmojiCategory.greek
     
     private var defaults: UserDefaults { .standard }
     
     private let defaultsKey = "com.keyboardkit.TMEmojiKeyboard.category"
     
-    private var persistedCategory: TMEmojiCategory {
+    private var persistedCategory: EulerEmojiCategory {
         let name = defaults.string(forKey: defaultsKey) ?? ""
         return categories.first { $0.rawValue == name } ?? .greek
     }
@@ -71,7 +71,7 @@ public struct TMEmojiCategoryKeyboard: View {
     }
 }
 
-private extension TMEmojiCategoryKeyboard {
+private extension EulerEmojiCategoryKeyboard {
     
     var title: some View {
         HStack {
@@ -86,14 +86,14 @@ private extension TMEmojiCategoryKeyboard {
     
     var keyboard: some View {
         ScrollView(.horizontal, showsIndicators: false) {
-            TMEmojiKeyboard(
+            EulerEmojiKeyboard(
                 emojis: selection.emojis.matching(query, for: keyboardContext.locale),
                 style: style)
         }.id(selection)
     }
     
     var menu: some View {
-        TMEmojiCategoryKeyboardMenu(
+        EulerEmojiCategoryKeyboardMenu(
             categories: categories,
             appearance: appearance,
             keyboardContext: keyboardContext,

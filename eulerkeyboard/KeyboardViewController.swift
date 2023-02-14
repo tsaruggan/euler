@@ -1,6 +1,6 @@
 //
 //  KeyboardViewController.swift
-//  textmathkeyboard
+//  eulerkeyboard
 //
 //  Created by Saruggan Thiruchelvan on 2023-01-16.
 //
@@ -13,17 +13,17 @@ class KeyboardViewController: KeyboardInputViewController {
     
     override func viewDidLoad() {
         
-        keyboardBehavior = TMKeyboardBehaviour()
+        keyboardBehavior = EulerKeyboardBehaviour()
         
-        inputSetProvider = TMInputSetProvider()
+        inputSetProvider = EulerInputSetProvider()
         
-        keyboardLayoutProvider = TMKeyboardLayoutProvider(keyboardContext: keyboardContext, inputSetProvider: inputSetProvider)
+        keyboardLayoutProvider = EulerKeyboardLayoutProvider(keyboardContext: keyboardContext, inputSetProvider: inputSetProvider)
         
-        calloutActionProvider = try! TMCalloutActionProvider()
+        calloutActionProvider = try! EulerCalloutActionProvider()
         
-        keyboardAppearance = TMKeyboardAppearance(keyboardContext: keyboardContext)
+        keyboardAppearance = EulerKeyboardAppearance(keyboardContext: keyboardContext)
         
-        autocompleteProvider = TMAutocompleteProvider()
+        autocompleteProvider = EulerAutocompleteProvider()
         
         super.viewDidLoad()
     }

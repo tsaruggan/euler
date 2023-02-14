@@ -1,6 +1,6 @@
 //
-//  TMEmojiCategory.swift
-//  textmathkeyboard
+//  EulerEmojiCategory.swift
+//  eulerkeyboard
 //
 //  Created by Saruggan Thiruchelvan on 2023-01-22.
 //
@@ -8,7 +8,7 @@
 import Foundation
 import KeyboardKit
 
-public enum TMEmojiCategory: String, CaseIterable, Codable, EmojiProvider, Identifiable, Equatable {
+public enum EulerEmojiCategory: String, CaseIterable, Codable, EmojiProvider, Identifiable, Equatable {
     
     case
     frequent,
@@ -24,11 +24,11 @@ public enum TMEmojiCategory: String, CaseIterable, Codable, EmojiProvider, Ident
     public static var frequentEmojiProvider: FrequentEmojiProvider = MostRecentEmojiProvider()
 }
 
-public extension TMEmojiCategory {
+public extension EulerEmojiCategory {
     
     var id: String { rawValue }
     
-    static var all: [TMEmojiCategory] { allCases }
+    static var all: [EulerEmojiCategory] { allCases }
     
     var emojis: [Emoji] {
         if emojisString.components(separatedBy: " ").count == 1 {

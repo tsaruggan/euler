@@ -1,6 +1,6 @@
 //
-//  TMAutocompleteProvider.swift
-//  textmathkeyboard
+//  EulerAutocompleteProvider.swift
+//  eulerkeyboard
 //
 //  Created by Saruggan Thiruchelvan on 2023-02-12.
 //
@@ -8,7 +8,7 @@
 import Foundation
 import KeyboardKit
 
-class TMAutocompleteProvider: AutocompleteProvider {
+class EulerAutocompleteProvider: AutocompleteProvider {
     
     var locale: Locale = .current
     
@@ -36,7 +36,7 @@ class TMAutocompleteProvider: AutocompleteProvider {
     func unlearnWord(_ word: String) {}
 }
 
-private extension TMAutocompleteProvider {
+private extension EulerAutocompleteProvider {
     
     func autocompleteSuggestion(_ word: String, _ subtitle: String? = nil) -> AutocompleteSuggestion {
         StandardAutocompleteSuggestion(text: word, title: word, subtitle: subtitle)

@@ -1,6 +1,6 @@
 //
 //  KeyboardView.swift
-//  textmathkeyboard
+//  eulerkeyboard
 //
 //  Created by Saruggan Thiruchelvan on 2023-01-16.
 //
@@ -23,7 +23,7 @@ struct KeyboardView: View {
             }
             
             if keyboardContext.keyboardType == .emojis {
-                TMEmojiCategoryKeyboard(keyboardContext: keyboardContext)
+                EulerEmojiCategoryKeyboard(keyboardContext: keyboardContext)
             } else {
                 SystemKeyboard()
             }

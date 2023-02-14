@@ -1,13 +1,13 @@
 //
-//  TMInputSetProvider.swift
-//  textmathkeyboard
+//  EulerInputSetProvider.swift
+//  eulerkeyboard
 //
 //  Created by Saruggan Thiruchelvan on 2023-01-18.
 //
 
 import KeyboardKit
 
-class TMInputSetProvider: InputSetProvider {
+class EulerInputSetProvider: InputSetProvider {
     
     var alphabeticInputSet: AlphabeticInputSet = .qwerty
     

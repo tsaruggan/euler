@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  textmathapp
+//  eulerapp
 //
 //  Created by Saruggan Thiruchelvan on 2023-01-16.
 //

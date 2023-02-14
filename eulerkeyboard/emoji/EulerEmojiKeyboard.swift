@@ -1,6 +1,6 @@
 //
-//  TMEmojiKeyboard.swift
-//  textmathkeyboard
+//  EulerEmojiKeyboard.swift
+//  eulerkeyboard
 //
 //  Created by Saruggan Thiruchelvan on 2023-02-06.
 //
@@ -10,7 +10,7 @@ import SwiftUI
 import KeyboardKit
 
 
-public struct TMEmojiKeyboard<ButtonView: View>: View {
+public struct EulerEmojiKeyboard<ButtonView: View>: View {
 
     public init(
         emojis: [Emoji],
@@ -54,7 +54,7 @@ public struct TMEmojiKeyboard<ButtonView: View>: View {
     }
 }
 
-private extension TMEmojiKeyboard {
+private extension EulerEmojiKeyboard {
 
     func buttonView(for emoji: Emoji, style: EmojiKeyboardStyle) -> some View {
         emojiButton(emoji, style)
@@ -63,7 +63,7 @@ private extension TMEmojiKeyboard {
     }
 }
 
-public extension TMEmojiKeyboard {
+public extension EulerEmojiKeyboard {
     
     typealias EmojiAction = (Emoji) -> Void
 
@@ -84,7 +84,7 @@ public extension TMEmojiKeyboard {
 }
 
 
-public extension TMEmojiKeyboard {
+public extension EulerEmojiKeyboard {
     init(
         emojis: [Emoji],
         style: EmojiKeyboardStyle = .standardPhonePortrait,

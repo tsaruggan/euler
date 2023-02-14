@@ -1,6 +1,6 @@
 //
-//  TMEmojiKeyboardMenuView.swift
-//  textmathkeyboard
+//  EulerEmojiCategoryKeyboardMenu.swift
+//  eulerkeyboard
 //
 //  Created by Saruggan Thiruchelvan on 2023-01-24.
 //
@@ -8,13 +8,13 @@
 import SwiftUI
 import KeyboardKit
 
-public struct TMEmojiCategoryKeyboardMenu: View {
+public struct EulerEmojiCategoryKeyboardMenu: View {
     
     public init(
-        categories: [TMEmojiCategory] = TMEmojiCategory.all,
+        categories: [EulerEmojiCategory] = EulerEmojiCategory.all,
         appearance: KeyboardAppearance,
         keyboardContext: KeyboardContext,
-        selection: Binding<TMEmojiCategory>,
+        selection: Binding<EulerEmojiCategory>,
         style: EmojiKeyboardStyle,
         actionHandler: KeyboardActionHandler = KeyboardInputViewController.shared.keyboardActionHandler
     ) {
@@ -26,14 +26,14 @@ public struct TMEmojiCategoryKeyboardMenu: View {
         self.actionHandler = actionHandler
     }
     
-    private let categories: [TMEmojiCategory]
+    private let categories: [EulerEmojiCategory]
     private let appearance: KeyboardAppearance
     private let keyboardContext: KeyboardContext
     private let style: EmojiKeyboardStyle
     private let actionHandler: KeyboardActionHandler
     
     @State private var isInitialized = false
-    @Binding private var selection: TMEmojiCategory
+    @Binding private var selection: EulerEmojiCategory
     
     public var body: some View {
         HStack(spacing: 0) {
@@ -70,7 +70,7 @@ public struct TMEmojiCategoryKeyboardMenu: View {
         .monospaced()
     }
     
-    private func buttonListItem(for category: TMEmojiCategory) -> some View {
+    private func buttonListItem(for category: EulerEmojiCategory) -> some View {
         Button(action: { selection = category }, label: {
             Text(category.fallbackDisplayEmoji.char)
                 .font(style.categoryFont)

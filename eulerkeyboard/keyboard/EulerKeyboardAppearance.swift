@@ -1,6 +1,6 @@
 //
-//  TMKeyboardAppearance.swift
-//  textmathkeyboard
+//  EulerKeyboardAppearance.swift
+//  eulerkeyboard
 //
 //  Created by Saruggan Thiruchelvan on 2023-01-18.
 //
@@ -9,7 +9,7 @@ import KeyboardKit
 import SwiftUI
 import UIKit
 
-class TMKeyboardAppearance: StandardKeyboardAppearance {
+class EulerKeyboardAppearance: StandardKeyboardAppearance {
     override func buttonImage(for action: KeyboardAction) -> Image? {
         // override default button images for emoji and symbolic keyboards
         if case .keyboardType(let keyboardType) = action {

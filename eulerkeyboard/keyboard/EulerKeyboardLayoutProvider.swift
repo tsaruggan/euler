@@ -1,6 +1,6 @@
 //
-//  TMKeyboardLayoutProvider.swift
-//  textmathkeyboard
+//  EulerKeyboardLayoutProvider.swift
+//  eulerkeyboard
 //
 //  Created by Saruggan Thiruchelvan on 2023-02-13.
 //
@@ -8,7 +8,7 @@
 import Foundation
 import KeyboardKit
 
-class TMKeyboardLayoutProvider: StandardKeyboardLayoutProvider {
+class EulerKeyboardLayoutProvider: StandardKeyboardLayoutProvider {
     
     override func keyboardLayout(for context: KeyboardContext) -> KeyboardLayout {
         // add emoji button for smaller iPhones, otherwise use default layout
