@@ -26,7 +26,7 @@ struct SearchView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                LazyVGrid(columns: [GridItem(.adaptive(minimum: 100, maximum: 100))], spacing: 20) {
+                LazyVGrid(columns: [GridItem(.adaptive(minimum: 85, maximum: 85))], spacing: 20) {
                     ForEach(symbols) { symbol in
                         SearchItemView(symbol: symbol)
                     }
