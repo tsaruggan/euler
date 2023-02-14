@@ -97,15 +97,13 @@
 		180376C62975C86A00200B3A /* textmathkeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				18B044AD299B0288006629C2 /* keyboard */,
 				180E18252999C1E60075047E /* autocomplete */,
 				188F7C2529804AE8006072E7 /* input */,
 				188F7C2429804AAF006072E7 /* emoji */,
-				181FB20F2978E0F70016F3F7 /* TMKeyboardAppearance.swift */,
-				1874F1E8299561660075D6C2 /* TMKeyboardBehaviour.swift */,
 				180376C72975C86A00200B3A /* KeyboardViewController.swift */,
 				18D817C029761AE5003A0711 /* KeyboardView.swift */,
 				180376C92975C86A00200B3A /* Info.plist */,
-				1843ED77299A989500491E37 /* TMKeyboardLayoutProvider.swift */,
 			);
 			path = textmathkeyboard;
 			sourceTree = "<group>";
@@ -174,6 +172,16 @@
 				189630782975C7F0004055AB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18B044AD299B0288006629C2 /* keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1843ED77299A989500491E37 /* TMKeyboardLayoutProvider.swift */,
+				1874F1E8299561660075D6C2 /* TMKeyboardBehaviour.swift */,
+				181FB20F2978E0F70016F3F7 /* TMKeyboardAppearance.swift */,
+			);
+			path = keyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

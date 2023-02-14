@@ -25,7 +25,6 @@ class KeyboardViewController: KeyboardInputViewController {
         
         autocompleteProvider = TMAutocompleteProvider()
         
-        // Call super to perform the base initialization
         super.viewDidLoad()
     }
     

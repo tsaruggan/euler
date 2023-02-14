@@ -39,48 +39,59 @@ class TMAutocompleteProvider: AutocompleteProvider {
 private extension TMAutocompleteProvider {
     
     func autocompleteSuggestion(_ word: String, _ subtitle: String? = nil) -> AutocompleteSuggestion {
-        StandardAutocompleteSuggestion(
-            text: word,
-            title: word,
-            subtitle: subtitle)
+        StandardAutocompleteSuggestion(text: word, title: word, subtitle: subtitle)
     }
     
+    // generate a suggestion for a base + superscript for text containing "^"
     func superscriptSuggestion(for text: String) -> [AutocompleteSuggestion] {
+        // separate base and superscript components from text
         let componentsArr = text.split(separator: "^", maxSplits: 1)
         let base: String = componentsArr.count > 0 ? String(componentsArr[0]) : ""
         let superscripts: String = componentsArr.count > 1 ? String(componentsArr[1]) : ""
         
+        // if no superscript (yet), return nothing
         if superscripts.isEmpty { return [] }
         
+        // for every char to convert to superscript,
+        // lookup corresponding superscript and append to the full superscript string
         var superscriptFull = ""
         for candidateSuperscript in superscripts {
             if let sup = Input.superscripts[String(candidateSuperscript)] {
                 superscriptFull += sup
             } else {
+                // if the corresponding superscript doesn't exist, break and return nothing
                 return []
             }
         }
         
+        // recombine base and newly superscripted string components and return
         let suggestion: String = base + superscriptFull
         return [autocompleteSuggestion(suggestion)]
     }
     
+    // generate a suggestion for a base + subscript for text containing "_"
     func subscriptSuggestion(for text: String) -> [AutocompleteSuggestion] {
+        // separate base and subscript components from text
         let componentsArr = text.split(separator: "_", maxSplits: 1)
         let base: String = componentsArr.count > 0 ? String(componentsArr[0]) : ""
         let subscripts: String = componentsArr.count > 1 ? String(componentsArr[1]) : ""
         
+        // if no superscript (yet), return nothing
         if subscripts.isEmpty { return [] }
         
+        // for every char to convert to subscript,
+        // lookup corresponding subscript and append to the full subscript string
         var subscriptFull = ""
         for candidateSubscript in subscripts {
             if let sub = Input.subscripts[String(candidateSubscript)] {
                 subscriptFull += sub
             } else {
+                // if the corresponding subscript doesn't exist, break and return nothing
                 return []
             }
         }
         
+        // recombine base and newly subscripted string components and return
         let suggestion: String = base + subscriptFull
         return [autocompleteSuggestion(suggestion)]
     }

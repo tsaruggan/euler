@@ -27,10 +27,8 @@ struct KeyboardView: View {
             } else {
                 SystemKeyboard()
             }
-            
         }
     }
-    
 }
 
 struct KeyboardView_Previews: PreviewProvider {

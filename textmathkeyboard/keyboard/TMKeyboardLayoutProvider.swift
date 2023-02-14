@@ -11,8 +11,8 @@ import KeyboardKit
 class TMKeyboardLayoutProvider: StandardKeyboardLayoutProvider {
     
     override func keyboardLayout(for context: KeyboardContext) -> KeyboardLayout {
+        // add emoji button for smaller iPhones, otherwise use default layout
         if context.needsInputModeSwitchKey {
-            // add emoji button for smaller iPhones
             let layout = super.keyboardLayout(for: context)
             var rows = layout.itemRows
             var row = layout.itemRows[rows.endIndex - 1]

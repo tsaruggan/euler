@@ -7,9 +7,11 @@
 
 import KeyboardKit
 import SwiftUI
+import UIKit
 
 class TMKeyboardAppearance: StandardKeyboardAppearance {
     override func buttonImage(for action: KeyboardAction) -> Image? {
+        // override default button images for emoji and symbolic keyboards
         if case .keyboardType(let keyboardType) = action {
             switch keyboardType {
             case .emojis:
@@ -19,7 +21,6 @@ class TMKeyboardAppearance: StandardKeyboardAppearance {
             default:
                 return action.standardButtonImage(for: keyboardContext)
             }
-            
         } else {
             return super.buttonImage(for: action)
         }
@@ -40,24 +41,22 @@ class TMKeyboardAppearance: StandardKeyboardAppearance {
             return super.buttonStyle(for: action, isPressed: isPressed)
         }
     }
-    
 }
 
-import UIKit
+// convert a given string (or emoji) to an image
 extension String {
     func textToImage(fontSize: CGFloat = 17) -> UIImage? {
         let nsString = (self as NSString)
-        let font = UIFont.systemFont(ofSize: fontSize) // you can change your font size here
+        let font = UIFont.systemFont(ofSize: fontSize)
         let stringAttributes = [NSAttributedString.Key.font: font]
         let imageSize = nsString.size(withAttributes: stringAttributes)
         
-        UIGraphicsBeginImageContextWithOptions(imageSize, false, 0) //  begin image context
-        UIColor.clear.set() // clear background
-        UIRectFill(CGRect(origin: CGPoint(), size: imageSize)) // set rect size
-        nsString.draw(at: CGPoint.zero, withAttributes: stringAttributes) // draw text within rect
-        let image = UIGraphicsGetImageFromCurrentImageContext() // create image from context
-        UIGraphicsEndImageContext() //  end image context
-        
+        UIGraphicsBeginImageContextWithOptions(imageSize, false, 0)
+        UIColor.clear.set()
+        UIRectFill(CGRect(origin: CGPoint(), size: imageSize))
+        nsString.draw(at: CGPoint.zero, withAttributes: stringAttributes)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
         return image ?? UIImage()
     }
 }
