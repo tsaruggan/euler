@@ -23,6 +23,9 @@
 		189630742975C7EF004055AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189630732975C7EF004055AB /* ContentView.swift */; };
 		189630762975C7F0004055AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189630752975C7F0004055AB /* Assets.xcassets */; };
 		189630792975C7F0004055AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189630782975C7F0004055AB /* Preview Assets.xcassets */; };
+		18AEC0AF299BDBD500D45172 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AEC0AE299BDBD500D45172 /* SearchView.swift */; };
+		18AEC0B3299BDD2000D45172 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AEC0B2299BDD2000D45172 /* AboutView.swift */; };
+		18AEC0B7299BE10600D45172 /* SearchItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AEC0B6299BE10600D45172 /* SearchItemView.swift */; };
 		18C222432980B6E00069ACB6 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C222422980B6E00069ACB6 /* Input.swift */; };
 		18D817BF297619F2003A0711 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18D817BE297619F2003A0711 /* KeyboardKit */; };
 		18D817C129761AE5003A0711 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D817C029761AE5003A0711 /* KeyboardView.swift */; };
@@ -71,6 +74,9 @@
 		189630732975C7EF004055AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		189630752975C7F0004055AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189630782975C7F0004055AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18AEC0AE299BDBD500D45172 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		18AEC0B2299BDD2000D45172 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		18AEC0B6299BE10600D45172 /* SearchItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemView.swift; sourceTree = "<group>"; };
 		18C222422980B6E00069ACB6 /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
 		18D817C029761AE5003A0711 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +164,8 @@
 		189630702975C7EF004055AB /* eulerapp */ = {
 			isa = PBXGroup;
 			children = (
+				18AEC0B5299BE0DA00D45172 /* about */,
+				18AEC0B4299BE0C700D45172 /* search */,
 				189630712975C7EF004055AB /* eulerappApp.swift */,
 				189630732975C7EF004055AB /* ContentView.swift */,
 				189630752975C7F0004055AB /* Assets.xcassets */,
@@ -172,6 +180,23 @@
 				189630782975C7F0004055AB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18AEC0B4299BE0C700D45172 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				18AEC0AE299BDBD500D45172 /* SearchView.swift */,
+				18AEC0B6299BE10600D45172 /* SearchItemView.swift */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
+		18AEC0B5299BE0DA00D45172 /* about */ = {
+			isa = PBXGroup;
+			children = (
+				18AEC0B2299BDD2000D45172 /* AboutView.swift */,
+			);
+			path = about;
 			sourceTree = "<group>";
 		};
 		18B044AD299B0288006629C2 /* keyboard */ = {
@@ -312,7 +337,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AEC0B3299BDD2000D45172 /* AboutView.swift in Sources */,
 				189630742975C7EF004055AB /* ContentView.swift in Sources */,
+				18AEC0AF299BDBD500D45172 /* SearchView.swift in Sources */,
+				18AEC0B7299BE10600D45172 /* SearchItemView.swift in Sources */,
 				189630722975C7EF004055AB /* eulerappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +533,7 @@
 				DEVELOPMENT_TEAM = 75AGNXCF5M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = euler;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -538,6 +567,7 @@
 				DEVELOPMENT_TEAM = 75AGNXCF5M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = euler;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
