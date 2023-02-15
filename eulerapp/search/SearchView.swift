@@ -13,7 +13,7 @@ struct SearchView: View {
 
     private var symbols = [
         Symbol(symbol: "α", name: "alpha"),
-        Symbol(symbol: "β", name: "zeta"),
+        Symbol(symbol: "β", name: "quadratic formula"),
         Symbol(symbol: "γ", name: "gamma"),
         Symbol(symbol: "δ", name: "delta"),
         Symbol(symbol: "ε", name: "epsilon"),

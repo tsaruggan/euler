@@ -42,7 +42,7 @@ struct SearchItemButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         
         return configuration.label
-            .padding()
+            .padding(.vertical)
             .overlay(
                 RoundedRectangle(cornerRadius: 20, style: .continuous)
                     .fill(configuration.isPressed ? Color.yellow.opacity(0.5) : Color.clear)
