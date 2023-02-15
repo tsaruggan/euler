@@ -10,17 +10,26 @@ import SwiftUI
 struct SearchItemView: View {
     var symbol: Symbol
     
+    @State private var isPressed: Bool = false
+    
     var body: some View {
         Button {
             UIPasteboard.general.string = symbol.symbol
+            
+            isPressed = true
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                isPressed = false
+            }
         } label: {
             VStack {
                 Text(symbol.symbol)
                     .font(.system(size: 50))
                 Spacer()
-                Text(symbol.name)
+                Text(isPressed ? "copied!" : symbol.name)
                     .font(.system(size: 12))
+                    .bold()
                     .multilineTextAlignment(.center)
+                    .lineLimit(2, reservesSpace: true)
             }
         }
         .buttonStyle(SearchItemButtonStyle())
@@ -29,19 +38,16 @@ struct SearchItemView: View {
 
 
 struct SearchItemButtonStyle: ButtonStyle {
+    
     func makeBody(configuration: Configuration) -> some View {
-        configuration.label
+        
+        return configuration.label
             .padding()
-            .overlay(
-                RoundedRectangle(cornerRadius: 20, style: .continuous)
-                    .fill(configuration.isPressed ? Color(UIColor.systemBackground) : Color.clear)
-                    .frame(width: 85)
-            )
             .overlay(
                 RoundedRectangle(cornerRadius: 20, style: .continuous)
                     .fill(configuration.isPressed ? Color.yellow.opacity(0.5) : Color.clear)
                     .frame(width: 85)
-                    .animation(.easeOut(duration: 1), value: configuration.isPressed)
+                    .animation(Animation.easeInOut.delay(0.1), value: configuration.isPressed)
             )
             .overlay(
                 RoundedRectangle(cornerRadius: 20, style: .continuous)
@@ -49,20 +55,6 @@ struct SearchItemButtonStyle: ButtonStyle {
                             style: StrokeStyle(lineWidth: configuration.isPressed ? 5 : 0, dash: [24, 8]))
                     .frame(width: 85)
             )
-            .overlay(
-                VStack{
-                    Text("\(Image(systemName: "doc.on.doc"))")
-                        .font(.system(size: 24))
-                    Text("copied!")
-                        .font(.system(size: 12))
-                        .bold()
-                }
-                    .opacity(configuration.isPressed ? 1 : 0)
-                .foregroundColor(.secondary)
-                
-                
-            )
             .foregroundColor(.primary)
-            
     }
 }
