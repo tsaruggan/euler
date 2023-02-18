@@ -12,6 +12,7 @@ struct eulerappApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
         }
     }
 }

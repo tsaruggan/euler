@@ -303,4 +303,19 @@ struct Input {
         "u": "ᵤ",
         "x": "ₓ",
     ]
+    
+    // master list of symbols for search
+    static let symbols: Set<Symbol> = [
+        Symbol("α", "lowercase alpha"),
+        Symbol("β", "lowercase beta"),
+        Symbol("γ", "lowercase gamma"),
+        Symbol("δ", "lowercase delta"),
+        Symbol("ε", "lowercase epsilon"),
+        Symbol("ζ", "lowercase zeta"),
+        Symbol("θ", "lowercase theta"),
+        Symbol("π", "lowercase pi"),
+        Symbol("ω", "lowercase omega")
+    ]
+    
+    
 }

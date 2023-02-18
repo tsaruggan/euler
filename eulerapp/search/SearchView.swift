@@ -10,24 +10,13 @@ import SwiftUI
 struct SearchView: View {
     
     @State private var searchText = ""
+    private var symbols = Input.symbols.sorted { $0.string <= $1.string }
 
-    private var symbols = [
-        Symbol(symbol: "α", name: "alpha"),
-        Symbol(symbol: "β", name: "quadratic formula"),
-        Symbol(symbol: "γ", name: "gamma"),
-        Symbol(symbol: "δ", name: "delta"),
-        Symbol(symbol: "ε", name: "epsilon"),
-        Symbol(symbol: "ζ", name: "zeta"),
-        Symbol(symbol: "θ", name: "theta"),
-        Symbol(symbol: "π", name: "pi"),
-        Symbol(symbol: "ω", name: "omega")
-    ]
-    
     var body: some View {
         NavigationView {
             ScrollView {
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 85, maximum: 85))], spacing: 20) {
-                    ForEach(symbols) { symbol in
+                    ForEach(symbols, id: \.self) { symbol in
                         SearchItemView(symbol: symbol)
                     }
                 }
@@ -44,7 +33,7 @@ struct SearchView_Previews: PreviewProvider {
 }
 
 
-struct Symbol: Identifiable {
+struct Sym: Identifiable {
     var id: UUID = UUID()
     var symbol: String
     var name: String

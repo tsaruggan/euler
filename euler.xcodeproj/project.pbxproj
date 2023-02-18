@@ -14,6 +14,9 @@
 		181FB20E2978CFDD0016F3F7 /* EulerCalloutActionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FB20D2978CFDD0016F3F7 /* EulerCalloutActionProvider.swift */; };
 		181FB2102978E0F70016F3F7 /* EulerKeyboardAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FB20F2978E0F70016F3F7 /* EulerKeyboardAppearance.swift */; };
 		183A35EB297DBAE300856219 /* EulerEmojiCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A35EA297DBAE300856219 /* EulerEmojiCategory.swift */; };
+		183C16E629A1398600E9BE8D /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C222422980B6E00069ACB6 /* Input.swift */; };
+		183C16E829A139A300E9BE8D /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C16E729A139A300E9BE8D /* Symbol.swift */; };
+		183C16E929A139A300E9BE8D /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C16E729A139A300E9BE8D /* Symbol.swift */; };
 		1843ED78299A989500491E37 /* EulerKeyboardLayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843ED77299A989500491E37 /* EulerKeyboardLayoutProvider.swift */; };
 		185523EA29916C3600560175 /* EulerEmojiKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185523E929916C3600560175 /* EulerEmojiKeyboard.swift */; };
 		1864AAE8297DABE20072F02F /* EulerEmojiCategoryKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864AAE7297DABE20072F02F /* EulerEmojiCategoryKeyboard.swift */; };
@@ -64,6 +67,7 @@
 		181FB20D2978CFDD0016F3F7 /* EulerCalloutActionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerCalloutActionProvider.swift; sourceTree = "<group>"; };
 		181FB20F2978E0F70016F3F7 /* EulerKeyboardAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerKeyboardAppearance.swift; sourceTree = "<group>"; };
 		183A35EA297DBAE300856219 /* EulerEmojiCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerEmojiCategory.swift; sourceTree = "<group>"; };
+		183C16E729A139A300E9BE8D /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
 		1843ED77299A989500491E37 /* EulerKeyboardLayoutProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerKeyboardLayoutProvider.swift; sourceTree = "<group>"; };
 		185523E929916C3600560175 /* EulerEmojiKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerEmojiKeyboard.swift; sourceTree = "<group>"; };
 		1864AAE7297DABE20072F02F /* EulerEmojiCategoryKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerEmojiCategoryKeyboard.swift; sourceTree = "<group>"; };
@@ -139,6 +143,7 @@
 				181FB20D2978CFDD0016F3F7 /* EulerCalloutActionProvider.swift */,
 				181FB20B2978CEB30016F3F7 /* EulerInputSetProvider.swift */,
 				18C222422980B6E00069ACB6 /* Input.swift */,
+				183C16E729A139A300E9BE8D /* Symbol.swift */,
 			);
 			path = input;
 			sourceTree = "<group>";
@@ -328,6 +333,7 @@
 				1874F1E9299561660075D6C2 /* EulerKeyboardBehaviour.swift in Sources */,
 				18C222432980B6E00069ACB6 /* Input.swift in Sources */,
 				188F7C2329804A81006072E7 /* EulerEmojiKeyboardMenuView.swift in Sources */,
+				183C16E929A139A300E9BE8D /* Symbol.swift in Sources */,
 				1843ED78299A989500491E37 /* EulerKeyboardLayoutProvider.swift in Sources */,
 				18D817C129761AE5003A0711 /* KeyboardView.swift in Sources */,
 			);
@@ -337,9 +343,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183C16E629A1398600E9BE8D /* Input.swift in Sources */,
 				18AEC0B3299BDD2000D45172 /* AboutView.swift in Sources */,
 				189630742975C7EF004055AB /* ContentView.swift in Sources */,
 				18AEC0AF299BDBD500D45172 /* SearchView.swift in Sources */,
+				183C16E829A139A300E9BE8D /* Symbol.swift in Sources */,
 				18AEC0B7299BE10600D45172 /* SearchItemView.swift in Sources */,
 				189630722975C7EF004055AB /* eulerappApp.swift in Sources */,
 			);

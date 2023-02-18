@@ -14,7 +14,7 @@ struct SearchItemView: View {
     
     var body: some View {
         Button {
-            UIPasteboard.general.string = symbol.symbol
+            UIPasteboard.general.string = symbol.string
             
             isPressed = true
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
@@ -22,7 +22,7 @@ struct SearchItemView: View {
             }
         } label: {
             VStack {
-                Text(symbol.symbol)
+                Text(symbol.string)
                     .font(.system(size: 50))
                 Spacer()
                 Text(isPressed ? "copied!" : symbol.name)
