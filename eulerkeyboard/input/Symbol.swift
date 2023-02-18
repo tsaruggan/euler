@@ -12,14 +12,14 @@ struct Symbol {
     var string: String
     
     // the different names, keywords, and contexts associated with the symbol
-    var keywords: [String]
+    var description: [String]
     
     // the formal, most common name of the symbol
-    var name: String { return keywords[0] }
+    var name: String { return description[0] }
     
     init(_ string: String, _ keywords: String...) {
         self.string = string
-        self.keywords = keywords
+        self.description = keywords
     }
 }
 

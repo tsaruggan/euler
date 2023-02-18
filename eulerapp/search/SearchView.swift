@@ -10,10 +10,9 @@ import SwiftUI
 struct SearchView: View {
     
     @State private var searchText = ""
-    private var symbols = Input.symbols.sorted { $0.string <= $1.string }
-
+    
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ScrollView {
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 85, maximum: 85))], spacing: 20) {
                     ForEach(symbols, id: \.self) { symbol in
@@ -23,6 +22,17 @@ struct SearchView: View {
             }
         }
         .searchable(text: $searchText, prompt: "search")
+        
+    }
+    
+    var symbols: [Symbol] {
+        if searchText.isEmpty {
+            return Input.symbols
+        } else {
+            return Input.symbols.filter { symbol in
+                return symbol.description.reduce(false, { $0 || $1.contains(searchText.lowercased()) })
+            }
+        }
     }
 }
 
@@ -32,9 +42,3 @@ struct SearchView_Previews: PreviewProvider {
     }
 }
 
-
-struct Sym: Identifiable {
-    var id: UUID = UUID()
-    var symbol: String
-    var name: String
-}

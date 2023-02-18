@@ -12,6 +12,11 @@ struct SearchItemView: View {
     
     @State private var isPressed: Bool = false
     
+    var label: String {
+//        return symbol.name.split(separator: " ").joined(separator: "\n")
+        return symbol.name
+    }
+    
     var body: some View {
         Button {
             UIPasteboard.general.string = symbol.string
@@ -25,7 +30,7 @@ struct SearchItemView: View {
                 Text(symbol.string)
                     .font(.system(size: 50))
                 Spacer()
-                Text(isPressed ? "copied!" : symbol.name)
+                Text(isPressed ? "copied!" : label)
                     .font(.system(size: 12))
                     .bold()
                     .multilineTextAlignment(.center)
@@ -47,7 +52,7 @@ struct SearchItemButtonStyle: ButtonStyle {
                 RoundedRectangle(cornerRadius: 20, style: .continuous)
                     .fill(configuration.isPressed ? Color.yellow.opacity(0.5) : Color.clear)
                     .frame(width: 85)
-                    .animation(Animation.easeInOut.delay(0.1), value: configuration.isPressed)
+//                    .animation(Animation.easeInOut.delay(0.1), value: configuration.isPressed)
             )
             .overlay(
                 RoundedRectangle(cornerRadius: 20, style: .continuous)
