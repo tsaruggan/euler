@@ -20,6 +20,7 @@ struct Symbol {
     init(_ string: String, _ keywords: String...) {
         self.string = string
         self.description = keywords
+        self.description.append(string)
     }
 }
 

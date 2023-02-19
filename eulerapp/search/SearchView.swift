@@ -21,8 +21,7 @@ struct SearchView: View {
                 }
             }
         }
-        .searchable(text: $searchText, prompt: "search")
-        
+        .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "search")
     }
     
     var symbols: [Symbol] {
@@ -30,15 +29,18 @@ struct SearchView: View {
             return Input.symbols
         } else {
             return Input.symbols.filter { symbol in
-                return symbol.description.reduce(false, { $0 || $1.contains(searchText.lowercased()) })
+                let description = symbol.description.joined(separator: " ") + symbol.string
+                return description.caseInsensitiveContains(searchText)
             }
         }
     }
 }
 
-struct SearchView_Previews: PreviewProvider {
-    static var previews: some View {
-        SearchView()
-    }
+extension StringProtocol {
+    func caseInsensitiveContains<S: StringProtocol>(_ string: S) -> Bool { range(of: string, options: .caseInsensitive) != nil }
+}
+
+extension StringProtocol where Self: RangeReplaceableCollection {
+    var letters: Self { filter(\.isLetter) }
 }
 

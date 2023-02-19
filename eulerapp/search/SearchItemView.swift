@@ -13,7 +13,6 @@ struct SearchItemView: View {
     @State private var isPressed: Bool = false
     
     var label: String {
-//        return symbol.name.split(separator: " ").joined(separator: "\n")
         return symbol.name
     }
     
