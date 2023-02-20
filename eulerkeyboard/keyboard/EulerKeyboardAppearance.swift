@@ -10,14 +10,15 @@ import SwiftUI
 import UIKit
 
 class EulerKeyboardAppearance: StandardKeyboardAppearance {
+    
     override func buttonImage(for action: KeyboardAction) -> Image? {
         // override default button images for emoji and symbolic keyboards
         if case .keyboardType(let keyboardType) = action {
             switch keyboardType {
             case .emojis:
-                return Image(uiImage: "π".textToImage(fontSize: 18.5)!)
+                return Image(uiImage: "π".textToImage(fontSize: 18.5, color: UIColor.label)!)
             case .symbolic:
-                return Image(uiImage: "#$%".textToImage(fontSize: 14)!)
+                return Image(uiImage: "#$%".textToImage(fontSize: 14, color: UIColor.label)!)
             default:
                 return action.standardButtonImage(for: keyboardContext)
             }
@@ -45,10 +46,10 @@ class EulerKeyboardAppearance: StandardKeyboardAppearance {
 
 // convert a given string (or emoji) to an image
 extension String {
-    func textToImage(fontSize: CGFloat = 17) -> UIImage? {
+    func textToImage(fontSize: CGFloat = 17, color: UIColor = UIColor.darkText) -> UIImage? {
         let nsString = (self as NSString)
         let font = UIFont.systemFont(ofSize: fontSize)
-        let stringAttributes = [NSAttributedString.Key.font: font]
+        let stringAttributes = [NSAttributedString.Key.font: font, NSAttributedString.Key.foregroundColor : color]
         let imageSize = nsString.size(withAttributes: stringAttributes)
         
         UIGraphicsBeginImageContextWithOptions(imageSize, false, 0)
