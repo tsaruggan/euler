@@ -30,6 +30,8 @@
 		18AEC0B3299BDD2000D45172 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AEC0B2299BDD2000D45172 /* AboutView.swift */; };
 		18AEC0B7299BE10600D45172 /* SearchItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AEC0B6299BE10600D45172 /* SearchItemView.swift */; };
 		18C222432980B6E00069ACB6 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C222422980B6E00069ACB6 /* Input.swift */; };
+		18D6AB7429A3D73B0003CF1B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18D6AB7329A3D73B0003CF1B /* Settings.bundle */; };
+		18D6AB7529A3D73B0003CF1B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18D6AB7329A3D73B0003CF1B /* Settings.bundle */; };
 		18D817BF297619F2003A0711 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18D817BE297619F2003A0711 /* KeyboardKit */; };
 		18D817C129761AE5003A0711 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D817C029761AE5003A0711 /* KeyboardView.swift */; };
 /* End PBXBuildFile section */
@@ -82,6 +84,7 @@
 		18AEC0B2299BDD2000D45172 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		18AEC0B6299BE10600D45172 /* SearchItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemView.swift; sourceTree = "<group>"; };
 		18C222422980B6E00069ACB6 /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		18D6AB7329A3D73B0003CF1B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		18D817C029761AE5003A0711 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -175,6 +178,7 @@
 				189630732975C7EF004055AB /* ContentView.swift */,
 				189630752975C7F0004055AB /* Assets.xcassets */,
 				189630772975C7F0004055AB /* Preview Content */,
+				18D6AB7329A3D73B0003CF1B /* Settings.bundle */,
 			);
 			path = eulerapp;
 			sourceTree = "<group>";
@@ -303,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D6AB7529A3D73B0003CF1B /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				189630792975C7F0004055AB /* Preview Assets.xcassets in Resources */,
+				18D6AB7429A3D73B0003CF1B /* Settings.bundle in Resources */,
 				189630762975C7F0004055AB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
