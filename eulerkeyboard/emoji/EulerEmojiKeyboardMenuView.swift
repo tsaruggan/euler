@@ -74,7 +74,8 @@ public struct EulerEmojiCategoryKeyboardMenu: View {
         Button(action: { selection = category }, label: {
             Text(category.fallbackDisplayEmoji.char)
                 .font(style.categoryFont)
-                .frame(width: 25, height: 25)
+                .foregroundColor(.primary)
+                .frame(width: 36, height: 36)
                 .background(selection == category ? style.selectedCategoryColor : Color.clear)
                 .clipShape(Circle())
             

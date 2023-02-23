@@ -18,21 +18,17 @@ struct KeyboardView: View {
     
     var body: some View {
         VStack(spacing: 0) {
-            if autocompleteContext.suggestions.count > 0 {
-                AutocompleteToolbar(suggestions: autocompleteContext.suggestions, locale: keyboardContext.locale)
-            }
+            AutocompleteToolbar(suggestions: autocompleteContext.suggestions, locale: keyboardContext.locale)
             
             if keyboardContext.keyboardType == .emojis {
                 EulerEmojiCategoryKeyboard(keyboardContext: keyboardContext)
+
+                
             } else {
                 SystemKeyboard()
+//                EmojiCategoryKeyboard(appearance: StandardKeyboardAppearance(keyboardContext: keyboardContext), keyboardContext: keyboardContext)
             }
         }
     }
 }
 
-struct KeyboardView_Previews: PreviewProvider {
-    static var previews: some View {
-        KeyboardView()
-    }
-}

@@ -12,13 +12,14 @@ import UIKit
 class EulerKeyboardAppearance: StandardKeyboardAppearance {
     
     override func buttonImage(for action: KeyboardAction) -> Image? {
+        
         // override default button images for emoji and symbolic keyboards
         if case .keyboardType(let keyboardType) = action {
             switch keyboardType {
             case .emojis:
-                return Image(uiImage: "π".textToImage(fontSize: 18.5, color: UIColor.label)!)
+                return Image(uiImage: "π".textToImage(fontSize: 18.5)!)
             case .symbolic:
-                return Image(uiImage: "#$%".textToImage(fontSize: 14, color: UIColor.label)!)
+                return Image(uiImage: "#$%".textToImage(fontSize: 14)!)
             default:
                 return action.standardButtonImage(for: keyboardContext)
             }
@@ -31,6 +32,7 @@ class EulerKeyboardAppearance: StandardKeyboardAppearance {
     override func buttonStyle(for action: KeyboardAction, isPressed: Bool) -> KeyboardButtonStyle {
         switch action {
         case .keyboardType(.symbolic), .keyboardType(.numeric), .shift(currentState: .auto):
+            
             return KeyboardButtonStyle(
                 backgroundColor: buttonBackgroundColor(for: action, isPressed: false),
                 foregroundColor: buttonForegroundColor(for: action, isPressed: isPressed),
@@ -56,8 +58,13 @@ extension String {
         UIColor.clear.set()
         UIRectFill(CGRect(origin: CGPoint(), size: imageSize))
         nsString.draw(at: CGPoint.zero, withAttributes: stringAttributes)
-        let image = UIGraphicsGetImageFromCurrentImageContext()
+        var image = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
+        
+        if image != nil {
+            image = image?.withRenderingMode(.alwaysTemplate)
+        }
+        
         return image ?? UIImage()
     }
 }

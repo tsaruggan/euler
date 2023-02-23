@@ -18,7 +18,6 @@
 		183C16E829A139A300E9BE8D /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C16E729A139A300E9BE8D /* Symbol.swift */; };
 		183C16E929A139A300E9BE8D /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C16E729A139A300E9BE8D /* Symbol.swift */; };
 		1843ED78299A989500491E37 /* EulerKeyboardLayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843ED77299A989500491E37 /* EulerKeyboardLayoutProvider.swift */; };
-		185523EA29916C3600560175 /* EulerEmojiKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185523E929916C3600560175 /* EulerEmojiKeyboard.swift */; };
 		1864AAE8297DABE20072F02F /* EulerEmojiCategoryKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864AAE7297DABE20072F02F /* EulerEmojiCategoryKeyboard.swift */; };
 		1874F1E9299561660075D6C2 /* EulerKeyboardBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874F1E8299561660075D6C2 /* EulerKeyboardBehaviour.swift */; };
 		188F7C2329804A81006072E7 /* EulerEmojiKeyboardMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F7C2229804A81006072E7 /* EulerEmojiKeyboardMenuView.swift */; };
@@ -71,7 +70,6 @@
 		183A35EA297DBAE300856219 /* EulerEmojiCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerEmojiCategory.swift; sourceTree = "<group>"; };
 		183C16E729A139A300E9BE8D /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
 		1843ED77299A989500491E37 /* EulerKeyboardLayoutProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerKeyboardLayoutProvider.swift; sourceTree = "<group>"; };
-		185523E929916C3600560175 /* EulerEmojiKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerEmojiKeyboard.swift; sourceTree = "<group>"; };
 		1864AAE7297DABE20072F02F /* EulerEmojiCategoryKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerEmojiCategoryKeyboard.swift; sourceTree = "<group>"; };
 		1874F1E8299561660075D6C2 /* EulerKeyboardBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerKeyboardBehaviour.swift; sourceTree = "<group>"; };
 		188F7C2229804A81006072E7 /* EulerEmojiKeyboardMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerEmojiKeyboardMenuView.swift; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 				1864AAE7297DABE20072F02F /* EulerEmojiCategoryKeyboard.swift */,
 				188F7C2229804A81006072E7 /* EulerEmojiKeyboardMenuView.swift */,
 				183A35EA297DBAE300856219 /* EulerEmojiCategory.swift */,
-				185523E929916C3600560175 /* EulerEmojiKeyboard.swift */,
 			);
 			path = emoji;
 			sourceTree = "<group>";
@@ -328,7 +325,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185523EA29916C3600560175 /* EulerEmojiKeyboard.swift in Sources */,
 				180376C82975C86A00200B3A /* KeyboardViewController.swift in Sources */,
 				181FB2102978E0F70016F3F7 /* EulerKeyboardAppearance.swift in Sources */,
 				1864AAE8297DABE20072F02F /* EulerEmojiCategoryKeyboard.swift in Sources */,
@@ -380,6 +376,7 @@
 				INFOPLIST_FILE = eulerkeyboard/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = euler;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,6 +402,7 @@
 				INFOPLIST_FILE = eulerkeyboard/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = euler;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -555,6 +553,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -589,6 +588,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

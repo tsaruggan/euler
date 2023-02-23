@@ -17,8 +17,13 @@ public struct EulerEmojiCategoryKeyboard: View {
         self.keyboardContext = keyboardContext
         self.appearance = EulerKeyboardAppearance(keyboardContext: keyboardContext)
         self.initialSelection = nil
-        //        self.style = .standardPhonePortrait
         self.style = .custom(for: keyboardContext)
+        
+        
+        // scroll view fix
+//        UIScrollView().
+        
+        
     }
     
     private let categories: [EulerEmojiCategory]
@@ -46,6 +51,12 @@ public struct EulerEmojiCategoryKeyboard: View {
     private var persistedCategory: EulerEmojiCategory {
         let name = defaults.string(forKey: defaultsKey) ?? ""
         return categories.first { $0.rawValue == name } ?? .greek
+    }
+    
+    private var emojis: [Emoji] {
+        return selection.emojis.matching(query, for: keyboardContext.locale).map {
+            $0.char == "__" ? Emoji("") : $0
+        }
     }
     
     private func initialize() {
@@ -84,23 +95,34 @@ private extension EulerEmojiCategoryKeyboard {
         .padding(.horizontal)
     }
     
-    var keyboard: some View {
-        ScrollView(.horizontal, showsIndicators: false) {
-            EulerEmojiKeyboard(
-                emojis: selection.emojis.matching(query, for: keyboardContext.locale),
-                style: style)
-        }.id(selection)
+    var gridItem: GridItem{
+        return GridItem(.fixed(style.itemSize), spacing: style.verticalItemSpacing - 9)
+    }
+    var rows: Array<GridItem> {
+        return Array(repeating: gridItem, count: style.rows)
     }
     
-    var menu: some View {
-        EulerEmojiCategoryKeyboardMenu(
-            categories: categories,
-            appearance: appearance,
-            keyboardContext: keyboardContext,
-            selection: $selection,
-            style: style
-        )
-    }
+    var keyboard: some View {
+        ScrollView(.horizontal, showsIndicators: false) {
+            
+            EmojiKeyboard(emojis:  emojis, style: style)
+                .overlay { // hot fix for scrolling bug!
+                    Rectangle()
+                        .fill(Color.clearInteractable)
+                        .allowsHitTesting(false)
+                }
+        }
+}
+
+var menu: some View {
+    EulerEmojiCategoryKeyboardMenu(
+        categories: categories,
+        appearance: appearance,
+        keyboardContext: keyboardContext,
+        selection: $selection,
+        style: style
+    )
+}
 }
 
 public extension EmojiKeyboardStyle {
@@ -114,7 +136,7 @@ public extension EmojiKeyboardStyle {
             horizontalItemSpacing:  16,
             verticalItemSpacing:  6,
             verticalCategoryStackSpacing:  0,
-            categoryFont:  .system(size: 20),
+            categoryFont:  .system(size: 24),
             systemFont:  .system(size: 16),
             selectedCategoryColor:  .primary.opacity(0.1),
             abcText: "ABC",

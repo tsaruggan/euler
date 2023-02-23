@@ -33,6 +33,7 @@ struct SearchItemView: View {
                     .font(.system(size: 12))
                     .bold()
                     .multilineTextAlignment(.center)
+                    .frame(maxWidth: .infinity, alignment: .center)
                     .lineLimit(2, reservesSpace: true)
             }
         }

@@ -19,6 +19,7 @@ struct SearchView: View {
                         SearchItemView(symbol: symbol)
                     }
                 }
+                .multilineTextAlignment(.center)
             }
         }
         .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "search")
