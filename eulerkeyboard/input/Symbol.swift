@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Symbol {
+struct Symbol: Identifiable, Codable {
     // the mathematical symbol or formula comprised of unicode characters to be typed / copied
     var string: String
     
@@ -17,10 +17,11 @@ struct Symbol {
     // the formal, most common name of the symbol
     var name: String { return description[0] }
     
-    init(_ string: String, _ keywords: String...) {
-        self.string = string
-        self.description = keywords
-        self.description.append(string)
+    var id = UUID()
+    
+    enum CodingKeys: CodingKey {
+        case string
+        case description
     }
 }
 
@@ -35,3 +36,6 @@ extension Symbol: Equatable {
         return lhs.string == rhs.string
     }
 }
+
+
+

@@ -17,6 +17,8 @@
 		183C16E629A1398600E9BE8D /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C222422980B6E00069ACB6 /* Input.swift */; };
 		183C16E829A139A300E9BE8D /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C16E729A139A300E9BE8D /* Symbol.swift */; };
 		183C16E929A139A300E9BE8D /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C16E729A139A300E9BE8D /* Symbol.swift */; };
+		1843A45C29A9A959009D0683 /* symbols.json in Resources */ = {isa = PBXBuildFile; fileRef = 1843A45B29A9A959009D0683 /* symbols.json */; };
+		1843A45D29A9A959009D0683 /* symbols.json in Resources */ = {isa = PBXBuildFile; fileRef = 1843A45B29A9A959009D0683 /* symbols.json */; };
 		1843ED78299A989500491E37 /* EulerKeyboardLayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843ED77299A989500491E37 /* EulerKeyboardLayoutProvider.swift */; };
 		1864AAE8297DABE20072F02F /* EulerEmojiCategoryKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864AAE7297DABE20072F02F /* EulerEmojiCategoryKeyboard.swift */; };
 		1874F1E9299561660075D6C2 /* EulerKeyboardBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874F1E8299561660075D6C2 /* EulerKeyboardBehaviour.swift */; };
@@ -69,6 +71,7 @@
 		181FB20F2978E0F70016F3F7 /* EulerKeyboardAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerKeyboardAppearance.swift; sourceTree = "<group>"; };
 		183A35EA297DBAE300856219 /* EulerEmojiCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerEmojiCategory.swift; sourceTree = "<group>"; };
 		183C16E729A139A300E9BE8D /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		1843A45B29A9A959009D0683 /* symbols.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = symbols.json; sourceTree = "<group>"; };
 		1843ED77299A989500491E37 /* EulerKeyboardLayoutProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerKeyboardLayoutProvider.swift; sourceTree = "<group>"; };
 		1864AAE7297DABE20072F02F /* EulerEmojiCategoryKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerEmojiCategoryKeyboard.swift; sourceTree = "<group>"; };
 		1874F1E8299561660075D6C2 /* EulerKeyboardBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerKeyboardBehaviour.swift; sourceTree = "<group>"; };
@@ -140,6 +143,7 @@
 		188F7C2529804AE8006072E7 /* input */ = {
 			isa = PBXGroup;
 			children = (
+				1843A45B29A9A959009D0683 /* symbols.json */,
 				181FB20D2978CFDD0016F3F7 /* EulerCalloutActionProvider.swift */,
 				181FB20B2978CEB30016F3F7 /* EulerInputSetProvider.swift */,
 				18C222422980B6E00069ACB6 /* Input.swift */,
@@ -305,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D6AB7529A3D73B0003CF1B /* Settings.bundle in Resources */,
+				1843A45D29A9A959009D0683 /* symbols.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				189630792975C7F0004055AB /* Preview Assets.xcassets in Resources */,
+				1843A45C29A9A959009D0683 /* symbols.json in Resources */,
 				18D6AB7429A3D73B0003CF1B /* Settings.bundle in Resources */,
 				189630762975C7F0004055AB /* Assets.xcassets in Resources */,
 			);

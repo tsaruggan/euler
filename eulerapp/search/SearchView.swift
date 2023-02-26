@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SearchView: View {
+    var symbols: [Symbol]
     
     @State private var searchText = ""
     
@@ -15,7 +16,7 @@ struct SearchView: View {
         NavigationStack {
             ScrollView {
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 85, maximum: 85))], spacing: 20) {
-                    ForEach(symbols, id: \.self) { symbol in
+                    ForEach(filteredSymbols, id: \.self) { symbol in
                         SearchItemView(symbol: symbol)
                     }
                 }
@@ -25,11 +26,11 @@ struct SearchView: View {
         .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "search")
     }
     
-    var symbols: [Symbol] {
+    var filteredSymbols: [Symbol] {
         if searchText.isEmpty {
-            return Input.symbols
+            return symbols
         } else {
-            return Input.symbols.filter { symbol in
+            return symbols.filter { symbol in
                 let description = symbol.description.joined(separator: " ") + symbol.string
                 return description.caseInsensitiveContains(searchText)
             }

@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var input = Input()
+    
     var body: some View {
         TabView {
-            SearchView()
+            SearchView(symbols: input.symbols)
                 .tabItem {
                     Label("search", systemImage: "magnifyingglass")
                 }

@@ -19,11 +19,6 @@ public struct EulerEmojiCategoryKeyboard: View {
         self.initialSelection = nil
         self.style = .custom(for: keyboardContext)
         
-        
-        // scroll view fix
-//        UIScrollView().
-        
-        
     }
     
     private let categories: [EulerEmojiCategory]
