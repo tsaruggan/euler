@@ -31,7 +31,7 @@ struct SearchView: View {
             return symbols
         } else {
             return symbols.filter { symbol in
-                let description = symbol.description.joined(separator: " ") + symbol.string
+                let description = symbol.description.filter { !$0.hasPrefix("\\") }.joined(separator: " ") + symbol.string
                 return description.caseInsensitiveContains(searchText)
             }
         }

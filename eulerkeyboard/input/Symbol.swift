@@ -15,7 +15,17 @@ struct Symbol: Identifiable, Codable {
     var description: [String]
     
     // the formal, most common name of the symbol
-    var name: String { return description[0] }
+    var name: String {
+        var index = 0
+        while description[index].hasPrefix("\\") {
+            index += 1
+            
+            if index > description.endIndex {
+                return description[0]
+            }
+        }
+        return description[index]
+    }
     
     var id = UUID()
     
