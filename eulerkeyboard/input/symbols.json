@@ -46,7 +46,6 @@
         "string": "ε",
         "description": [
             "lowercase epsilon",
-            "vacuum permittivity of free space",
             "\\mathrm{\\varepsilon}",
             "rounded epsilon",
             "greek",
@@ -59,7 +58,7 @@
         "description": [
             "lowercase zeta",
             "\\mathrm{\\zeta}",
-            "= \\zetaup",
+            "\\zetaup",
             "zeta",
             "greek",
             "\\zeta",
@@ -84,7 +83,7 @@
             "lowercase theta",
             "\\mathrm{\\theta}",
             "angle",
-            "= \\thetaup",
+            "\\thetaup",
             "straight theta",
             "theta",
             "greek",
@@ -108,10 +107,9 @@
         "string": "κ",
         "description": [
             "lowercase kappa",
-            "einstein gravitational constant",
             "\\mathrm{\\kappa}",
             "\\kappaup",
-            "= \\upkapp",
+            "\\upkapp",
             "kappa",
             "greek",
             "\\kappa",
@@ -122,9 +120,9 @@
         "string": "λ",
         "description": [
             "lowercase lambda",
-            "\\mathrm{\\lambda} ()",
-            "= \\lambdaup ()",
-            "= \\uplambda (upgreek)",
+            "\\mathrm{\\lambda}",
+            "\\lambdaup",
+            "\\uplambda",
             "lambda",
             "greek",
             "\\lambda",
@@ -135,9 +133,9 @@
         "string": "μ",
         "description": [
             "lowercase mu",
-            "\\mathrm{\\mu} ()",
-            "= \\muup ()",
-            "= \\upmu (upgreek)",
+            "\\mathrm{\\mu}",
+            "\\muup",
+            "\\upmu",
             "mu",
             "greek",
             "\\mu",
@@ -148,9 +146,9 @@
         "string": "ν",
         "description": [
             "lowercase nu",
-            "\\mathrm{\\nu} ()",
-            "= \\nuup ()",
-            "= \\upnu (upgreek)",
+            "\\mathrm{\\nu}",
+            "\\nuup",
+            "\\upnu",
             "nu",
             "greek",
             "\\nu",
@@ -161,9 +159,9 @@
         "string": "ξ",
         "description": [
             "lowercase xi",
-            "\\mathrm{\\xi} ()",
-            "= \\xiup ()",
-            "= \\upxi (upgreek)",
+            "\\mathrm{\\xi}",
+            "\\xiup",
+            "\\upxi",
             "xi",
             "greek",
             "\\xi",
@@ -174,7 +172,6 @@
         "string": "ο",
         "description": [
             "lowercase omicron",
-            "lowercase omicron",
             "greek",
             "\\upomicron"
         ]
@@ -183,9 +180,9 @@
         "string": "π",
         "description": [
             "lowercase pi",
-            "\\mathrm{\\pi} ()",
-            "= \\piup ()",
-            "= \\uppi (upgreek)",
+            "\\mathrm{\\pi}",
+            "\\piup",
+            "\\uppi",
             "pi",
             "greek",
             "\\pi",
@@ -197,9 +194,9 @@
         "description": [
             "lowercase rho",
             "correlation",
-            "\\mathrm{\\rho} ()",
-            "= \\rhoup ()",
-            "= \\uprho (upgreek)",
+            "\\mathrm{\\rho}",
+            "\\rhoup",
+            "\\uprho",
             "rho",
             "greek",
             "\\rho",
@@ -210,9 +207,9 @@
         "string": "ς",
         "description": [
             "lowercase sigma",
-            "\\mathrm{\\varsigma} ()",
-            "= \\varsigmaup ()",
-            "= \\upvarsigma (upgreek)",
+            "\\mathrm{\\varsigma}",
+            "\\varsigmaup",
+            "\\upvarsigma",
             "terminal sigma",
             "greek",
             "\\varsigma",
@@ -225,9 +222,9 @@
             "lowercase sigma",
             "standard deviation",
             "covariance",
-            "\\mathrm{\\sigma} ()",
-            "= \\sigmaup ()",
-            "= \\upsigma (upgreek)",
+            "\\mathrm{\\sigma}",
+            "\\sigmaup",
+            "\\upsigma",
             "sigma",
             "greek",
             "\\sigma",
@@ -238,9 +235,9 @@
         "string": "τ",
         "description": [
             "lowercase tau",
-            "\\mathrm{\\tau} ()",
-            "= \\tauup ()",
-            "= \\uptau (upgreek)",
+            "\\mathrm{\\tau}",
+            "\\tauup",
+            "\\uptau",
             "tau",
             "greek",
             "\\tau",
@@ -251,9 +248,9 @@
         "string": "υ",
         "description": [
             "lowercase upsilon",
-            "\\mathrm{\\upsilon} ()",
-            "= \\upsilonup ()",
-            "= \\upupsilon (upgreek)",
+            "\\mathrm{\\upsilon}",
+            "\\upsilonup",
+            "\\upupsilon",
             "upsilon",
             "greek",
             "\\upsilon",
@@ -265,9 +262,9 @@
         "description": [
             "lowercase phi",
             "golden ratio",
-            "\\mathrm{\\varphi} ()",
-            "= \\varphiup ()",
-            "= \\upvarphi (upgreek)",
+            "\\mathrm{\\varphi}",
+            "\\varphiup",
+            "\\upvarphi",
             "curly or open phi",
             "greek",
             "\\varphi",
@@ -278,9 +275,9 @@
         "string": "χ",
         "description": [
             "lowecase chi",
-            "\\mathrm{\\chi} ()",
-            "= \\chiup ()",
-            "= \\upchi (upgreek)",
+            "\\mathrm{\\chi}",
+            "\\chiup",
+            "\\upchi",
             "chi",
             "greek",
             "\\chi",
@@ -291,9 +288,9 @@
         "string": "ψ",
         "description": [
             "lowercase psi",
-            "\\mathrm{\\psi} ()",
-            "= \\psiup ()",
-            "= \\uppsi (upgreek)",
+            "\\mathrm{\\psi}",
+            "\\psiup",
+            "\\uppsi",
             "psi",
             "greek",
             "\\psi",
@@ -304,9 +301,9 @@
         "string": "ω",
         "description": [
             "lowercase omega",
-            "\\mathrm{\\omega} ()",
-            "= \\omegaup ()",
-            "= \\upomega (upgreek)",
+            "\\mathrm{\\omega}",
+            "\\omegaup",
+            "\\upomega",
             "omega",
             "greek",
             "\\omega",
@@ -317,7 +314,6 @@
         "string": "Α",
         "description": [
             "uppercase alpha",
-            "uppercase alpha",
             "greek",
             "\\upalpha"
         ]
@@ -325,7 +321,6 @@
     {
         "string": "Β",
         "description": [
-            "uppercase beta",
             "uppercase beta",
             "greek",
             "\\upbeta"
@@ -335,8 +330,8 @@
         "string": "Γ",
         "description": [
             "uppercase gamma",
-            "\\gamma (-slantedgreek)",
-            "= \\mathrm{\\gamma}",
+            "\\gamma",
+            "\\mathrm{\\gamma}",
             "uppercase gamma",
             "greek",
             "\\gamma",
@@ -349,8 +344,8 @@
             "uppercase delta",
             "laplace operator",
             "change",
-            "\\delta (-slantedgreek)",
-            "= \\mathrm{\\delta}",
+            "\\delta",
+            "\\mathrm{\\delta}",
             "uppercase delta",
             "greek",
             "\\delta",
@@ -361,7 +356,6 @@
         "string": "Ε",
         "description": [
             "uppercase epsilon",
-            "uppercase epsilon",
             "greek",
             "\\upepsilon"
         ]
@@ -369,7 +363,6 @@
     {
         "string": "Ζ",
         "description": [
-            "uppercase zeta",
             "uppercase zeta",
             "greek",
             "\\upzeta"
@@ -379,7 +372,6 @@
         "string": "Η",
         "description": [
             "uppercase eta",
-            "uppercase eta",
             "greek",
             "\\upeta"
         ]
@@ -388,9 +380,7 @@
         "string": "Θ",
         "description": [
             "uppercase theta",
-            "\\theta (-slantedgreek)",
-            "= \\mathrm{\\theta}",
-            "uppercase theta",
+            "\\mathrm{\\theta}",
             "greek",
             "\\theta",
             "\\uptheta"
@@ -400,7 +390,6 @@
         "string": "Ι",
         "description": [
             "uppercase iota",
-            "uppercase iota",
             "greek",
             "\\upiota"
         ]
@@ -408,7 +397,6 @@
     {
         "string": "Κ",
         "description": [
-            "uppercase kappa",
             "uppercase kappa",
             "greek",
             "\\upkappa"
@@ -418,9 +406,7 @@
         "string": "Λ",
         "description": [
             "uppercase lambda",
-            "\\lambda (-slantedgreek)",
-            "= \\mathrm{\\lambda}",
-            "uppercase lambda",
+            "\\mathrm{\\lambda}",
             "greek",
             "\\lambda",
             "\\uplambda"
@@ -430,7 +416,6 @@
         "string": "Μ",
         "description": [
             "uppercase mu",
-            "uppercase mu",
             "greek",
             "\\upmu"
         ]
@@ -438,7 +423,6 @@
     {
         "string": "Ν",
         "description": [
-            "uppercase nu",
             "uppercase nu",
             "greek",
             "\\upnu"
@@ -448,18 +432,16 @@
         "string": "Ξ",
         "description": [
             "uppercase xi",
-            "\\xi (-slantedgreek)",
-            "= \\mathrm{\\xi}",
+            "\\xi",
+            "\\mathrm{\\xi}",
             "uppercase xi",
             "greek",
-            "\\xi",
             "\\upxi"
         ]
     },
     {
         "string": "Ο",
         "description": [
-            "uppercase omicron",
             "uppercase omicron",
             "greek",
             "\\upomicron"
@@ -469,18 +451,15 @@
         "string": "Π",
         "description": [
             "uppercase pi",
-            "\\pi (-slantedgreek)",
-            "= \\mathrm{\\pi}",
-            "uppercase pi",
-            "greek",
             "\\pi",
+            "\\mathrm{\\pi}",
+            "greek",
             "\\uppi"
         ]
     },
     {
         "string": "Ρ",
         "description": [
-            "uppercase rho",
             "uppercase rho",
             "greek",
             "\\uprho"
@@ -491,18 +470,15 @@
         "description": [
             "uppercase sigma",
             "sum",
-            "\\sigma (-slantedgreek)",
-            "= \\mathrm{\\sigma}",
-            "uppercase sigma",
-            "greek",
             "\\sigma",
+            "\\mathrm{\\sigma}",
+            "greek",
             "\\upsigma"
         ]
     },
     {
         "string": "Τ",
         "description": [
-            "uppercase tau",
             "uppercase tau",
             "greek",
             "\\uptau"
@@ -512,9 +488,7 @@
         "string": "Υ",
         "description": [
             "uppercase upsilon",
-            "\\upsilon (-slantedgreek)",
-            "= \\mathrm{\\upsilon}",
-            "uppercase upsilon",
+            "\\mathrm{\\upsilon}",
             "greek",
             "\\upsilon",
             "\\upupsilon"
@@ -525,18 +499,15 @@
         "description": [
             "uppercase phi",
             "golden ratio",
-            "\\phi (-slantedgreek)",
-            "= \\mathrm{\\phi}",
-            "uppercase phi",
-            "greek",
             "\\phi",
+            "\\mathrm{\\phi}",
+            "greek",
             "\\upphi"
         ]
     },
     {
         "string": "Χ",
         "description": [
-            "uppercase chi",
             "uppercase chi",
             "greek",
             "\\upchi"
@@ -546,11 +517,9 @@
         "string": "Ψ",
         "description": [
             "uppercase psi",
-            "\\psi (-slantedgreek)",
-            "= \\mathrm{\\psi}",
-            "uppercase psi",
-            "greek",
             "\\psi",
+            "\\mathrm{\\psi}",
+            "greek",
             "\\uppsi"
         ]
     },
@@ -558,196 +527,13 @@
         "string": "Ω",
         "description": [
             "uppercase omega",
-            "\\omega (-slantedgreek)",
-            "= \\mathrm{\\omega}",
-            "uppercase omega",
-            "greek",
             "\\omega",
+            "\\mathrm{\\omega}",
+            "greek",
             "\\upomega"
         ]
     },
-    {
-        "string": "₀",
-        "description": [
-            "subscript zero"
-        ]
-    },
-    {
-        "string": "₁",
-        "description": [
-            "subscript one"
-        ]
-    },
-    {
-        "string": "₂",
-        "description": [
-            "subscript two"
-        ]
-    },
-    {
-        "string": "₃",
-        "description": [
-            "subscript three"
-        ]
-    },
-    {
-        "string": "₄",
-        "description": [
-            "subscript four"
-        ]
-    },
-    {
-        "string": "₅",
-        "description": [
-            "subscript five"
-        ]
-    },
-    {
-        "string": "₆",
-        "description": [
-            "subscript six"
-        ]
-    },
-    {
-        "string": "₇",
-        "description": [
-            "subscript seven"
-        ]
-    },
-    {
-        "string": "₈",
-        "description": [
-            "subscript eight"
-        ]
-    },
-    {
-        "string": "₉",
-        "description": [
-            "subscript nine"
-        ]
-    },
-    {
-        "string": "ₐ",
-        "description": [
-            "subscript lowercase a"
-        ]
-    },
-    {
-        "string": "ₑ",
-        "description": [
-            "subscript lowercase e"
-        ]
-    },
-    {
-        "string": "ₕ",
-        "description": [
-            "subscript lowercase h"
-        ]
-    },
-    {
-        "string": "ᵢ",
-        "description": [
-            "subscript lowercase i"
-        ]
-    },
-    {
-        "string": "ⱼ",
-        "description": [
-            "subscript lowercase j"
-        ]
-    },
-    {
-        "string": "ₖ",
-        "description": [
-            "subscript lowercase k"
-        ]
-    },
-    {
-        "string": "ₘ",
-        "description": [
-            "subscript lowercase m"
-        ]
-    },
-    {
-        "string": "ₙ",
-        "description": [
-            "subscript lowercase n"
-        ]
-    },
-    {
-        "string": "ₒ",
-        "description": [
-            "subscript lowercase o"
-        ]
-    },
-    {
-        "string": "ₚ",
-        "description": [
-            "subscript lowercase p"
-        ]
-    },
-    {
-        "string": "ᵣ",
-        "description": [
-            "subscript lowercase r"
-        ]
-    },
-    {
-        "string": "ₛ",
-        "description": [
-            "subscript lowercase s"
-        ]
-    },
-    {
-        "string": "ₜ",
-        "description": [
-            "subscript lowercase t"
-        ]
-    },
-    {
-        "string": "ᵤ",
-        "description": [
-            "subscript lowercase u"
-        ]
-    },
-    {
-        "string": "ₓ",
-        "description": [
-            "subscript lowercase x"
-        ]
-    },
-    {
-        "string": "₊",
-        "description": [
-            "subscript plus sign"
-        ]
-    },
-    {
-        "string": "₋",
-        "description": [
-            "subscript minus sign"
-        ]
-    },
-    {
-        "string": "₌",
-        "description": [
-            "subscript equal sign"
-        ]
-    },
-    {
-        "string": "₍",
-        "description": [
-            "subscript open parenthesis",
-            "subscript left parenthesis"
-        ]
-    },
-    {
-        "string": "₎",
-        "description": [
-            "subscript closed parenthesis",
-            "subscript right parenthesis"
-        ]
-    },
+
     {
         "string": "⁰",
         "description": [
@@ -758,57 +544,57 @@
         "string": "¹",
         "description": [
             "superscript one",
-            "sup1"
+            "\\sup1"
         ]
     },
     {
         "string": "²",
         "description": [
             "superscript two",
-            "sup2"
+            "\\sup2"
         ]
     },
     {
         "string": "³",
         "description": [
             "superscript three",
-            "sup3"
+            "\\sup3"
         ]
     },
     {
         "string": "⁴",
         "description": [
-            "superscript four"
+            "\\superscript four"
         ]
     },
     {
         "string": "⁵",
         "description": [
-            "superscript five"
+            "\\superscript five"
         ]
     },
     {
         "string": "⁶",
         "description": [
-            "superscript six"
+            "\\superscript six"
         ]
     },
     {
         "string": "⁷",
         "description": [
-            "superscript seven"
+            "\\superscript seven"
         ]
     },
     {
         "string": "⁸",
         "description": [
-            "superscript eight"
+            "\\superscript eight"
         ]
     },
     {
         "string": "⁹",
         "description": [
-            "superscript nine"
+            "\\superscript nine"
         ]
     },
     {
@@ -1079,20 +865,204 @@
     {
         "string": "⁽",
         "description": [
-            "superscript open parentheses"
+            "superscript left parenthesis",
+            "superscript open parenthesis"
         ]
     },
     {
         "string": "⁾",
         "description": [
-            "superscript closed parentheses"
+            "superscript right parenthesis",
+            "superscript closed parenthesis"
         ]
     },
+    {
+        "string": "₀",
+        "description": [
+            "subscript zero"
+        ]
+    },
+    {
+        "string": "₁",
+        "description": [
+            "subscript one"
+        ]
+    },
+    {
+        "string": "₂",
+        "description": [
+            "subscript two"
+        ]
+    },
+    {
+        "string": "₃",
+        "description": [
+            "subscript three"
+        ]
+    },
+    {
+        "string": "₄",
+        "description": [
+            "subscript four"
+        ]
+    },
+    {
+        "string": "₅",
+        "description": [
+            "subscript five"
+        ]
+    },
+    {
+        "string": "₆",
+        "description": [
+            "subscript six"
+        ]
+    },
+    {
+        "string": "₇",
+        "description": [
+            "subscript seven"
+        ]
+    },
+    {
+        "string": "₈",
+        "description": [
+            "subscript eight"
+        ]
+    },
+    {
+        "string": "₉",
+        "description": [
+            "subscript nine"
+        ]
+    },
+    {
+        "string": "ₐ",
+        "description": [
+            "subscript lowercase a"
+        ]
+    },
+    {
+        "string": "ₑ",
+        "description": [
+            "subscript lowercase e"
+        ]
+    },
+    {
+        "string": "ₕ",
+        "description": [
+            "subscript lowercase h"
+        ]
+    },
+    {
+        "string": "ᵢ",
+        "description": [
+            "subscript lowercase i"
+        ]
+    },
+    {
+        "string": "ⱼ",
+        "description": [
+            "subscript lowercase j"
+        ]
+    },
+    {
+        "string": "ₖ",
+        "description": [
+            "subscript lowercase k"
+        ]
+    },
+    {
+        "string": "ₘ",
+        "description": [
+            "subscript lowercase m"
+        ]
+    },
+    {
+        "string": "ₙ",
+        "description": [
+            "subscript lowercase n"
+        ]
+    },
+    {
+        "string": "ₒ",
+        "description": [
+            "subscript lowercase o"
+        ]
+    },
+    {
+        "string": "ₚ",
+        "description": [
+            "subscript lowercase p"
+        ]
+    },
+    {
+        "string": "ᵣ",
+        "description": [
+            "subscript lowercase r"
+        ]
+    },
+    {
+        "string": "ₛ",
+        "description": [
+            "subscript lowercase s"
+        ]
+    },
+    {
+        "string": "ₜ",
+        "description": [
+            "subscript lowercase t"
+        ]
+    },
+    {
+        "string": "ᵤ",
+        "description": [
+            "subscript lowercase u"
+        ]
+    },
+    {
+        "string": "ₓ",
+        "description": [
+            "subscript lowercase x"
+        ]
+    },
+    {
+        "string": "₊",
+        "description": [
+            "subscript plus sign"
+        ]
+    },
+    {
+        "string": "₋",
+        "description": [
+            "subscript minus sign"
+        ]
+    },
+    {
+        "string": "₌",
+        "description": [
+            "subscript equal sign"
+        ]
+    },
+    {
+        "string": "₍",
+        "description": [
+            "subscript left parenthesis",
+            "subscript open parenthesis"
+        ]
+    },
+    {
+        "string": "₎",
+        "description": [
+            "subscript right parenthesis",
+            "subscript closed parenthesis"
+        ]
+    },
+
     {
         "string": "#",
         "description": [
             "number sign",
-            "\\# (oz)",
             "hashtag",
             "\\#",
             "\\octothorpe"
@@ -1102,7 +1072,6 @@
         "string": "$",
         "description": [
             "dollar sign",
-            "\\mathdollar",
             "\\$",
             "\\mathdollar"
         ]
@@ -1174,7 +1143,7 @@
             "multiplication sign",
             "multiply",
             "cross product",
-            "z notation cartesian product",
+            "cartesian product",
             "\\times"
         ]
     },
@@ -1182,18 +1151,24 @@
         "string": "÷",
         "description": [
             "division sign",
-            "divide",
             "divide sign",
             "\\div"
         ]
     },
-
+    {
+        "string": "=",
+        "description": [
+            "equals sign",
+            "equal sign",
+            "=",
+            "\\equal"
+        ]
+    },
     {
         "string": "*",
         "description": [
             "asterisk",
             "\\ast",
-            "(high) asterisk",
             "star",
             "*"
         ]
@@ -1243,33 +1218,6 @@
         ]
     },
     {
-        "string": "<",
-        "description": [
-            "less-than sign",
-            "less than sign",
-            "<",
-            "\\less"
-        ]
-    },
-    {
-        "string": ">",
-        "description": [
-            "greater-than sign",
-            "greater than sign",
-            ">",
-            "\\greater"
-        ]
-    },
-    {
-        "string": "=",
-        "description": [
-            "equals sign",
-            "equal sign",
-            "=",
-            "\\equal"
-        ]
-    },
-    {
         "string": "?",
         "description": [
             "question mark",
@@ -1280,7 +1228,7 @@
     {
         "string": "@",
         "description": [
-            "at",
+            "at sign",
             "@",
             "\\atsign"
         ]
@@ -1315,7 +1263,6 @@
         "description": [
             "underscore",
             "low line",
-            "tex subscript operator",
             "\\_"
         ]
     },
@@ -1323,15 +1270,13 @@
         "string": "`",
         "description": [
             "backtick",
-            "grave",
-            "alias for 0300"
+            "grave"
         ]
     },
     {
         "string": "{",
         "description": [
             "left curly bracket",
-            "\\lbrace",
             "\\{",
             "\\lbrace"
         ]
@@ -1340,7 +1285,6 @@
         "string": "}",
         "description": [
             "right curly bracket",
-            "\\rbrace",
             "\\}",
             "\\rbrace"
         ]
@@ -1349,7 +1293,6 @@
         "string": "|",
         "description": [
             "vertical bar",
-            "\\vert",
             "|",
             "\\vert"
         ]
@@ -1367,7 +1310,7 @@
         "string": "¡",
         "description": [
             "inverted exclamation mark",
-            "iexcl"
+            "\\iexcl"
         ]
     },
     {
@@ -1388,10 +1331,17 @@
         ]
     },
     {
+        "string": "€",
+        "description": [
+            "euro sign",
+            "\\euro"
+        ]
+    },
+    {
         "string": "¤",
         "description": [
             "currency sign",
-            "\\currency (wasysym)",
+            "\\currency",
             "curren"
         ]
     },
@@ -1406,22 +1356,20 @@
         "string": "¦",
         "description": [
             "broken bar",
-            "brvbar (vertical)"
+            "\\brvbar"
         ]
     },
     {
         "string": "§",
         "description": [
             "section sign",
-            "sect"
+            "\\sect"
         ]
     },
     {
         "string": "¨",
         "description": [
             "diaeresis",
-            "dot /die",
-            "alias for 0308",
             "\\spddot"
         ]
     },
@@ -1446,14 +1394,14 @@
         "string": "¯",
         "description": [
             "macron",
-            "macr"
+            "\\macr"
         ]
     },
     {
         "string": "°",
         "description": [
             "degree sign",
-            "deg"
+            "\\deg"
         ]
     },
     {
@@ -1508,7 +1456,7 @@
         "description": [
             "one quarter",
             "1/4",
-            "frac14"
+            "\\frac14"
         ]
     },
     {
@@ -1516,7 +1464,7 @@
         "description": [
             "one half",
             "1/2",
-            "frac12"
+            "\\frac12"
         ]
     },
     {
@@ -1524,14 +1472,14 @@
         "description": [
             "three quarters",
             "3/4",
-            "frac34"
+            "\\frac34"
         ]
     },
     {
         "string": "¿",
         "description": [
             "inverted question mark",
-            "iquest"
+            "\\iquest"
         ]
     },
     {
@@ -1546,7 +1494,6 @@
         "string": "ı",
         "description": [
             "dotless i",
-            "imath",
             "\\imath"
         ]
     },
@@ -1561,7 +1508,6 @@
         "string": "ȷ",
         "description": [
             "dotless j",
-            "jmath",
             "\\jmath"
         ]
     },
@@ -1848,8 +1794,9 @@
     {
         "string": "ϖ",
         "description": [
+            "pomega",
             "\\mathrm{\\varpi}",
-            "greek pi symbol (pomega)",
+            "greek variant pi symbol",
             "\\varpi",
             "\\upvarpi"
         ]
@@ -1857,20 +1804,20 @@
     {
         "string": "Ϙ",
         "description": [
+            "archaic uppercase koppa",
             "\\koppa",
             "\\qoppa",
-            "greek letter archaic koppa",
-            "\\qoppa",
+            "greek",
             "\\upoldkoppa"
         ]
     },
     {
         "string": "ϙ",
         "description": [
+            "archaic lowercase koppa",
             "\\koppa",
             "\\qoppa",
-            "greek lowercase letter archaic koppa",
-            "\\qoppa",
+            "greek",
             "\\upoldkoppa"
         ]
     },
@@ -1878,6 +1825,7 @@
         "string": "Ϛ",
         "description": [
             "uppercase stigma",
+            "greek",
             "\\stigma",
             "\\upstigma"
         ]
@@ -1885,7 +1833,8 @@
     {
         "string": "ϛ",
         "description": [
-            "greek lowercase letter stigma",
+            "lowercase stigma",
+            "greek",
             "\\stigma",
             "\\upstigma"
         ]
@@ -1894,6 +1843,7 @@
         "string": "Ϝ",
         "description": [
             "uppercase digamma",
+            "greek",
             "\\digamma",
             "\\updigamma"
         ]
@@ -1901,7 +1851,8 @@
     {
         "string": "ϝ",
         "description": [
-            "greek lowercase letter digamma",
+            "lowercase digamma",
+            "greek",
             "\\digamma",
             "\\updigamma"
         ]
@@ -1910,6 +1861,7 @@
         "string": "Ϟ",
         "description": [
             "uppercase koppa",
+            "greek",
             "\\koppa",
             "\\upkoppa"
         ]
@@ -1917,7 +1869,8 @@
     {
         "string": "ϟ",
         "description": [
-            "greek lowercase letter koppa",
+            "lowercase koppa",
+            "greek",
             "\\koppa",
             "\\upkoppa"
         ]
@@ -1926,6 +1879,7 @@
         "string": "Ϡ",
         "description": [
             "uppercase sampi",
+            "greek",
             "\\sampi",
             "\\upsampi"
         ]
@@ -1933,8 +1887,8 @@
     {
         "string": "ϡ",
         "description": [
-            "\\sampi",
-            "greek lowercase letter sampi",
+            "lowercase sampi",
+            "greek",
             "\\sampi",
             "\\upsampi"
         ]
@@ -1942,7 +1896,8 @@
     {
         "string": "ϰ",
         "description": [
-            "greek kappa symbol (round)",
+            "round lowercase kappa",
+            "greek",
             "\\varkappa",
             "\\upvarkappa"
         ]
@@ -1950,9 +1905,10 @@
     {
         "string": "ϱ",
         "description": [
-            "greek rho symbol (round)",
+            "round uppercase rho",
+            "greek",
             "\\mathrm{\\varrho}",
-            "= \\varrhoup",
+            "\\varrhoup",
             "\\varrho",
             "\\upvarrho"
         ]
@@ -1960,7 +1916,8 @@
     {
         "string": "ϴ",
         "description": [
-            "greek uppercase theta symbol",
+            "uppercase theta",
+            "greek",
             "\\vartheta",
             "\\upvartheta"
         ]
@@ -1968,9 +1925,10 @@
     {
         "string": "ϵ",
         "description": [
-            "greek lunate epsilon symbol",
+            "lunate lowercase epsilon",
+            "greek",
             "\\mathrm{\\epsilon}",
-            "= \\epsilonup",
+            "\\epsilonup",
             "\\epsilon",
             "\\upvarepsilon"
         ]
@@ -1978,7 +1936,8 @@
     {
         "string": "϶",
         "description": [
-            "greek reversed lunate epsilon symbol",
+            "reversed lowercase lunate epsilon",
+            "greek",
             "\\backepsilon",
             "\\upbackepsilon"
         ]
@@ -1986,9 +1945,10 @@
     {
         "string": "Ш",
         "description": [
-            "\\cyrsha (t2a)",
-            "shcy",
-            "cyrillic uppercase letter sha"
+            "uppercase sha",
+            "shu",
+            "\\cyrsha",
+            "cyrillic"
         ]
     },
     {
@@ -2030,6 +1990,7 @@
     {
         "string": "—",
         "description": [
+            "em dash",
             "mdash"
         ]
     },
@@ -2043,7 +2004,6 @@
     {
         "string": "‖",
         "description": [
-            "\\vert",
             "double vertical bar",
             "\\|",
             "\\vert"
@@ -2060,7 +2020,6 @@
         "string": "†",
         "description": [
             "dagger relation",
-            "\\dagger",
             "\\dagger"
         ]
     },
@@ -2068,15 +2027,13 @@
         "string": "‡",
         "description": [
             "double dagger relation",
-            "\\ddagger",
             "\\ddagger"
         ]
     },
     {
         "string": "•",
         "description": [
-            "bullet (lowercase",
-            "filled)",
+            "bullet (filled)",
             "\\bullet",
             "\\smblkcircle"
         ]
@@ -2099,15 +2056,16 @@
     {
         "string": "′",
         "description": [
-            "prime or minute",
-            "\\prime",
+            "prime",
+            "minute",
             "\\prime"
         ]
     },
     {
         "string": "″",
         "description": [
-            "double prime or second",
+            "double prime",
+            "second",
             "\\second",
             "\\dprime"
         ]
@@ -2118,6 +2076,14 @@
             "triple prime",
             "\\third",
             "\\trprime"
+        ]
+    },
+    {
+        "string": "⁗",
+        "description": [
+            "quadruple prime",
+            "\\fourth",
+            "\\qprime"
         ]
     },
     {
@@ -2168,8 +2134,7 @@
     {
         "string": "⁃",
         "description": [
-            "rectangle",
-            "filled (hyphen bullet)",
+            "hyphen bullet",
             "\\hyphenbullet"
         ]
     },
@@ -2184,29 +2149,30 @@
     {
         "string": "⁎",
         "description": [
+            "low asterisk",
             "\\ast",
-            "lowast",
-            "low asterisk"
+            "\\lowast"
         ]
     },
     {
         "string": "⁏",
         "description": [
-            "bsemi",
-            "reversed semicolon"
+            "reversed semicolon",
+            "\\bsemi"
         ]
     },
     {
         "string": "⁐",
         "description": [
-            "close up (editing mark)",
+            "close up",
             "\\closure"
         ]
     },
     {
         "string": "⁑",
         "description": [
-            "ast"
+            "two asterisks",
+            "\\ast"
         ]
     },
     {
@@ -2217,28 +2183,9 @@
         ]
     },
     {
-        "string": "⁗",
-        "description": [
-            "quadruple prime",
-            "\\fourth",
-            "\\qprime"
-        ]
-    },
-
-
-
-    {
         "string": "‱",
         "description": [
             "per ten thousand sign"
-        ]
-    },
-
-    {
-        "string": "€",
-        "description": [
-            "euro sign",
-            "\\euro"
         ]
     },
     {
@@ -2285,7 +2232,6 @@
     {
         "string": "x⃖",
         "description": [
-            "\\overleftarrow",
             "combining left arrow above",
             "\\lvec",
             "\\overleftarrow"
@@ -2294,10 +2240,8 @@
     {
         "string": "x⃗",
         "description": [
-            "\\vec (wrisym)",
-            "# \\overrightarrow",
+            "\\overrightarrow",
             "combining right arrow above",
-            "\\vec",
             "\\vec"
         ]
     },
@@ -2322,9 +2266,7 @@
     {
         "string": "x⃛",
         "description": [
-            "\\dddot (wrisym)",
             "combining three dots above",
-            "\\dddot",
             "\\dddot"
         ]
     },
@@ -2332,7 +2274,6 @@
         "string": "x⃜",
         "description": [
             "combining four dots above",
-            "\\ddddot",
             "\\ddddot"
         ]
     },
@@ -2361,7 +2302,6 @@
         "string": "x⃡",
         "description": [
             "combining left right arrow above",
-            "\\overleftrightarrow",
             "\\overleftrightarrow"
         ]
     },
@@ -2381,8 +2321,7 @@
     {
         "string": "x⃦",
         "description": [
-            "combining double vertical stroke overlay",
-            "z notation finite function diacritic"
+            "combining double vertical stroke overlay"
         ]
     },
     {
@@ -2436,7 +2375,6 @@
         "string": "x⃮",
         "description": [
             "combining left arrow below",
-            "\\underleftarrow",
             "\\underleftarrow"
         ]
     },
@@ -2444,7 +2382,6 @@
         "string": "x⃯",
         "description": [
             "combining right arrow below",
-            "\\underrightarrow",
             "\\underrightarrow"
         ]
     },
@@ -2459,7 +2396,7 @@
         "string": "ℂ",
         "description": [
             "blackboard c",
-            "\\mathds{c} (dsfont)",
+            "\\mathds{c}",
             "open face c",
             "\\mathbb{c}",
             "\\bbbc"
@@ -2468,7 +2405,7 @@
     {
         "string": "ℇ",
         "description": [
-            "euler constant",
+            "euler's constant",
             "\\euler",
             "\\eulerconst"
         ]
@@ -2476,8 +2413,7 @@
     {
         "string": "ℊ",
         "description": [
-            "script lowercase letter g",
-            "/scr g",
+            "script lowercase g",
             "\\mathcal{g}",
             "\\mscrg"
         ]
@@ -2485,7 +2421,8 @@
     {
         "string": "ℋ",
         "description": [
-            "hamiltonian (script uppercase h)",
+            "hamiltonian",
+            "script uppercase H",
             "\\mathcal{h}",
             "\\mscrh"
         ]
@@ -2493,7 +2430,7 @@
     {
         "string": "ℌ",
         "description": [
-            "black-letter uppercase h",
+            "fraktur uppercase h",
             "/frak h",
             "\\mathfrak{h}",
             "\\mfrakh"
@@ -2512,8 +2449,7 @@
     {
         "string": "ℎ",
         "description": [
-            "planck constant",
-            "h",
+            "planck's constant",
             "\\planckconst"
         ]
     },
@@ -2537,6 +2473,7 @@
         "string": "ℑ",
         "description": [
             "imaginary part",
+            "fraktur uppercase i",
             "\\mathfrak{i}",
             "\\im"
         ]
@@ -2544,8 +2481,9 @@
     {
         "string": "ℒ",
         "description": [
-            "lagrangian (script uppercase l)",
+            "lagrangian",
             "laplace",
+            "script uppercase l",
             "\\mathcal{l}",
             "\\mscrl"
         ]
@@ -2562,7 +2500,6 @@
         "description": [
             "blackboard n",
             "\\mathds{n}",
-            "open face n",
             "\\mathbb{n}",
             "\\bbbn"
         ]
@@ -2579,7 +2516,6 @@
         "description": [
             "blackboard p",
             "\\mathds{p}",
-            "open face p",
             "\\mathbb{p}",
             "\\bbbp"
         ]
@@ -2588,8 +2524,7 @@
         "string": "ℚ",
         "description": [
             "blackboard q",
-            "\\mathds{q} (dsfont)",
-            "open face q",
+            "\\mathds{q}",
             "\\mathbb{q}",
             "\\bbbq"
         ]
@@ -2598,7 +2533,6 @@
         "string": "ℛ",
         "description": [
             "script uppercase r",
-            "/scr r",
             "\\mathcal{r}",
             "\\mscrr"
         ]
@@ -2607,6 +2541,7 @@
         "string": "ℜ",
         "description": [
             "real part",
+            "fraktur uppercase r",
             "\\mathfrak{r}",
             "\\re"
         ]
@@ -2615,8 +2550,6 @@
         "string": "ℝ",
         "description": [
             "blackboard r",
-            "\\mathds{r}",
-            "open face r",
             "\\mathbb{r}",
             "\\bbbr"
         ]
@@ -2626,7 +2559,6 @@
         "description": [
             "blackboard z",
             "\\mathds{z}",
-            "open face z",
             "\\mathbb{z}",
             "\\bbbz"
         ]
@@ -2647,14 +2579,14 @@
             "inverted ohm sign",
             "\\agemo",
             "conductance",
+            "greek",
             "\\mho"
         ]
     },
     {
         "string": "ℨ",
         "description": [
-            "black-letter uppercase z",
-            "/frak z",
+            "fraktur uppercase z",
             "\\mathfrak{z}",
             "\\mfrakz"
         ]
@@ -2663,6 +2595,7 @@
         "string": "℩",
         "description": [
             "turned iota",
+            "greek",
             "\\turnediota"
         ]
     },
@@ -2678,7 +2611,8 @@
     {
         "string": "ℬ",
         "description": [
-            "bernoulli function (script uppercase b)",
+            "bernoulli",
+            "script uppercase b",
             "\\mathcal{b}",
             "\\mscrb"
         ]
@@ -2686,7 +2620,7 @@
     {
         "string": "ℭ",
         "description": [
-            "black-letter uppercase c",
+            "fraktur uppercase c",
             "\\mathfrak{c}",
             "\\mfrakc"
         ]
@@ -2694,8 +2628,7 @@
     {
         "string": "ℯ",
         "description": [
-            "script lowercase letter e",
-            "/scr e",
+            "script lowercase e",
             "\\mathcal{e}",
             "\\mscre"
         ]
@@ -2703,7 +2636,6 @@
     {
         "string": "ℰ",
         "description": [
-            "/scr e",
             "script uppercase e",
             "\\mathcal{e}",
             "\\mscre"
@@ -2712,7 +2644,6 @@
     {
         "string": "ℱ",
         "description": [
-            "/scr f",
             "script uppercase f",
             "\\mathcal{f}",
             "\\mscrf"
@@ -2729,7 +2660,7 @@
     {
         "string": "ℳ",
         "description": [
-            "physics m-matrix (script uppercase m)",
+            "script uppercase m",
             "\\mathcal{m}",
             "\\mscrm"
         ]
@@ -2737,7 +2668,7 @@
     {
         "string": "ℴ",
         "description": [
-            "order of (script lowercase o)",
+            "script lowercase o",
             "\\mathcal{o}",
             "\\mscro"
         ]
@@ -2781,8 +2712,9 @@
     {
         "string": "ℼ",
         "description": [
-            "\\doublepi (wrisym)",
+            "\\doublepi",
             "double-struck lowercase pi",
+            "greek",
             "\\mathbb{\\pi}",
             "\\bbbpi"
         ]
@@ -2790,8 +2722,9 @@
     {
         "string": "ℽ",
         "description": [
-            "\\eulergamma (wrisym)",
+            "\\eulergamma",
             "double-struck lowercase gamma",
+            "greek",
             "\\mathbb{\\gamma}",
             "\\bbbgamma"
         ]
@@ -2800,6 +2733,7 @@
         "string": "ℾ",
         "description": [
             "double-struck uppercase gamma",
+            "greek",
             "\\mathbb{\\gamma}",
             "\\bbbgamma"
         ]
@@ -2808,6 +2742,7 @@
         "string": "ℿ",
         "description": [
             "double-struck uppercase pi",
+            "greek",
             "\\mathbb{\\pi}",
             "\\bbbpi"
         ]
@@ -2816,6 +2751,7 @@
         "string": "⅀",
         "description": [
             "double-struck n-ary summation",
+            "greek",
             "\\mathbb{\\sigma}",
             "\\bbbsum"
         ]
@@ -2823,8 +2759,7 @@
     {
         "string": "⅁",
         "description": [
-            "\\game (amssymb)",
-            "turned sans-serif uppercase g (amssymb has mirrored g)",
+            "turned sans-serif uppercase g",
             "\\game"
         ]
     },
@@ -2846,14 +2781,13 @@
         "string": "⅄",
         "description": [
             "turned sans-serif uppercase y",
-            "\\yup",
             "\\yup"
         ]
     },
     {
         "string": "ⅅ",
         "description": [
-            "\\dd (wrisym)",
+            "\\dd",
             "double-struck italic uppercase d",
             "\\capitaldifferentiald",
             "\\mitbbbd"
@@ -2862,7 +2796,7 @@
     {
         "string": "ⅆ",
         "description": [
-            "\\dd (wrisym)",
+            "\\dd",
             "double-struck italic lowercase d",
             "\\differentiald",
             "\\mitbbbd"
@@ -2871,7 +2805,7 @@
     {
         "string": "ⅇ",
         "description": [
-            "\\ee (wrisym)",
+            "\\ee",
             "double-struck italic lowercase e",
             "\\exponetiale",
             "\\mitbbbe"
@@ -2880,7 +2814,7 @@
     {
         "string": "ⅈ",
         "description": [
-            "\\ii (wrisym)",
+            "\\ii",
             "double-struck italic lowercase i",
             "\\complexi",
             "\\mitbbbi"
@@ -2889,7 +2823,7 @@
     {
         "string": "ⅉ",
         "description": [
-            "\\jj (wrisym)",
+            "\\jj",
             "double-struck italic lowercase j",
             "\\complexj",
             "\\mitbbbj"
@@ -2905,7 +2839,7 @@
     {
         "string": "⅋",
         "description": [
-            "\\bindnasrepma (stmaryrd)",
+            "\\bindnasrepma",
             "turned ampersand",
             "\\invamp",
             "\\upand"
@@ -2916,6 +2850,7 @@
         "description": [
             "\\gets",
             "leftward arrow",
+            "left arrow",
             "\\leftarrow",
             "\\leftarrow"
         ]
@@ -2924,7 +2859,7 @@
         "string": "↑",
         "description": [
             "upward arrow",
-            "\\uparrow",
+            "up arrow",
             "\\uparrow"
         ]
     },
@@ -2932,11 +2867,11 @@
         "string": "→",
         "description": [
             "\\to",
-            "= \\tfun (oz)",
-            "= \\fun (oz)",
+            "\\tfun",
+            "\\fun",
             "rightward arrow",
-            "z notation total function",
-            "\\rightarrow",
+            "right arrow",
+            "implication",
             "\\rightarrow"
         ]
     },
@@ -2944,17 +2879,16 @@
         "string": "↓",
         "description": [
             "downward arrow",
-            "\\downarrow",
+            "down arrow",
             "\\downarrow"
         ]
     },
     {
         "string": "↔",
         "description": [
-            "\\rel (oz)",
+            "\\rel",
             "left right arrow",
-            "z notation relation",
-            "\\leftrightarrow",
+            "relation",
             "\\leftrightarrow"
         ]
     },
@@ -2962,7 +2896,6 @@
         "string": "↖",
         "description": [
             "nw pointing arrow",
-            "\\nwarrow",
             "\\nwarrow"
         ]
     },
@@ -2970,7 +2903,6 @@
         "string": "↗",
         "description": [
             "ne pointing arrow",
-            "\\nearrow",
             "\\nearrow"
         ]
     },
@@ -2978,7 +2910,6 @@
         "string": "↘",
         "description": [
             "se pointing arrow",
-            "\\searrow",
             "\\searrow"
         ]
     },
@@ -2986,7 +2917,6 @@
         "string": "↙",
         "description": [
             "sw pointing arrow",
-            "\\swarrow",
             "\\swarrow"
         ]
     },
@@ -2994,7 +2924,6 @@
         "string": "↚",
         "description": [
             "not left arrow",
-            "\\nleftarrow",
             "\\nleftarrow"
         ]
     },
@@ -3002,7 +2931,6 @@
         "string": "↛",
         "description": [
             "not right arrow",
-            "\\nrightarrow",
             "\\nrightarrow"
         ]
     },
@@ -3024,7 +2952,6 @@
         "string": "↞",
         "description": [
             "left two-headed arrow",
-            "\\twoheadleftarrow",
             "\\twoheadleftarrow"
         ]
     },
@@ -3038,11 +2965,10 @@
     {
         "string": "↠",
         "description": [
-            "\\tsur (oz)",
-            "= \\surj (oz)",
+            "\\tsur",
+            "\\surj",
             "right two-headed arrow",
-            "z notation total surjection",
-            "\\twoheadrightarrow",
+            "total surjection",
             "\\twoheadrightarrow"
         ]
     },
@@ -3057,28 +2983,25 @@
         "string": "↢",
         "description": [
             "left arrow-tailed",
-            "\\leftarrowtail",
             "\\leftarrowtail"
         ]
     },
     {
         "string": "↣",
         "description": [
-            "\\tinj (oz)",
-            "\\inj (oz)",
+            "\\tinj",
+            "\\inj",
             "right arrow-tailed",
-            "z notation total injection",
-            "\\rightarrowtail",
+            "total injection",
             "\\rightarrowtail"
         ]
     },
     {
         "string": "↤",
         "description": [
-            "\\mappedfrom (kpfonts)",
+            "\\mappedfrom",
             "maps to",
             "leftward",
-            "\\mapsfrom",
             "\\mapsfrom"
         ]
     },
@@ -3087,7 +3010,6 @@
         "description": [
             "maps to",
             "upward",
-            "\\mapsup",
             "\\mapsup"
         ]
     },
@@ -3096,8 +3018,7 @@
         "description": [
             "maps to",
             "rightward",
-            "z notation maplet",
-            "\\mapsto",
+            "maplet",
             "\\mapsto"
         ]
     },
@@ -3106,7 +3027,6 @@
         "description": [
             "maps to",
             "downward",
-            "\\mapsdown",
             "\\mapsdown"
         ]
     },
@@ -3121,7 +3041,6 @@
         "string": "↫",
         "description": [
             "left arrow-looped",
-            "\\looparrowleft",
             "\\looparrowleft"
         ]
     },
@@ -3129,7 +3048,6 @@
         "string": "↬",
         "description": [
             "right arrow-looped",
-            "\\looparrowright",
             "\\looparrowright"
         ]
     },
@@ -3137,7 +3055,6 @@
         "string": "↭",
         "description": [
             "left and right arr-wavy",
-            "\\leftrightsquigarrow",
             "\\leftrightsquigarrow"
         ]
     },
@@ -3145,14 +3062,12 @@
         "string": "↮",
         "description": [
             "not left and right arrow",
-            "\\nleftrightarrow",
             "\\nleftrightarrow"
         ]
     },
     {
         "string": "↯",
         "description": [
-            "\\lightning (marvosym)",
             "downwards zigzag arrow",
             "\\lightning",
             "\\downzigzagarrow"
@@ -3161,16 +3076,14 @@
     {
         "string": "↰",
         "description": [
-            "a: upwards arrow with tip leftwards",
-            "\\lsh",
+            "upwards arrow with tip leftwards",
             "\\lsh"
         ]
     },
     {
         "string": "↱",
         "description": [
-            "a: upwards arrow with tip rightwards",
-            "\\rsh",
+            "upwards arrow with tip rightwards",
             "\\rsh"
         ]
     },
@@ -3200,7 +3113,7 @@
     {
         "string": "↵",
         "description": [
-            "downwards arrow with corner leftward = carriage return",
+            "downwards arrow with corner leftward carriage return",
             "\\carriagereturn"
         ]
     },
@@ -3208,7 +3121,6 @@
         "string": "↶",
         "description": [
             "left curved arrow",
-            "\\curvearrowleft",
             "\\curvearrowleft"
         ]
     },
@@ -3216,7 +3128,6 @@
         "string": "↷",
         "description": [
             "right curved arrow",
-            "\\curvearrowright",
             "\\curvearrowright"
         ]
     },
@@ -3237,7 +3148,7 @@
     {
         "string": "↺",
         "description": [
-            "\\leftturn (wasysym)",
+            "\\leftturn",
             "anticlockwise open circle arrow",
             "\\circlearrowleft",
             "\\acwopencirclearrow"
@@ -3246,7 +3157,7 @@
     {
         "string": "↻",
         "description": [
-            "\\rightturn (wasysym)",
+            "\\rightturn",
             "clockwise open circle arrow",
             "\\circlearrowright",
             "\\cwopencirclearrow"
@@ -3256,7 +3167,6 @@
         "string": "↼",
         "description": [
             "left harpoon-up",
-            "\\leftharpoonup",
             "\\leftharpoonup"
         ]
     },
@@ -3264,26 +3174,23 @@
         "string": "↽",
         "description": [
             "left harpoon-down",
-            "\\leftharpoondown",
             "\\leftharpoondown"
         ]
     },
     {
         "string": "↾",
         "description": [
-            "\\restriction (amssymb)",
-            "= \\upharpoonrightup (wrisym)",
-            "a: up harpoon-right",
-            "\\upharpoonright",
+            "\\restriction",
+            "\\upharpoonrightup",
+            "up harpoon-right",
             "\\upharpoonright"
         ]
     },
     {
         "string": "↿",
         "description": [
-            "\\upharpoonleftup (wrisym)",
+            "\\upharpoonleftup",
             "up harpoon-left",
-            "\\upharpoonleft",
             "\\upharpoonleft"
         ]
     },
@@ -3291,7 +3198,6 @@
         "string": "⇀",
         "description": [
             "right harpoon-up",
-            "\\rightharpoonup",
             "\\rightharpoonup"
         ]
     },
@@ -3299,43 +3205,38 @@
         "string": "⇁",
         "description": [
             "right harpoon-down",
-            "\\rightharpoondown",
             "\\rightharpoondown"
         ]
     },
     {
         "string": "⇂",
         "description": [
-            "\\upharpoonrightdown (wrisym)",
+            "\\upharpoonrightdown",
             "down harpoon-right",
-            "\\downharpoonright",
             "\\downharpoonright"
         ]
     },
     {
         "string": "⇃",
         "description": [
-            "\\upharpoonleftdown (wrisym)",
+            "\\upharpoonleftdown",
             "down harpoon-left",
-            "\\downharpoonleft",
             "\\downharpoonleft"
         ]
     },
     {
         "string": "⇄",
         "description": [
-            "\\rightleftarrow (wrisym)",
+            "\\rightleftarrow",
             "right arrow over left arrow",
-            "\\rightleftarrows",
             "\\rightleftarrows"
         ]
     },
     {
         "string": "⇅",
         "description": [
-            "\\uparrowdownarrow (wrisym)",
-            "up arrow",
-            "down arrow",
+            "\\uparrowdownarrow",
+            "up arrow over down arrow",
             "\\updownarrows",
             "\\updownarrows"
         ]
@@ -3343,7 +3244,7 @@
     {
         "string": "⇆",
         "description": [
-            "\\leftrightarrow (wrisym)",
+            "\\leftrightarrow",
             "left arrow over right arrow",
             "\\leftrightarrows",
             "\\leftrightarrows"
@@ -3384,7 +3285,7 @@
     {
         "string": "⇋",
         "description": [
-            "\\revequilibrium (wrisym)",
+            "\\revequilibrium",
             "left harpoon over right",
             "\\leftrightharpoons",
             "\\leftrightharpoons"
@@ -3393,7 +3294,7 @@
     {
         "string": "⇌",
         "description": [
-            "\\equilibrium (wrisym)",
+            "\\equilibrium",
             "right harpoon over left",
             "\\rightleftharpoons",
             "\\rightleftharpoons"
@@ -3402,7 +3303,7 @@
     {
         "string": "⇍",
         "description": [
-            "not implied by",
+            "not left arrow",
             "\\nleftarrow",
             "\\nleftarrow"
         ]
@@ -3567,7 +3468,7 @@
     {
         "string": "⇢",
         "description": [
-            "\\dasharrow (amsfonts)",
+            "\\dasharrow",
             "rightwards dashed arrow",
             "\\dashrightarrow",
             "\\rightdasharrow"
@@ -3592,7 +3493,6 @@
         "string": "⇥",
         "description": [
             "rightwards arrow to bar",
-            "\\rightarrowbar",
             "\\rightarrowbar"
         ]
     },
@@ -3695,9 +3595,8 @@
     {
         "string": "⇵",
         "description": [
-            "\\downarrowuparrow (wrisym)",
+            "\\downarrowuparrow",
             "downwards arrow leftwards of upwards arrow",
-            "\\downuparrows",
             "\\downuparrows"
         ]
     },
@@ -3719,7 +3618,7 @@
         "string": "⇸",
         "description": [
             "rightwards arrow with vertical stroke",
-            "z notation partial function",
+            "partial function",
             "\\pfun",
             "\\nvrightarrow"
         ]
@@ -3728,7 +3627,7 @@
         "string": "⇹",
         "description": [
             "left right arrow with vertical stroke",
-            "z notation partial relation",
+            "partial relation",
             "\\nvleftrightarrow"
         ]
     },
@@ -3743,7 +3642,7 @@
         "string": "⇻",
         "description": [
             "rightwards arrow with double vertical stroke",
-            "z notation finite function",
+            "finite function",
             "\\ffun",
             "\\nvrightarrow"
         ]
@@ -3752,7 +3651,7 @@
         "string": "⇼",
         "description": [
             "left right arrow with double vertical stroke",
-            "z notation finite relation",
+            "finite relation",
             "\\nvleftrightarrow"
         ]
     },
@@ -3760,7 +3659,6 @@
         "string": "⇽",
         "description": [
             "leftwards open-headed arrow",
-            "\\leftarrowtriangle",
             "\\leftarrowtriangle"
         ]
     },
@@ -3768,7 +3666,6 @@
         "string": "⇾",
         "description": [
             "rightwards open-headed arrow",
-            "\\rightarrowtriangle",
             "\\rightarrowtriangle"
         ]
     },
@@ -3776,7 +3673,6 @@
         "string": "⇿",
         "description": [
             "left right open-headed arrow",
-            "\\leftrightarrowtriangle",
             "\\leftrightarrowtriangle"
         ]
     },
@@ -3785,13 +3681,13 @@
         "description": [
             "for all",
             "universal quantification",
+            "universal quantifier",
             "\\forall"
         ]
     },
     {
         "string": "∁",
         "description": [
-            "complement",
             "complement sign",
             "\\complement"
         ]
@@ -3801,7 +3697,7 @@
         "description": [
             "partial differential",
             "vector derivative",
-            "\\partialup (kpfonts)",
+            "\\partialup",
             "\\partial"
         ]
     },
@@ -3809,9 +3705,9 @@
         "string": "∃",
         "description": [
             "there exists",
+            "existential quantification",
             "existential quantifier",
-            "\\exi (oz)",
-            "at least one exists",
+            "\\exi",
             "\\exists"
         ]
     },
@@ -3819,9 +3715,9 @@
         "string": "∄",
         "description": [
             "there does not exist",
+            "existential quantification",
             "existential quantifier",
-            "\\nexi (oz)",
-            "negated exists",
+            "\\nexi",
             "\\nexists"
         ]
     },
@@ -3829,7 +3725,6 @@
         "string": "∅",
         "description": [
             "empty set",
-            "varnothing",
             "circle",
             "slash",
             "\\varnothing"
@@ -3839,7 +3734,7 @@
         "string": "∆",
         "description": [
             "\\mathrm{\\delta}",
-            "laplacian (delta; nabla square)",
+            "laplacian (nabla)",
             "\\increment"
         ]
     },
@@ -3860,9 +3755,10 @@
         "description": [
             "element of",
             "in",
-            "isin",
+            "is in",
             "set membership",
-            "variant",
+            "epsilon",
+            "greek",
             "\\in"
         ]
     },
@@ -3871,16 +3767,20 @@
         "description": [
             "not an element of",
             "not in",
-            "notin",
-            "\\nin (wrisym)",
+            "is not in",
+            "\\nin",
             "negated set membership",
+            "epsilon",
+            "greek",
             "\\notin"
         ]
     },
     {
         "string": "∊",
         "description": [
-            "set membership (lowercase set membership)",
+            "set membership",
+            "epsilon",
+            "greek",
             "\\smallin"
         ]
     },
@@ -3892,7 +3792,8 @@
             "ni",
             "\\owns",
             "contains",
-            "variant",
+            "epsilon",
+            "greek",
             "\\ni"
         ]
     },
@@ -3900,26 +3801,30 @@
         "string": "∌",
         "description": [
             "does not contain as member",
-            "\\notni (txfonts)",
-            "= \\notowner (mathabx)",
-            "= \\notowns (fourier)",
+            "\\notni",
+            "\\notowner",
+            "\\notowns",
             "negated contains",
-            "variant",
+            "epsilon",
+            "greek",
             "\\nni"
         ]
     },
     {
         "string": "∍",
         "description": [
-            "r: contains (lowercase contains as member)",
+            "contains",
+            "epsilon",
+            "greek",
             "\\smallni"
         ]
     },
     {
         "string": "∎",
         "description": [
-            "\\blacksquare (amssymb)",
+            "\\blacksquare",
             "end of proof",
+            "qed",
             "\\qed"
         ]
     },
@@ -3930,6 +3835,7 @@
             "repeated multiplication",
             "pi",
             "product operator",
+            "greek",
             "\\prod"
         ]
     },
@@ -3939,6 +3845,7 @@
             "n-ary coproduct",
             "pi",
             "coproduct operator",
+            "greek",
             "\\coprod"
         ]
     },
@@ -3949,6 +3856,7 @@
             "sigma",
             "repeated addition",
             "summation operator",
+            "green",
             "\\sum"
         ]
     },
@@ -3991,7 +3899,7 @@
         "string": "∖",
         "description": [
             "set minus",
-            "lowercase set minus (cf. reverse solidus)",
+            "reverse solidus",
             "\\smallsetminus"
         ]
     },
@@ -4000,7 +3908,7 @@
         "description": [
             "asterisk operator",
             "multiply",
-            "asterisk operator (hodge star operator)",
+            "hodge star operator",
             "\\ast"
         ]
     },
@@ -4011,7 +3919,8 @@
             "of",
             "function composition",
             "hadamard product",
-            "composite function (lowercase circle)",
+            "composite function",
+            "circle",
             "\\circ",
             "\\vysmwhtcircle"
         ]
@@ -4057,9 +3966,9 @@
     {
         "string": "∝",
         "description": [
-            "proportional to",
+            "proportional to sign",
             "propto",
-            "\\varpropto (amssymb)",
+            "\\varpropto",
             "is proportional to",
             "\\propto"
         ]
@@ -4074,29 +3983,29 @@
     {
         "string": "∟",
         "description": [
-            "right angle",
-            "right (90 degree) angle",
+            "right angle symbol",
+            "90 degree",
             "\\rightangle"
         ]
     },
     {
         "string": "∠",
         "description": [
-            "angle",
+            "angle symbol",
             "\\angle"
         ]
     },
     {
         "string": "∡",
         "description": [
-            "measured angle",
+            "measured angle symbol",
             "\\measuredangle"
         ]
     },
     {
         "string": "∢",
         "description": [
-            "spherical angle",
+            "spherical angle symbol",
             "\\sphericalangle"
         ]
     },
@@ -4104,7 +4013,7 @@
         "string": "∣",
         "description": [
             "divides",
-            "r: divides",
+            "mid",
             "\\mid"
         ]
     },
@@ -4120,7 +4029,7 @@
         "string": "∥",
         "description": [
             "parallel to",
-            "parallel",
+            "is parallel to",
             "\\parallel"
         ]
     },
@@ -4128,7 +4037,7 @@
         "string": "∦",
         "description": [
             "not parallel to",
-            "not parallel",
+            "is not parallel to",
             "\\nparallel"
         ]
     },
@@ -4143,7 +4052,6 @@
             "conjunction",
             "land",
             "\\land",
-            "b: logical and",
             "\\wedge"
         ]
     },
@@ -4156,7 +4064,6 @@
             "disjunction",
             "lor",
             "\\lor",
-            "b: logical or",
             "\\vee"
         ]
     },
@@ -4173,7 +4080,6 @@
         "description": [
             "union",
             "cup",
-            "union or logical sum",
             "\\cup"
         ]
     },
@@ -4215,7 +4121,7 @@
         "description": [
             "surface integral",
             "double closed integral",
-            "\\dbloint (wrisym)",
+            "\\dbloint",
             "double contour integral operator",
             "\\oiint"
         ]
@@ -4240,9 +4146,8 @@
         "string": "∲",
         "description": [
             "clockwise contour integral",
-            "\\clockoint (wrisym)",
+            "\\clockoint",
             "contour integral",
-            "clockwise",
             "\\varointclockwise"
         ]
     },
@@ -4250,9 +4155,8 @@
         "string": "∳",
         "description": [
             "anticlockwise contour integral",
-            "\\cntclockoint (wrisym)",
+            "\\cntclockoint",
             "contour integral",
-            "anticlockwise",
             "\\ointctrclockwise"
         ]
     },
@@ -4261,7 +4165,8 @@
         "description": [
             "therefore",
             "dots",
-            "\\wasytherefore (wasysym)",
+            "qed",
+            "\\wasytherefore",
             "\\therefore"
         ]
     },
@@ -4270,6 +4175,7 @@
         "description": [
             "because",
             "dots",
+            "qed",
             "\\because"
         ]
     },
@@ -4279,7 +4185,6 @@
             "ratio",
             "colon",
             "\\colon",
-            ":",
             "\\mathratio"
         ]
     },
@@ -4297,15 +4202,12 @@
         "string": "∸",
         "description": [
             "dot minus",
-            "minus sign",
-            "dot above",
             "\\dotminus"
         ]
     },
     {
         "string": "∹",
         "description": [
-            "-:",
             "excess",
             "\\eqcolon",
             "\\dashcolon"
@@ -4340,7 +4242,6 @@
         "string": "∽",
         "description": [
             "reversed tilde",
-            "reverse similar",
             "\\backsim"
         ]
     },
@@ -4357,6 +4258,7 @@
         "description": [
             "sine wave",
             "alternating current",
+            "ac",
             "\\ac",
             "\\sinewave"
         ]
@@ -4417,7 +4319,7 @@
         "description": [
             "approximately but not actually equal to",
             "similar",
-            "not equals [vert only for 9573 entity]",
+            "not equals",
             "\\simneqq"
         ]
     },
@@ -4502,7 +4404,7 @@
             "approaches the limit",
             "approximately equal to",
             "doteq",
-            "\\dotequal (wrisym)",
+            "\\dotequal",
             "equals",
             "single dot above",
             "\\doteq"
@@ -4512,8 +4414,7 @@
         "string": "≑",
         "description": [
             "geometrically equal to",
-            "\\doteqdot (amssymb)",
-            "/doteq r: equals",
+            "\\doteqdot",
             "even dots",
             "\\doteq"
         ]
@@ -4543,9 +4444,12 @@
             "coloneq",
             "assignment",
             "definition",
-            "\\coloneqq (txfonts)",
-            "= \\setdelayed (wrisym)",
-            "# := colon",
+            "defined as",
+            "equivalent to",
+            "let",
+            "\\coloneqq",
+            "\\setdelayed",
+            ":=",
             "equals",
             "\\coloneq"
         ]
@@ -4557,8 +4461,8 @@
             "eqcolon",
             "assignment",
             "definition",
-            "\\eqqcolon (txfonts)",
-            "# =:",
+            "\\eqqcolon",
+            "=:",
             "equals",
             "colon",
             "\\eqcolon"
@@ -4594,9 +4498,7 @@
         "description": [
             "estimates",
             "bijection",
-            "wedgeq",
-            "\\sdef (oz)",
-            "t \\corresponds (marvosym)",
+            "\\sdef",
             "corresponds to (wedge over equals)",
             "\\corresponds",
             "\\wedgeq"
@@ -4624,7 +4526,7 @@
             "delta equal to",
             "triangleq",
             "trie",
-            "\\varsdef (oz)",
+            "\\varsdef",
             "triangle",
             "equals",
             "\\triangleq"
@@ -4640,7 +4542,8 @@
     {
         "string": "≞",
         "description": [
-            "measured by (m over equals)",
+            "measured by",
+            "m over equals sign",
             "\\measeq"
         ]
     },
@@ -4661,7 +4564,7 @@
             "neq",
             "inequality",
             "\\ne",
-            "r: not equal",
+            "not equal",
             "\\neq"
         ]
     },
@@ -4694,12 +4597,30 @@
         ]
     },
     {
+        "string": "<",
+        "description": [
+            "less-than sign",
+            "less than sign",
+            "<",
+            "\\less"
+        ]
+    },
+    {
+        "string": ">",
+        "description": [
+            "greater-than sign",
+            "greater than sign",
+            ">",
+            "\\greater"
+        ]
+    },
+    {
         "string": "≤",
         "description": [
             "less-than or equal to",
             "leq",
             "\\le",
-            "r: less-than-or-equal",
+            "less-than-or-equal",
             "\\leq"
         ]
     },
@@ -4709,7 +4630,7 @@
             "greater-than or equal to",
             "geq",
             "\\ge",
-            "r: greater-than-or-equal",
+            "greater-than-or-equal",
             "\\geq"
         ]
     },
@@ -4718,7 +4639,6 @@
         "description": [
             "less-than over equal to",
             "less",
-            "double equals",
             "\\leqq"
         ]
     },
@@ -4727,7 +4647,6 @@
         "description": [
             "greater-than over equal to",
             "greater",
-            "double equals",
             "\\geqq"
         ]
     },
@@ -4736,7 +4655,6 @@
         "description": [
             "less-than but not equal to",
             "less",
-            "not double equals",
             "\\lneqq"
         ]
     },
@@ -4745,7 +4663,6 @@
         "description": [
             "greater-than but not equal to",
             "greater",
-            "not double equals",
             "\\gneqq"
         ]
     },
@@ -4754,7 +4671,6 @@
         "description": [
             "much less-than",
             "much less than",
-            "type 2",
             "\\ll"
         ]
     },
@@ -4763,7 +4679,6 @@
         "description": [
             "much greater-than",
             "much greater than",
-            "type 2",
             "\\gg"
         ]
     },
@@ -4778,7 +4693,7 @@
         "string": "≭",
         "description": [
             "not equivalent to",
-            "\\nasymp (wrisym)",
+            "\\nasymp",
             "not asymptotically equal to",
             "\\notasymp",
             "\\nasymp"
@@ -4805,7 +4720,7 @@
         "description": [
             "neither less-than nor equal to",
             "nleq",
-            "\\nleqslant (fourier)",
+            "\\nleqslant",
             "not less-than-or-equal",
             "\\nleq"
         ]
@@ -4815,7 +4730,7 @@
         "description": [
             "neither greater-than nor equal to",
             "ngeq",
-            "\\ngeqslant (fourier)",
+            "\\ngeqslant",
             "not greater-than-or-equal",
             "\\ngeq"
         ]
@@ -4825,8 +4740,8 @@
         "description": [
             "less-than or equivalent to",
             "lesssim",
-            "\\apprle (wasysym)",
-            "= \\lesstilde (wrisym)",
+            "\\apprle",
+            "\\lesstilde",
             "less",
             "similar",
             "\\lesssim"
@@ -4837,8 +4752,8 @@
         "description": [
             "greater-than or equivalent to",
             "gtrsim",
-            "\\apprge (wasysym)",
-            "= \\greatertilde (wrisym)",
+            "\\apprge",
+            "\\greatertilde",
             "greater",
             "similar",
             "\\gtrsim"
@@ -4877,7 +4792,7 @@
         "string": "≷",
         "description": [
             "greater-than or less-than",
-            "\\greaterless (wrisym)",
+            "\\greaterless",
             "greater",
             "less",
             "\\gtrless"
@@ -4923,7 +4838,7 @@
         "description": [
             "precedes or equal to",
             "preccurlyeq",
-            "\\precedesslantequal (wrisym)",
+            "\\precedesslantequal",
             "precedes",
             "curly equals",
             "\\preccurlyeq"
@@ -4934,7 +4849,7 @@
         "description": [
             "succeeds or equal to",
             "succcurlyeq",
-            "\\succeedsslantequal (wrisym)",
+            "\\succeedsslantequal",
             "succeeds",
             "curly equals",
             "\\succcurlyeq"
@@ -4945,7 +4860,7 @@
         "description": [
             "precedes or equivalent to",
             "precsim",
-            "\\precedestilde (wrisym)",
+            "\\precedestilde",
             "precedes",
             "similar",
             "\\precsim"
@@ -4956,7 +4871,7 @@
         "description": [
             "succeeds or equivalent to",
             "succsim",
-            "\\succeedstilde (wrisym)",
+            "\\succeedstilde",
             "succeeds",
             "similar",
             "\\succsim"
@@ -5057,7 +4972,7 @@
         "description": [
             "subset of with not equal to",
             "subsetneq",
-            "\\varsubsetneq (fourier)",
+            "\\varsubsetneq",
             "subset",
             "not equals",
             "\\subsetneq"
@@ -5097,7 +5012,7 @@
             "multiset union",
             "uplus",
             "disjoint union",
-            "\\buni (oz)",
+            "\\buni",
             "plus sign in union",
             "\\uplus"
         ]
@@ -5278,7 +5193,8 @@
         "string": "⊡",
         "description": [
             "squared dot operator",
-            "/dotsquare /boxdot b: lowercase dot in box",
+            "/dotsquare",
+            "dot in box",
             "\\boxdot"
         ]
     },
@@ -5291,8 +5207,7 @@
             "proves",
             "implies",
             "yields",
-            "(vertical",
-            "dash)",
+            "vertical dash",
             "\\vdash"
         ]
     },
@@ -5302,8 +5217,7 @@
             "left tack",
             "non-theorem",
             "does not yield",
-            "(dash",
-            "vertical)",
+            "dash vertical",
             "\\dashv"
         ]
     },
@@ -5334,8 +5248,8 @@
         "string": "⊦",
         "description": [
             "\\vdash",
-            "assertion (vertical",
-            "short dash)",
+            "assertion",
+            "vertical short dash",
             "\\assert"
         ]
     },
@@ -5343,8 +5257,7 @@
         "string": "⊧",
         "description": [
             "models",
-            "models (vertical",
-            "short double dash)",
+            "vertical short double dash",
             "\\models"
         ]
     },
@@ -5355,8 +5268,7 @@
             "models",
             "consequence",
             "inference",
-            "true (vertical",
-            "double dash)",
+            "vertical double dash",
             "\\vdash"
         ]
     },
@@ -5364,8 +5276,7 @@
         "string": "⊩",
         "description": [
             "forces",
-            "double vertical",
-            "dash",
+            "double vertical dash",
             "\\vdash"
         ]
     },
@@ -5373,8 +5284,7 @@
         "string": "⊪",
         "description": [
             "triple vertical bar right turnstile",
-            "triple vertical",
-            "dash",
+            "triple vertical dash",
             "\\vvdash"
         ]
     },
@@ -5382,8 +5292,7 @@
         "string": "⊫",
         "description": [
             "double vertical bar double right turnstile",
-            "double vert",
-            "double dash",
+            "double vertical dash",
             "\\vdash"
         ]
     },
@@ -5391,8 +5300,7 @@
         "string": "⊬",
         "description": [
             "does not prove",
-            "not vertical",
-            "dash",
+            "not vertical dash",
             "\\nvdash"
         ]
     },
@@ -5400,8 +5308,7 @@
         "string": "⊭",
         "description": [
             "not true",
-            "not vertical",
-            "double dash",
+            "not vertical double dash",
             "\\nvdash"
         ]
     },
@@ -5409,8 +5316,7 @@
         "string": "⊮",
         "description": [
             "does not force",
-            "not double vertical",
-            "dash",
+            "not double vertical dash",
             "\\nvdash"
         ]
     },
@@ -5418,8 +5324,7 @@
         "string": "⊯",
         "description": [
             "negated double vertical bar double right turnstile",
-            "not double vert",
-            "double dash",
+            "not double vertical dash",
             "\\nvdash"
         ]
     },
@@ -5442,9 +5347,7 @@
         "string": "⊲",
         "description": [
             "normal subgroup of",
-            "left triangle",
-            "open",
-            "variant",
+            "variant triangle left",
             "\\vartriangleleft"
         ]
     },
@@ -5452,9 +5355,7 @@
         "string": "⊳",
         "description": [
             "contains as normal subgroup",
-            "right triangle",
-            "open",
-            "variant",
+            "variant triangle right",
             "\\vartriangleright"
         ]
     },
@@ -5462,9 +5363,8 @@
         "string": "⊴",
         "description": [
             "normal subgroup of or equal to",
-            "\\unlhd (wrisym)",
-            "left triangle",
-            "equals",
+            "\\unlhd",
+            "triangle left equals",
             "\\trianglelefteq"
         ]
     },
@@ -5472,9 +5372,8 @@
         "string": "⊵",
         "description": [
             "contains as normal subgroup or equal to",
-            "\\unrhd (wrisym)",
-            "right triangle",
-            "equals",
+            "\\unrhd",
+            "triangle right equals",
             "\\trianglerighteq"
         ]
     },
@@ -5513,7 +5412,6 @@
         "string": "⊺",
         "description": [
             "intercalate",
-            "intercal",
             "\\intercal"
         ]
     },
@@ -5522,15 +5420,16 @@
         "description": [
             "xor",
             "logical or",
-            "bar below (large vee); exclusive disjunction",
+            "bar below exclusive disjunction",
+            "large vee",
             "\\veebar"
         ]
     },
     {
         "string": "⊼",
         "description": [
-            "logical nand (bar over wedge)",
-            "\\barwedge",
+            "logical nand",
+            "bar over wedge",
             "\\barwedge"
         ]
     },
@@ -5539,7 +5438,7 @@
         "description": [
             "nor",
             "bar",
-            "vee (large vee)",
+            "large vee",
             "\\barvee"
         ]
     },
@@ -5547,7 +5446,7 @@
         "string": "⊾",
         "description": [
             "right angle with arc",
-            "right angle-measured [with arc]",
+            "measured right angle",
             "\\measuredrightangle"
         ]
     },
@@ -5563,6 +5462,7 @@
         "description": [
             "n-ary logical and",
             "logical or operator",
+            "big wedge",
             "\\bigwedge"
         ]
     },
@@ -5571,6 +5471,7 @@
         "description": [
             "n-ary logical or",
             "logical and operator",
+            "big vee",
             "\\bigvee"
         ]
     },
@@ -5578,9 +5479,9 @@
         "string": "⋂",
         "description": [
             "n-ary intersection",
-            "bigcap",
-            "\\dint (oz)",
-            "\\dinter (oz)",
+            "big cap",
+            "\\dint",
+            "\\dinter",
             "intersection operator",
             "\\bigcap"
         ]
@@ -5589,9 +5490,9 @@
         "string": "⋃",
         "description": [
             "n-ary union",
-            "bigcup",
-            "\\duni (oz)",
-            "\\dunion (oz)",
+            "big cup",
+            "\\duni",
+            "\\dunion",
             "union operator",
             "\\bigcup"
         ]
@@ -5600,7 +5501,7 @@
         "string": "⋄",
         "description": [
             "diamond operator",
-            "diamond operator (white diamond)",
+            "small white diamond",
             "\\diamond",
             "\\smwhtdiamond"
         ]
@@ -5609,7 +5510,8 @@
         "string": "⋅",
         "description": [
             "dot operator",
-            "dot operator (lowercase middle dot)",
+            "middle dot",
+            "cdot",
             "\\cdot"
         ]
     },
@@ -5617,9 +5519,7 @@
         "string": "⋆",
         "description": [
             "star operator",
-            "lowercase star",
             "filled",
-            "low",
             "\\star"
         ]
     },
@@ -5628,6 +5528,7 @@
         "description": [
             "division times",
             "division on times",
+            "divide on times",
             "\\divideontimes"
         ]
     },
@@ -5635,7 +5536,9 @@
         "string": "⋈",
         "description": [
             "bowtie",
-            "\\lrtimes (txfonts)",
+            "bow tie",
+            "left right times",
+            "\\lrtimes",
             "\\bowtie"
         ]
     },
@@ -5643,8 +5546,7 @@
         "string": "⋉",
         "description": [
             "left normal factor semidirect product",
-            "times sign",
-            "left closed",
+            "left times",
             "\\ltimes"
         ]
     },
@@ -5652,8 +5554,7 @@
         "string": "⋊",
         "description": [
             "right normal factor semidirect product",
-            "times sign",
-            "right closed",
+            "right times",
             "\\rtimes"
         ]
     },
@@ -5684,6 +5585,7 @@
         "string": "⋎",
         "description": [
             "curly logical or",
+            "curly vee",
             "\\curlyvee"
         ]
     },
@@ -5691,6 +5593,7 @@
         "string": "⋏",
         "description": [
             "curly logical and",
+            "curly wedge",
             "\\curlywedge"
         ]
     },
@@ -5712,7 +5615,7 @@
         "string": "⋒",
         "description": [
             "double intersection",
-            "/cap /doublecap b: double intersection",
+            "double cap",
             "\\cap"
         ]
     },
@@ -5720,7 +5623,7 @@
         "string": "⋓",
         "description": [
             "double union",
-            "/cup /doublecup b: double union",
+            "double cup",
             "\\cup"
         ]
     },
@@ -5921,7 +5824,7 @@
         "string": "⋪",
         "description": [
             "not normal subgroup of",
-            "\\notlefttriangle (wrisym)",
+            "\\notlefttriangle",
             "not left triangle",
             "\\ntriangleleft"
         ]
@@ -5930,7 +5833,7 @@
         "string": "⋫",
         "description": [
             "does not contain as normal subgroup",
-            "\\notrighttriangle (wrisym)",
+            "\\notrighttriangle",
             "not right triangle",
             "\\ntriangleright"
         ]
@@ -5939,7 +5842,7 @@
         "string": "⋬",
         "description": [
             "not normal subgroup of or equal to",
-            "\\nunlhd (wrisym)",
+            "\\nunlhd",
             "not left triangle",
             "equals",
             "\\ntrianglelefteq"
@@ -5949,7 +5852,7 @@
         "string": "⋭",
         "description": [
             "does not contain as normal subgroup or equal",
-            "\\nunrhd (wrisym)",
+            "\\nunrhd",
             "not right triangle",
             "equals",
             "\\ntrianglerighteq"
@@ -5976,7 +5879,7 @@
         "string": "⋰",
         "description": [
             "up right diagonal ellipsis",
-            "\\adots (yhmath)",
+            "\\adots",
             "three dots",
             "ascending",
             "\\iddots",
@@ -6088,16 +5991,16 @@
         "string": "⋿",
         "description": [
             "\\mathsf{e}",
-            "z notation bag membership",
+            "bag membership",
             "\\bagmember"
         ]
     },
     {
         "string": "⌀",
         "description": [
-            "\\varnothing (amssymb)",
+            "\\varnothing",
             "diameter sign",
-            "\\diameter",
+            "var nothing",
             "\\diameter"
         ]
     },
@@ -6111,16 +6014,19 @@
     {
         "string": "⌅",
         "description": [
-            "\\barwedge (amssymb)",
-            "projective (bar over lowercase wedge) not nand",
+            "\\barwedge",
+            "projective",
+            "not nand",
+            "bar over wedge",
             "\\varbarwedge"
         ]
     },
     {
         "string": "⌆",
         "description": [
-            "\\doublebarwedge (amssymb)",
-            "perspective (double bar over lowercase wedge)",
+            "\\doublebarwedge",
+            "perspective",
+            "double bar over wedge",
             "\\vardoublebarwedge"
         ]
     },
@@ -6156,6 +6062,7 @@
         "string": "⌐",
         "description": [
             "reverse not",
+            "inverted negation",
             "\\invneg",
             "\\invnot"
         ]
@@ -6200,7 +6107,6 @@
         "string": "⌜",
         "description": [
             "upper left corner",
-            "\\ulcorner",
             "\\ulcorner"
         ]
     },
@@ -6208,7 +6114,6 @@
         "string": "⌝",
         "description": [
             "upper right corner",
-            "\\urcorner",
             "\\urcorner"
         ]
     },
@@ -6216,7 +6121,6 @@
         "string": "⌞",
         "description": [
             "lower left corner",
-            "\\llcorner",
             "\\llcorner"
         ]
     },
@@ -6224,7 +6128,6 @@
         "string": "⌟",
         "description": [
             "lower right corner",
-            "\\lrcorner",
             "\\lrcorner"
         ]
     },
@@ -6247,7 +6150,6 @@
         "description": [
             "\\smallfrown",
             "frown (down curve)",
-            "\\frown",
             "\\frown"
         ]
     },
@@ -6256,7 +6158,6 @@
         "description": [
             "\\smallsmile",
             "smile (up curve)",
-            "\\smile",
             "\\smile"
         ]
     },
@@ -6265,7 +6166,8 @@
         "description": [
             "six carbon ring",
             "corner down",
-            "double bonds lower right etc",
+            "double bonds",
+            "benzene ring",
             "\\varhexagonlrbonds"
         ]
     },
@@ -6318,15 +6220,14 @@
     {
         "string": "⌼",
         "description": [
-            "\\aplcirc{\\aplbox} (wasysym)",
+            "\\aplcirc{\\aplbox}",
             "apl functional symbol quad circle"
         ]
     },
     {
         "string": "⌽",
         "description": [
-            "\\aplvert{\\circle} (wasysym)",
-            "x \\obar (stmaryrd)",
+            "\\aplvert{\\circle}",
             "apl functional symbol circle stile",
             "circle with vertical bar",
             "\\obar"
@@ -6335,7 +6236,7 @@
     {
         "string": "⌾",
         "description": [
-            "\\aplcirc{\\circle} (wasysym)",
+            "\\aplcirc{\\circle}",
             "apl functional symbol circle jot"
         ]
     },
@@ -6423,7 +6324,7 @@
     {
         "string": "⍋",
         "description": [
-            "\\aplvert{\\aplup} (wasysym)",
+            "\\aplvert{\\aplup}",
             "apl functional symbol delta stile"
         ]
     },
@@ -6467,7 +6368,7 @@
     {
         "string": "⍒",
         "description": [
-            "\\aplvert{\\apldown} (wasysym)",
+            "\\aplvert{\\apldown}",
             "apl functional symbol del stile"
         ]
     },
@@ -6623,7 +6524,7 @@
     {
         "string": "⍫",
         "description": [
-            "\\aplnot{\\apldown} (wasysym)",
+            "\\aplnot{\\apldown}",
             "apl functional symbol del tilde"
         ]
     },
@@ -6869,23 +6770,23 @@
     {
         "string": "⎯",
         "description": [
-            "horizontal line extension (used to extend arrows)",
+            "horizontal line extension",
             "\\harrowextender"
         ]
     },
     {
         "string": "⎰",
         "description": [
-            "? \\lmoustache",
-            "upper left or lower right curly bracket section",
+            "left moustache",
+            "curly bracket section",
             "\\lmoustache"
         ]
     },
     {
         "string": "⎱",
         "description": [
-            "? \\rmoustache",
-            "upper right or lower left curly bracket section",
+            "right moustache",
+            "curly bracket section",
             "\\rmoustache"
         ]
     },
@@ -6907,6 +6808,7 @@
         "string": "⎴",
         "description": [
             "top square bracket",
+            "over bracket",
             "\\overbracket"
         ]
     },
@@ -6914,6 +6816,7 @@
         "string": "⎵",
         "description": [
             "bottom square bracket",
+            "under bracket",
             "\\underbracket"
         ]
     },
@@ -6928,6 +6831,7 @@
         "string": "⎷",
         "description": [
             "radical symbol bottom",
+            "root",
             "\\sqrtbottom"
         ]
     },
@@ -6949,59 +6853,60 @@
         "string": "⏎",
         "description": [
             "return symbol",
+            "carriage return",
             "\\varcarriagereturn"
         ]
     },
     {
         "string": "⏐",
         "description": [
-            "vertical line extension (vertical line extension)"
+            "vertical line extension"
         ]
     },
     {
         "string": "⏜",
         "description": [
-            "\\wideparen (yhmath mathabx fourier)",
-            "top parenthesis (mathematical use)",
-            "\\overparen",
+            "\\wideparen",
+            "over parenthesis",
+            "top parenthesis",
             "\\overparen"
         ]
     },
     {
         "string": "⏝",
         "description": [
-            "bottom parenthesis (mathematical use)",
-            "\\underparen",
+            "under parenthesis",
+            "bottom parenthesis",
             "\\underparen"
         ]
     },
     {
         "string": "⏞",
         "description": [
-            "top curly bracket (mathematical use)",
-            "\\overbrace",
+            "over brace",
+            "top curly bracket",
             "\\overbrace"
         ]
     },
     {
         "string": "⏟",
         "description": [
-            "bottom curly bracket (mathematical use)",
-            "\\underbrace",
+            "under brace",
+            "bottom curly bracket",
             "\\underbrace"
         ]
     },
     {
         "string": "⏠",
         "description": [
-            "top tortoise shell bracket (mathematical use)",
+            "top tortoise shell bracket",
             "\\obrbrak"
         ]
     },
     {
         "string": "⏡",
         "description": [
-            "bottom tortoise shell bracket (mathematical use)",
+            "bottom tortoise shell bracket",
             "\\ubrbrak"
         ]
     },
@@ -7036,7 +6941,7 @@
     {
         "string": "⏦",
         "description": [
-            "\\ac (wasysym)",
+            "\\ac",
             "ac current",
             "\\accurrent"
         ]
@@ -7051,7 +6956,7 @@
     {
         "string": "Ⓢ",
         "description": [
-            "os uppercase s in circle"
+            "uppercase s in circle"
         ]
     },
     {
@@ -7099,21 +7004,21 @@
     {
         "string": "░",
         "description": [
-            "25\\% shaded block",
+            "quarter shaded block",
             "\\blockqtrshaded"
         ]
     },
     {
         "string": "▒",
         "description": [
-            "50\\% shaded block",
+            "half shaded block",
             "\\blockhalfshaded"
         ]
     },
     {
         "string": "▓",
         "description": [
-            "75\\% shaded block",
+            "three quarter shaded block",
             "\\blockthreeqtrshaded"
         ]
     },
@@ -7137,6 +7042,7 @@
         "string": "▢",
         "description": [
             "white square with rounded corners",
+            "square oval",
             "\\squoval"
         ]
     },
@@ -7144,6 +7050,7 @@
         "string": "▣",
         "description": [
             "white square containing black lowercase square",
+            "black in white square",
             "\\blackinwhitesquare"
         ]
     },
@@ -7256,25 +7163,24 @@
     {
         "string": "▲",
         "description": [
-            "black up-pointing triangle",
+            "big black triangle up",
             "\\bigblacktriangleup"
         ]
     },
     {
         "string": "△",
         "description": [
-            "\\triangle (amsfonts)",
-            "\\vartriangle (amssymb)",
-            "big up triangle",
+            "\\triangle",
+            "\\vartriangle",
+            "big triangle up",
             "open",
-            "\\bigtriangleup",
             "\\bigtriangleup"
         ]
     },
     {
         "string": "▴",
         "description": [
-            "up triangle",
+            "black triangle up",
             "filled",
             "\\blacktriangleup",
             "\\blacktriangle"
@@ -7283,8 +7189,8 @@
     {
         "string": "▵",
         "description": [
-            "\\vartriangle (amssymb)",
-            "lowercase up triangle",
+            "\\vartriangle",
+            "small triangle up",
             "open",
             "\\smalltriangleup",
             "\\vartriangle"
@@ -7293,8 +7199,7 @@
     {
         "string": "▶",
         "description": [
-            "\\blacktriangleright (fourier -mathabx)",
-            "filled triangle",
+            "black triangle right",
             "\\rhd",
             "\\blacktriangleright"
         ]
@@ -7302,10 +7207,10 @@
     {
         "string": "▷",
         "description": [
-            "\\rres (oz)",
-            "= \\righttriangle (wrisym)",
-            "z notation range restriction",
-            "open triangle",
+            "\\rres",
+            "\\righttriangle",
+            "range restriction",
+            "triangle right",
             "\\rhd",
             "\\triangleright"
         ]
@@ -7313,7 +7218,7 @@
     {
         "string": "▸",
         "description": [
-            "filled triangle",
+            "black triangle right",
             "filled",
             "\\blacktriangleright",
             "\\smallblacktriangleright"
@@ -7323,55 +7228,57 @@
         "string": "▹",
         "description": [
             "\\triangleright",
-            "x \\triangleright (mathabx)",
-            "open triangle",
-            "\\smalltriangleright",
+            "small triangle right",
+            "open",
             "\\smalltriangleright"
         ]
     },
     {
         "string": "►",
         "description": [
-            "filled pointer triangle",
+            "black pointer right",
+            "filled triangle",
             "\\blackpointerright"
         ]
     },
     {
         "string": "▻",
         "description": [
-            "\\triangleright (mathabx)",
-            "open pointer triangle",
+            "\\triangleright",
+            "white pointer right",
+            "open triangle",
             "\\whitepointerright"
         ]
     },
     {
         "string": "▼",
         "description": [
-            "filled down triangle",
+            "big black triangle down",
+            "filled triangle",
             "\\bigblacktriangledown"
         ]
     },
     {
         "string": "▽",
         "description": [
-            "open down triangle",
-            "\\bigtriangledown",
+            "big triangle down",
+            "open triangle",
             "\\bigtriangledown"
         ]
     },
     {
         "string": "▾",
         "description": [
-            "filled down-pointing small triangle",
-            "\\blacktriangledown",
+            "black triangle down",
+            "filled triangle",
             "\\blacktriangledown"
         ]
     },
     {
         "string": "▿",
         "description": [
-            "\\triangledown (amssymb)",
-            "open down-pointing small triangle",
+            "triangle down",
+            "open triangle",
             "\\smalltriangledown",
             "\\triangledown"
         ]
@@ -7379,7 +7286,7 @@
     {
         "string": "◀",
         "description": [
-            "\\blacktriangleleft (fourier -mathabx)",
+            "black triangle left",
             "filled triangle",
             "\\lhd",
             "\\blacktriangleleft"
@@ -7388,9 +7295,10 @@
     {
         "string": "◁",
         "description": [
-            "\\dres (oz)",
-            "= \\lefttriangle (wrisym)",
-            "z notation domain restriction",
+            "\\dres",
+            "\\lefttriangle",
+            "triangle left",
+            "domain restriction",
             "open triangle",
             "\\lhd",
             "\\triangleleft"
@@ -7399,7 +7307,7 @@
     {
         "string": "◂",
         "description": [
-            "left triangle",
+            "black triangle left",
             "filled",
             "\\blacktriangleleft",
             "\\smallblacktriangleleft"
@@ -7409,8 +7317,7 @@
         "string": "◃",
         "description": [
             "\\triangleleft",
-            "x \\triangleleft (mathabx)",
-            "left triangle",
+            "small triangle left",
             "open",
             "\\smalltriangleleft",
             "\\smalltriangleleft"
@@ -7419,15 +7326,17 @@
     {
         "string": "◄",
         "description": [
-            "black left-pointing pointer",
+            "black pointer left",
+            "filled triangle",
             "\\blackpointerleft"
         ]
     },
     {
         "string": "◅",
         "description": [
-            "\\triangleleft (mathabx)",
-            "white left-pointing pointer",
+            "\\triangleleft",
+            "white left pointer left",
+            "open triangle",
             "\\whitepointerleft"
         ]
     },
@@ -7435,6 +7344,7 @@
         "string": "◆",
         "description": [
             "black diamond",
+            "filled",
             "\\diamondblack",
             "\\mdlgblkdiamond"
         ]
@@ -7442,7 +7352,7 @@
     {
         "string": "◇",
         "description": [
-            "white diamond; diamond",
+            "white diamond",
             "open",
             "\\diamond",
             "\\mdlgwhtdiamond"
@@ -7451,7 +7361,7 @@
     {
         "string": "◈",
         "description": [
-            "white diamond containing black lowercase diamond",
+            "white diamond containing black diamond",
             "\\blackinwhitediamond"
         ]
     },
@@ -7465,7 +7375,8 @@
     {
         "string": "◊",
         "description": [
-            "lozenge or total mark",
+            "lozenge",
+            "total mark",
             "\\lozenge",
             "\\mdlgwhtlozenge"
         ]
@@ -7495,7 +7406,7 @@
     {
         "string": "◎",
         "description": [
-            "\\circledcirc (amssymb)",
+            "\\circledcirc",
             "bullseye",
             "\\bullseye"
         ]
@@ -7512,8 +7423,9 @@
     {
         "string": "◐",
         "description": [
-            "circle",
-            "filled left half [harvey ball]",
+            "circle left half black",
+            "filled",
+            "harvey ball",
             "\\leftcircle",
             "\\circlelefthalfblack"
         ]
@@ -7521,8 +7433,8 @@
     {
         "string": "◑",
         "description": [
-            "circle",
-            "filled right half",
+            "circle right half black",
+            "filled",
             "\\rightcircle",
             "\\circlerighthalfblack"
         ]
@@ -7530,16 +7442,16 @@
     {
         "string": "◒",
         "description": [
-            "circle",
-            "filled bottom half",
+            "circle bottom half black",
+            "filled",
             "\\circlebottomhalfblack"
         ]
     },
     {
         "string": "◓",
         "description": [
-            "circle",
-            "filled top half",
+            "circle top half black",
+            "filled",
             "\\circletophalfblack"
         ]
     },
@@ -7553,14 +7465,14 @@
     {
         "string": "◕",
         "description": [
-            "circle with all but upper left quadrant black",
+            "circle with upper left quadrant white",
             "\\blackcircleulquadwhite"
         ]
     },
     {
         "string": "◖",
         "description": [
-            "left half black circle",
+            "black left half circle",
             "\\leftcircle",
             "\\blacklefthalfcircle"
         ]
@@ -7568,7 +7480,7 @@
     {
         "string": "◗",
         "description": [
-            "right half black circle",
+            "black right half circle",
             "\\rightcircle",
             "\\blackrighthalfcircle"
         ]
@@ -7590,14 +7502,14 @@
     {
         "string": "◚",
         "description": [
-            "upper half inverse white circle",
+            "inverse white upper half circle",
             "\\invwhiteupperhalfcircle"
         ]
     },
     {
         "string": "◛",
         "description": [
-            "lower half inverse white circle",
+            "inverse white lower half circle",
             "\\invwhitelowerhalfcircle"
         ]
     },
@@ -7632,6 +7544,7 @@
     {
         "string": "◠",
         "description": [
+            "top semi circle",
             "upper half circle",
             "\\topsemicircle"
         ]
@@ -7639,6 +7552,7 @@
     {
         "string": "◡",
         "description": [
+            "bottom semi circle",
             "lower half circle",
             "\\botsemicircle"
         ]
@@ -7647,7 +7561,7 @@
         "string": "◢",
         "description": [
             "lower right triangle",
-            "filled",
+            "filled right triangle",
             "\\lrblacktriangle"
         ]
     },
@@ -7655,7 +7569,7 @@
         "string": "◣",
         "description": [
             "lower left triangle",
-            "filled",
+            "filled right triangle",
             "\\llblacktriangle"
         ]
     },
@@ -7663,7 +7577,7 @@
         "string": "◤",
         "description": [
             "upper left triangle",
-            "filled",
+            "filled right triangle",
             "\\ulblacktriangle"
         ]
     },
@@ -7671,7 +7585,7 @@
         "string": "◥",
         "description": [
             "upper right triangle",
-            "filled",
+            "filled right triangle",
             "\\urblacktriangle"
         ]
     },
@@ -7679,38 +7593,39 @@
         "string": "◦",
         "description": [
             "white bullet",
+            "open",
             "\\smwhtcircle"
         ]
     },
     {
         "string": "◧",
         "description": [
-            "square",
-            "filled left half",
+            "square left black",
+            "filled",
             "\\squareleftblack"
         ]
     },
     {
         "string": "◨",
         "description": [
-            "square",
-            "filled right half",
+            "square right black",
+            "filled",
             "\\squarerightblack"
         ]
     },
     {
         "string": "◩",
         "description": [
-            "square",
-            "filled top left corner",
+            "square upper left black",
+            "filled",
             "\\squareulblack"
         ]
     },
     {
         "string": "◪",
         "description": [
-            "square",
-            "filled bottom right corner",
+            "square lower right black",
+            "filled",
             "\\squarelrblack"
         ]
     },
@@ -7718,7 +7633,6 @@
         "string": "◫",
         "description": [
             "vertical bar in box",
-            "\\boxbar",
             "\\boxbar"
         ]
     },
@@ -7732,77 +7646,78 @@
     {
         "string": "◭",
         "description": [
-            "up-pointing triangle with left half black",
+            "triangle left black",
             "\\triangleleftblack"
         ]
     },
     {
         "string": "◮",
         "description": [
-            "up-pointing triangle with right half black",
+            "triangle right black",
             "\\trianglerightblack"
         ]
     },
     {
         "string": "◯",
         "description": [
-            "large circle",
+            "large white circle",
+            "open",
             "\\lgwhtcircle"
         ]
     },
     {
         "string": "◰",
         "description": [
-            "white square with upper left quadrant",
+            "square upper left quadrant",
             "\\squareulquad"
         ]
     },
     {
         "string": "◱",
         "description": [
-            "white square with lower left quadrant",
+            "square lower left quadrant",
             "\\squarellquad"
         ]
     },
     {
         "string": "◲",
         "description": [
-            "white square with lower right quadrant",
+            "square lower right quadrant",
             "\\squarelrquad"
         ]
     },
     {
         "string": "◳",
         "description": [
-            "white square with upper right quadrant",
+            "square upper right quadrant",
             "\\squareurquad"
         ]
     },
     {
         "string": "◴",
         "description": [
-            "white circle with upper left quadrant",
+            "circle with upper left quadrant",
             "\\circleulquad"
         ]
     },
     {
         "string": "◵",
         "description": [
-            "white circle with lower left quadrant",
+            "circle with lower left quadrant",
             "\\circlellquad"
         ]
     },
     {
         "string": "◶",
         "description": [
-            "white circle with lower right quadrant",
+            "circle with lower right quadrant",
             "\\circlelrquad"
         ]
     },
     {
         "string": "◷",
         "description": [
-            "white circle with upper right quadrant",
+            "circle with upper right quadrant",
             "\\circleurquad"
         ]
     },
@@ -7810,6 +7725,7 @@
         "string": "◸",
         "description": [
             "upper left triangle",
+            "open right right",
             "\\ultriangle"
         ]
     },
@@ -7817,6 +7733,7 @@
         "string": "◹",
         "description": [
             "upper right triangle",
+            "open right triangle",
             "\\urtriangle"
         ]
     },
@@ -7824,13 +7741,14 @@
         "string": "◺",
         "description": [
             "lower left triangle",
+            "open right triangle",
             "\\lltriangle"
         ]
     },
     {
         "string": "◻",
         "description": [
-            "white medium square",
+            "medium white square",
             "\\square",
             "\\mdwhtsquare"
         ]
@@ -7838,36 +7756,23 @@
     {
         "string": "◼",
         "description": [
-            "black medium square",
+            "medium black square",
             "\\blacksquare",
             "\\mdblksquare"
-        ]
-    },
-    {
-        "string": "◽",
-        "description": [
-            "white medium lowercase square",
-            "\\mdsmwhtsquare"
-        ]
-    },
-    {
-        "string": "◾",
-        "description": [
-            "black medium lowercase square",
-            "\\mdsmblksquare"
         ]
     },
     {
         "string": "◿",
         "description": [
             "lower right triangle",
+            "open",
             "\\lrtriangle"
         ]
     },
     {
         "string": "★",
         "description": [
-            "star",
+            "big star",
             "filled",
             "\\bigstar",
             "\\bigstar"
@@ -7876,7 +7781,7 @@
     {
         "string": "☆",
         "description": [
-            "star",
+            "big star",
             "open",
             "\\bigwhitestar"
         ]
@@ -7893,29 +7798,33 @@
         "string": "☌",
         "description": [
             "conjunction",
-            "text \\conjunction (wasysym)"
+            "text \\conjunction"
         ]
     },
     {
         "string": "☐",
         "description": [
             "ballot box",
+            "open square",
             "\\square"
         ]
     },
     {
         "string": "☑",
         "description": [
-            "\\checkedbox (marvosym)",
+            "\\checkedbox",
             "ballot box with check",
+            "square with check mark",
+            "checked box",
             "\\checkedbox"
         ]
     },
     {
         "string": "☒",
         "description": [
-            "\\crossedbox (marvosym)",
+            "\\crossedbox",
             "ballot box with x",
+            "x box",
             "\\xbox"
         ]
     },
@@ -7940,7 +7849,6 @@
         "string": "✠",
         "description": [
             "maltese cross",
-            "\\maltese",
             "\\maltese"
         ]
     },
@@ -7962,6 +7870,7 @@
         "string": "✽",
         "description": [
             "heavy teardrop-spoked asterisk",
+            "ding asterisk",
             "\\dingasterisk"
         ]
     },
@@ -7989,7 +7898,7 @@
     {
         "string": "➢",
         "description": [
-            "three-d top-lighted rightwards arrowhead",
+            "arrow bullet",
             "\\arrowbullet"
         ]
     },
@@ -7997,13 +7906,14 @@
         "string": "⟀",
         "description": [
             "three dimensional angle",
+            "3d angle",
             "\\threedangle"
         ]
     },
     {
         "string": "⟁",
         "description": [
-            "white triangle containing lowercase white triangle",
+            "white triangle containing white triangle",
             "\\whiteinwhitetriangle"
         ]
     },
@@ -8011,7 +7921,6 @@
         "string": "⟂",
         "description": [
             "perpendicular",
-            "\\perp",
             "\\perp"
         ]
     },
@@ -8019,6 +7928,7 @@
         "string": "⟃",
         "description": [
             "open subset",
+            "subset circle",
             "\\subsetcirc"
         ]
     },
@@ -8026,24 +7936,21 @@
         "string": "⟄",
         "description": [
             "open superset",
+            "superset circle",
             "\\supsetcirc"
         ]
     },
     {
         "string": "⟅",
         "description": [
-            "\\lbag (stmaryrd -oz)",
             "left s-shaped bag delimiter",
-            "\\lbag",
             "\\lbag"
         ]
     },
     {
         "string": "⟆",
         "description": [
-            "\\rbag (stmaryrd -oz)",
             "right s-shaped bag delimiter",
-            "\\rbag",
             "\\rbag"
         ]
     },
@@ -8051,6 +7958,7 @@
         "string": "⟇",
         "description": [
             "or with dot inside",
+            "vee dot",
             "\\veedot"
         ]
     },
@@ -8085,6 +7993,7 @@
         "string": "⟐",
         "description": [
             "white diamond with centred dot",
+            "diamond dot",
             "\\diamonddot",
             "\\diamondcdot"
         ]
@@ -8093,6 +8002,7 @@
         "string": "⟑",
         "description": [
             "and with dot",
+            "wedge dot",
             "\\wedgedot"
         ]
     },
@@ -8100,6 +8010,7 @@
         "string": "⟒",
         "description": [
             "element of opening upwards",
+            "up in",
             "\\upin"
         ]
     },
@@ -8107,6 +8018,7 @@
         "string": "⟓",
         "description": [
             "lower right corner with dot",
+            "pull back",
             "\\pullback"
         ]
     },
@@ -8114,6 +8026,7 @@
         "string": "⟔",
         "description": [
             "upper left corner with dot",
+            "push out",
             "\\pushout"
         ]
     },
@@ -8142,6 +8055,7 @@
         "string": "⟘",
         "description": [
             "large up tack",
+            "big bottom",
             "\\bigbot"
         ]
     },
@@ -8149,6 +8063,7 @@
         "string": "⟙",
         "description": [
             "large down tack",
+            "big top",
             "\\bigtop"
         ]
     },
@@ -8170,7 +8085,6 @@
         "string": "⟜",
         "description": [
             "left multimap",
-            "\\multimapinv",
             "\\multimapinv"
         ]
     },
@@ -8241,7 +8155,7 @@
         "string": "⟦",
         "description": [
             "\\lbrack (mathbbol)",
-            "= \\lbag (oz -stmaryrd)",
+            "\\lbag (oz -stmaryrd)",
             "mathematical left white square bracket",
             "\\llbracket",
             "\\lbrack"
@@ -8251,7 +8165,7 @@
         "string": "⟧",
         "description": [
             "\\rbrack (mathbbol)",
-            "= \\rbag (oz -stmaryrd)",
+            "\\rbag (oz -stmaryrd)",
             "mathematical right white square bracket",
             "\\rrbracket",
             "\\rbrack"
@@ -8381,7 +8295,7 @@
     {
         "string": "⟸",
         "description": [
-            "\\impliedby (amsmath)",
+            "\\impliedby",
             "long leftwards double arrow",
             "\\longleftarrow",
             "\\longleftarrow"
@@ -8390,7 +8304,7 @@
     {
         "string": "⟹",
         "description": [
-            "\\implies (amsmath)",
+            "\\implies",
             "long rightwards double arrow",
             "\\longrightarrow",
             "\\longrightarrow"
@@ -8399,7 +8313,7 @@
     {
         "string": "⟺",
         "description": [
-            "\\iff (oz)",
+            "\\iff",
             "long left right double arrow",
             "\\longleftrightarrow",
             "\\longleftrightarrow"
@@ -8408,7 +8322,7 @@
     {
         "string": "⟻",
         "description": [
-            "\\longmappedfrom (kpfonts)",
+            "\\longmappedfrom",
             "long leftwards arrow from bar",
             "\\longmapsfrom",
             "\\longmapsfrom"
@@ -8425,7 +8339,7 @@
     {
         "string": "⟽",
         "description": [
-            "\\longmappedfrom (kpfonts)",
+            "\\longmappedfrom",
             "long leftwards double arrow from bar",
             "\\longmapsfrom",
             "\\longmapsfrom"
@@ -8449,9 +8363,9 @@
     {
         "string": "⤀",
         "description": [
-            "\\psurj (oz)",
+            "\\psurj",
             "rightwards two-headed arrow with vertical stroke",
-            "z notation partial surjection",
+            "partial surjection",
             "\\psur",
             "\\nvtwoheadrightarrow"
         ]
@@ -8460,7 +8374,7 @@
         "string": "⤁",
         "description": [
             "rightwards two-headed arrow with double vertical stroke",
-            "z notation finite surjection",
+            "finite surjection",
             "\\nvtwoheadrightarrow"
         ]
     },
@@ -8495,9 +8409,8 @@
     {
         "string": "⤆",
         "description": [
-            "\\mappedfrom (kpfonts)",
+            "\\mappedfrom",
             "leftwards double arrow from bar",
-            "\\mapsfrom",
             "\\mapsfrom"
         ]
     },
@@ -9267,7 +9180,7 @@
     {
         "string": "⥮",
         "description": [
-            "\\upequilibrium (wrisym)",
+            "\\upequilibrium",
             "upwards harpoon with barb left beside downwards harpoon with barb right",
             "\\updownharpoons",
             "\\updownharpoonsleftright"
@@ -9276,7 +9189,7 @@
     {
         "string": "⥯",
         "description": [
-            "\\uprevequilibrium (wrisym)",
+            "\\uprevequilibrium",
             "downwards harpoon with barb left beside upwards harpoon with barb right",
             "\\downupharpoons",
             "\\downupharpoonsleftright"
@@ -9407,7 +9320,7 @@
     {
         "string": "⦁",
         "description": [
-            "\\dot (oz)",
+            "\\dot",
             "z notation spot",
             "\\spot",
             "\\mdsmblkcircle"
@@ -10271,7 +10184,7 @@
     {
         "string": "⧹",
         "description": [
-            "\\hide (oz)",
+            "\\hide",
             "big reverse solidus",
             "z notation schema hiding",
             "\\zhide",
@@ -10486,7 +10399,7 @@
     {
         "string": "⨖",
         "description": [
-            "\\sqrint (wrisym)",
+            "\\sqrint",
             "quaternion integral operator",
             "\\sqint",
             "\\sqint"
@@ -10552,8 +10465,8 @@
     {
         "string": "⨟",
         "description": [
-            "\\semi (oz)",
-            "= \\fatsemi (stmaryrd)",
+            "\\semi",
+            "\\fatsemi",
             "z notation schema composition",
             "\\zcmp",
             "\\zcmp"
@@ -10570,7 +10483,7 @@
     {
         "string": "⨡",
         "description": [
-            "\\project (oz)",
+            "\\project",
             "z notation schema projection",
             "\\zproject",
             "\\zproject"
@@ -10776,7 +10689,7 @@
     {
         "string": "⨾",
         "description": [
-            "\\comp (oz)",
+            "\\comp",
             "z notation relational composition",
             "\\fcmp",
             "\\fcmp"
@@ -11047,7 +10960,7 @@
     {
         "string": "⩤",
         "description": [
-            "\\ndres (oz)",
+            "\\ndres",
             "z notation domain antirestriction",
             "\\dsub",
             "\\dsub"
@@ -11056,7 +10969,7 @@
     {
         "string": "⩥",
         "description": [
-            "\\nrres (oz)",
+            "\\nrres",
             "z notation range antirestriction",
             "\\rsub",
             "\\rsub"
@@ -12377,8 +12290,8 @@
     {
         "string": "⬝",
         "description": [
-            "\\centerdot (amssymb)",
-            "t \\squaredot (marvosym)",
+            "\\centerdot",
+            "t \\squaredot",
             "black very lowercase square",
             "\\vysmblksquare"
         ]
@@ -12449,7 +12362,7 @@
     {
         "string": "⬧",
         "description": [
-            "\\blacklozenge (amssymb)",
+            "\\blacklozenge",
             "black medium lozenge",
             "\\mdblklozenge"
         ]
@@ -12457,7 +12370,7 @@
     {
         "string": "⬨",
         "description": [
-            "\\lozenge (amssymb)",
+            "\\lozenge",
             "white medium lozenge",
             "\\mdwhtlozenge"
         ]
@@ -15670,7 +15583,7 @@
     {
         "string": "𝔸",
         "description": [
-            "\\mathds{a} (dsfont)",
+            "\\mathds{a}",
             "mathematical double-struck uppercase a",
             "\\mathbb{a}",
             "\\bbba"
@@ -15679,7 +15592,7 @@
     {
         "string": "𝔹",
         "description": [
-            "\\mathds{b} (dsfont)",
+            "\\mathds{b}",
             "matmathematical double-struck uppercase b",
             "\\mathbb{b}",
             "\\bbbb"
@@ -15688,7 +15601,7 @@
     {
         "string": "𝔻",
         "description": [
-            "\\mathds{d} (dsfont)",
+            "\\mathds{d}",
             "matmathematical double-struck uppercase d",
             "\\mathbb{d}",
             "\\bbbd"
@@ -15697,7 +15610,7 @@
     {
         "string": "𝔼",
         "description": [
-            "\\mathds{e} (dsfont)",
+            "\\mathds{e}",
             "matmathematical double-struck uppercase e",
             "\\mathbb{e}",
             "\\bbbe"
@@ -15706,7 +15619,7 @@
     {
         "string": "𝔽",
         "description": [
-            "\\mathds{f} (dsfont)",
+            "\\mathds{f}",
             "matmathematical double-struck uppercase f",
             "\\mathbb{f}",
             "\\bbbf"
@@ -15715,7 +15628,7 @@
     {
         "string": "𝔾",
         "description": [
-            "\\mathds{g} (dsfont)",
+            "\\mathds{g}",
             "matmathematical double-struck uppercase g",
             "\\mathbb{g}",
             "\\bbbg"
@@ -15724,7 +15637,7 @@
     {
         "string": "𝕀",
         "description": [
-            "\\mathds{i} (dsfont)",
+            "\\mathds{i}",
             "matmathematical double-struck uppercase i",
             "\\mathbb{i}",
             "\\bbbi"
@@ -15733,7 +15646,7 @@
     {
         "string": "𝕁",
         "description": [
-            "\\mathds{j} (dsfont)",
+            "\\mathds{j}",
             "matmathematical double-struck uppercase j",
             "\\mathbb{j}",
             "\\bbbj"
@@ -15742,7 +15655,7 @@
     {
         "string": "𝕂",
         "description": [
-            "\\mathds{k} (dsfont)",
+            "\\mathds{k}",
             "matmathematical double-struck uppercase k",
             "\\mathbb{k}",
             "\\bbbk"
@@ -15751,7 +15664,7 @@
     {
         "string": "𝕃",
         "description": [
-            "\\mathds{l} (dsfont)",
+            "\\mathds{l}",
             "matmathematical double-struck uppercase l",
             "\\mathbb{l}",
             "\\bbbl"
@@ -15760,7 +15673,7 @@
     {
         "string": "𝕄",
         "description": [
-            "\\mathds{m} (dsfont)",
+            "\\mathds{m}",
             "matmathematical double-struck uppercase m",
             "\\mathbb{m}",
             "\\bbbm"
@@ -15769,7 +15682,7 @@
     {
         "string": "𝕆",
         "description": [
-            "\\mathds{o} (dsfont)",
+            "\\mathds{o}",
             "matmathematical double-struck uppercase o",
             "\\mathbb{o}",
             "\\bbbo"
@@ -15778,7 +15691,7 @@
     {
         "string": "𝕊",
         "description": [
-            "\\mathds{s} (dsfont)",
+            "\\mathds{s}",
             "matmathematical double-struck uppercase s",
             "\\mathbb{s}",
             "\\bbbs"
@@ -15787,7 +15700,7 @@
     {
         "string": "𝕋",
         "description": [
-            "\\mathds{t} (dsfont)",
+            "\\mathds{t}",
             "matmathematical double-struck uppercase t",
             "\\mathbb{t}",
             "\\bbbt"
@@ -15796,7 +15709,7 @@
     {
         "string": "𝕌",
         "description": [
-            "\\mathds{u} (dsfont)",
+            "\\mathds{u}",
             "matmathematical double-struck uppercase u",
             "\\mathbb{u}",
             "\\bbbu"
@@ -15805,7 +15718,7 @@
     {
         "string": "𝕍",
         "description": [
-            "\\mathds{v} (dsfont)",
+            "\\mathds{v}",
             "matmathematical double-struck uppercase v",
             "\\mathbb{v}",
             "\\bbbv"
@@ -15814,7 +15727,7 @@
     {
         "string": "𝕎",
         "description": [
-            "\\mathds{w} (dsfont)",
+            "\\mathds{w}",
             "matmathematical double-struck uppercase w",
             "\\mathbb{w}",
             "\\bbbw"
@@ -15823,7 +15736,7 @@
     {
         "string": "𝕏",
         "description": [
-            "\\mathds{x} (dsfont)",
+            "\\mathds{x}",
             "matmathematical double-struck uppercase x",
             "\\mathbb{x}",
             "\\bbbx"
@@ -15832,7 +15745,7 @@
     {
         "string": "𝕐",
         "description": [
-            "\\mathds{y} (dsfont)",
+            "\\mathds{y}",
             "matmathematical double-struck uppercase y",
             "\\mathbb{y}",
             "\\bbby"
@@ -15921,7 +15834,7 @@
     {
         "string": "𝕜",
         "description": [
-            "\\bbbk (amssymb)",
+            "\\bbbk",
             "mathematical double-struck lowercase k",
             "\\mathbb{k}",
             "\\bbbk"
@@ -18971,7 +18884,7 @@
         "string": "𝛤",
         "description": [
             "\\mathit{\\gamma} (-fourier)",
-            "= \\vargamma (amsmath fourier)",
+            "\\vargamma (amsmath fourier)",
             "mathematical italic uppercase gamma",
             "\\gamma",
             "\\mitgamma"
@@ -18981,7 +18894,7 @@
         "string": "𝛥",
         "description": [
             "\\mathit{\\delta} (-fourier)",
-            "= \\vardelta (amsmath fourier)",
+            "\\vardelta (amsmath fourier)",
             "mathematical italic uppercase delta",
             "\\delta",
             "\\mitdelta"
@@ -19012,7 +18925,7 @@
         "string": "𝛩",
         "description": [
             "\\mathit{\\theta} (-fourier)",
-            "= \\vartheta (amsmath fourier)",
+            "\\vartheta (amsmath fourier)",
             "mathematical italic uppercase theta",
             "\\theta",
             "\\mittheta"
@@ -19036,7 +18949,7 @@
         "string": "𝛬",
         "description": [
             "\\mathit{\\lambda} (-fourier)",
-            "= \\varlambda (amsmath fourier)",
+            "\\varlambda (amsmath fourier)",
             "mathematical italic uppercase lambda",
             "\\lambda",
             "\\mitlambda"
@@ -19060,7 +18973,7 @@
         "string": "𝛯",
         "description": [
             "\\mathit{\\xi} (-fourier)",
-            "= \\varxi (amsmath fourier)",
+            "\\varxi (amsmath fourier)",
             "mathematical italic uppercase xi",
             "\\xi",
             "\\mitxi"
@@ -19077,7 +18990,7 @@
         "string": "𝛱",
         "description": [
             "\\mathit{\\pi} (-fourier)",
-            "= \\varpi (amsmath fourier)",
+            "\\varpi (amsmath fourier)",
             "mathematical italic uppercase pi",
             "\\pi",
             "\\mitpi"
@@ -19101,7 +19014,7 @@
         "string": "𝛴",
         "description": [
             "\\mathit{\\sigma} (-fourier)",
-            "= \\varsigma (amsmath fourier)",
+            "\\varsigma (amsmath fourier)",
             "mathematical italic uppercase sigma",
             "\\sigma",
             "\\mitsigma"
@@ -19118,7 +19031,7 @@
         "string": "𝛶",
         "description": [
             "\\mathit{\\upsilon} (-fourier)",
-            "= \\varupsilon (amsmath fourier)",
+            "\\varupsilon (amsmath fourier)",
             "mathematical italic uppercase upsilon",
             "\\upsilon",
             "\\mitupsilon"
@@ -19128,7 +19041,7 @@
         "string": "𝛷",
         "description": [
             "\\mathit{\\phi} (-fourier)",
-            "= \\varphi (amsmath fourier)",
+            "\\varphi (amsmath fourier)",
             "mathematical italic uppercase phi",
             "\\phi",
             "\\mitphi"
@@ -19145,7 +19058,7 @@
         "string": "𝛹",
         "description": [
             "\\mathit{\\psi} (-fourier)",
-            "= \\varpsi (amsmath fourier)",
+            "\\varpsi (amsmath fourier)",
             "mathematical italic uppercase psi",
             "\\psi",
             "\\mitpsi"
@@ -19155,7 +19068,7 @@
         "string": "𝛺",
         "description": [
             "\\mathit{\\omega} (-fourier)",
-            "= \\varomega (amsmath fourier)",
+            "\\varomega (amsmath fourier)",
             "mathematical italic uppercase omega",
             "\\omega",
             "\\mitomega"
@@ -20912,7 +20825,7 @@
     {
         "string": "𝟙",
         "description": [
-            "\\mathds{1} (dsfont)",
+            "\\mathds{1}",
             "mathematical double-struck digit 1",
             "\\mathbb{1}",
             "\\bbbone"
@@ -21306,7 +21219,7 @@
     {
         "string": " ",
         "description": [
-            "\\medspace (amsmath)",
+            "\\medspace",
             "medium mathematical space",
             "four-eighteenths of an em",
             "\\:"
